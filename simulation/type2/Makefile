@@ -1,4 +1,3 @@
-PROJECT_SOURCEFILES += gumbo_utils.c
 PROJECT_SOURCEFILES += cooja-radio-cb.c
 all: gumbo_node
 
