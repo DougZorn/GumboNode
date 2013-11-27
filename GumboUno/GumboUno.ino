@@ -41,7 +41,7 @@ typedef struct {
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
-long sendInterval = 200; // in milliseconds
+long sendInterval = 1000; // in milliseconds
 long sleepTime = 1000;
 long wakeTime = 1000;
 long syncDataLossInterval = 3000;
@@ -69,7 +69,8 @@ void loop(){
   //gumboSend(GUMBO_ID, true);
   unsigned long currentMillis = millis();
   if(currentMillis - previousMillis > sendInterval) {
-    previousMillis = currentMillis;   
+    previousMillis = currentMillis;
+    //Serial.println(GetTemp());
     //gumboSend(GUMBO_ID, false);
   }
 
@@ -93,10 +94,10 @@ void listenForPacket() {
       Serial.print("Data: ");
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
-        Serial.print(recvPacket[i], HEX);
+        Serial.print(recvPacket[i], DEC);
         Serial.print(" ");
       }
-      Serial.println();
+      Serial.println(" ");
       if(recvPacket[1] == 'd') {
         
       } else if (recvPacket[1] == 'w') {
@@ -188,6 +189,28 @@ void gumboSend(byte gumboDataID, boolean sync) {
   }
   //Serial.println("Finished sending");
   SendStrobe(CC2500_IDLE);
+}
+
+double GetTemp(void) {
+  unsigned int wADC;
+  double t;
+  // The internal temperature has to be used
+  // with the internal reference of 1.1V.
+  // Channel 8 can not be selected with
+  // the analogRead function yet.
+  // Set the internal reference and mux.
+  ADMUX = (_BV(REFS1) | _BV(REFS0) | _BV(MUX3));
+  ADCSRA |= _BV(ADEN);  // enable the ADC
+  delay(20);            // wait for voltages to become stable.
+  ADCSRA |= _BV(ADSC);  // Start the ADC
+  // Detect end-of-conversion
+  while (bit_is_set(ADCSRA,ADSC));
+  // Reading register "ADCW" takes care of how to read ADCL and ADCH.
+  wADC = ADCW;
+  // The offset of 324.31 could be wrong. It is just an indication.
+  t = (wADC - 324.31 ) / 1.22;
+  // The returned temperature is in degrees Celcius.
+  return (t);
 }
 
 void sleep() {

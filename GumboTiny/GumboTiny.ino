@@ -40,6 +40,14 @@ long previousSyncDataLossMillis = 0;        // will store last time data was sen
 long previousTXTimeoutMillis = 0;        // will store last time data wa
 byte cyclesSinceLastData, GDO0_State;
 
+#define TEMPERATURE_SAMPLES 30
+#define TEMPERATURE_ADJUSTMENT -13
+#define EXTREMES_RATIO 5
+int offset=TEMPERATURE_ADJUSTMENT;
+float coefficient=1;
+int readings[30];
+int pos=0;
+
 void setup(){
   // Setup 
   pinMode(SS,OUTPUT);
@@ -47,16 +55,18 @@ void setup(){
   SPI85.setDataMode(SPI_MODE0);
   SPI85.setClockDivider(SPI_2XCLOCK_MASK);
   digitalWrite(SS,HIGH);
+  gumboData[0].id = GUMBO_ID;
   init_CC2500();
 }
 
 void loop(){
-  gumboSend(GUMBO_ID, true);
+  gumboSend(0, true);
   listenForPacket();
+  sampleTemperature();
   unsigned long currentMillis = millis();
   if(currentMillis - previousMillis > sendInterval) {
     previousMillis = currentMillis;   
-    gumboSend(GUMBO_ID, false);
+    gumboSend(0, false);
   }
 
   listenForPacket();
@@ -129,7 +139,6 @@ void gumboSend(byte gumboDataID, boolean sync) {
     } else {
       packet[7] = gumboData[gumboDataID].hops + 1;
     }
-    
   }
   
   // SIDLE: exit RX/TX
@@ -155,7 +164,69 @@ void gumboSend(byte gumboDataID, boolean sync) {
 }
 
 void sampleTemperature() {
-  gumboData[0].sensorReading = 1;
+  int_sensor_init();
+  gumboData[0].sensorReading = in_lsb() + offset - 273;
+}
+
+void int_sensor_init() {
+
+  ADMUX = B00100010;                // Select temperature sensor
+  ADMUX &= ~_BV( ADLAR );       // Right-adjust result
+  ADMUX |= _BV( REFS1 );                      // Set Ref voltage
+  ADMUX &= ~( _BV( REFS0 ) );  // to 1.1V
+  // Configure ADCSRA
+  ADCSRA &= ~( _BV( ADATE ) |_BV( ADIE ) ); // Disable autotrigger, Disable Interrupt
+  ADCSRA |= _BV(ADEN);                      // Enable ADC
+  ADCSRA |= _BV(ADSC);          // Start first conversion
+  // Seed samples
+  int raw_temp;
+  while( ( ( raw_temp = raw() ) < 0 ) );
+  for( int i = 0; i < 30; i++ ) {
+    readings[i] = raw_temp;
+  }
+}
+
+int in_lsb() {
+  int readings_dup[30];
+  int raw_temp;
+  // remember the sample
+  if( ( raw_temp = raw() ) > 0 ) {
+    readings[pos] = raw_temp;
+    pos++;
+    pos %= 30;
+  }
+  // copy the samples
+  for( int i = 0; i < 30; i++ ) {
+    readings_dup[i] = readings[i];
+  }
+  // bubble extremes to the ends of the array
+  int extremes_count = 6;
+  int swap;
+  for( int i = 0; i < extremes_count; ++i ) { // percent of iterations of bubble sort on small N works faster than Q-sort
+    for( int j = 0;j<29;j++ ) {
+      if( readings_dup[i] > readings_dup[i+1] ) { 
+        swap = readings_dup[i];
+        readings_dup[i] = readings_dup[i+1];
+        readings_dup[i+1] = swap;
+      }
+    }
+  }
+  // average the middle of the array
+  int sum_temp = 0;
+  for( int i = extremes_count; i < 30 - extremes_count; i++ ) {
+    sum_temp += readings_dup[i];
+  }
+  return sum_temp / ( 30 - extremes_count * 2 );
+}
+
+int raw() {
+  if( ADCSRA & _BV( ADSC ) ) {
+    return -1;
+  } else {
+    int ret = ADCL | ( ADCH << 8 );   // Get the previous conversion result
+    ADCSRA |= _BV(ADSC);              // Start new conversion
+    return ret;
+  }
 }
 
 void averageTemperature() {
