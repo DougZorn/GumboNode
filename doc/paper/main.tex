@@ -1,0 +1,42 @@
+\documentclass[12pt,twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{spreadtab}
+
+\begin{document}
+
+\begin{multicols}{2}
+\title{Developing Disposable Wireless Sensor Networks}
+\author{
+    Zak Rubin  \\
+    Computer Engineering \\
+    UC Santa Cruz \\
+    zrubin@soe.ucsc.edu \\
+  \and
+    H. Blake Skinner \\
+    Computer Engineering \\
+    UC Santa Cruz \\
+    hskinner@soe.ucsc.edu
+}
+\maketitle
+\end{multicols}
+
+\begin{abstract}
+We have developed an extremely low-cost wireless sensor node, and have maximized its life by implementing a variety of power-conservation techniques. We introduce a localization system using received signal strength indicators provided when the wireless transceiver receives a packet to account for variations in measurements due to distance. We first demonstrate our system in  ContikiOS. Next we construct twenty of these nodes using off-the-shelf hardware on an extremely limited budget.. Finally, we also construct a gateway to enable communication between simulated nodes and hardware. 
+
+{\bf Keywords:} sensor networks, low power
+\end{abstract}
+
+
+\input{introduction}
+\input{related_work}
+\input{gumbo_node}
+\input{evaluation}
+\input{challenges}
+\input{acknowledgements}
+\input{references}
+
+\bibliographystyle{plain}
+\bibliography{gumbo_bib}
+
+\end{document}
