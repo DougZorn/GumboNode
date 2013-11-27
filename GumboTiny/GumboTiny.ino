@@ -124,7 +124,12 @@ void gumboSend(byte gumboDataID, boolean sync) {
     packet[4] = gumboData[gumboDataID].sensorReading;
     packet[5] = gumboData[gumboDataID].sensorReading2;
     packet[6] = gumboData[gumboDataID].rssi;
-    packet[7] = gumboData[gumboDataID].hops;
+    if (gumboDataID == 0) {
+      packet[7] = 0;
+    } else {
+      packet[7] = gumboData[gumboDataID].hops + 1;
+    }
+    
   }
   
   // SIDLE: exit RX/TX
@@ -147,6 +152,14 @@ void gumboSend(byte gumboDataID, boolean sync) {
   }
   //Serial.println("Finished sending");
   SendStrobe(CC2500_IDLE);
+}
+
+void sampleTemperature() {
+  gumboData[0].sensorReading = 1;
+}
+
+void averageTemperature() {
+  gumboData[0].sensorReading2 = 10;
 }
 
 void checkQuality() {
