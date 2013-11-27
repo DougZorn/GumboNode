@@ -9,17 +9,18 @@
 #define CC2500_RX      0x34      // Enable RX. Perform calibration if enabled
 #define CC2500_FTX     0x3B      // Flush the TX FIFO buffer. Only issue SFTX in IDLE or TXFIFO_UNDERFLOW states
 #define CC2500_FRX     0x3A      // Flush the RX FIFO buffer. Only issue SFRX in IDLE or RXFIFO_OVERFLOW states
+#define CC2500_SWOR    0x38
 #define CC2500_TXFIFO  0x3F
 #define CC2500_RXFIFO  0x3F
+#define GUMBO_ID 25
+#define GUMBO_SIZE 25
 
-const int GDO0_PIN = 0;     // the number of the GDO0_PIN pin
-int GDO0_State = 0;         // variable for reading the pushbutton status
-int currentState = 0;
+#define TX_TIMEOUT 50 // in milliseconds
 
-const static uint8_t SS   = PB4;
-const static uint8_t MOSI = PB1;
 const static uint8_t MISO = PB0;
+const static uint8_t MOSI = PB1;
 const static uint8_t SCK  = PB2;
+const static uint8_t SS   = PB4;
 
 typedef struct {
   byte id;
@@ -29,49 +30,46 @@ typedef struct {
   byte hops;
 } GumboNode;
 
-GumboNode gumboData[25];
-
-#define GUMBO_ID 20
-
-#define SLEEP_TIME 1000 //In MS
-#define WAKE_TIME 1000 //In MS
-#define SEND_INTERVAL 1000 // in milliseconds
-#define SYNC_DATA_LOSS_INTERVAL 3000 // in milliseconds
-#define TX_TIMEOUT 10 // in milliseconds
+GumboNode gumboData[GUMBO_SIZE];
+long sendInterval = 5000; // in milliseconds
+long sleepTime = 1000;
+long wakeTime = 1000;
+long syncDataLossInterval = 3000;
 long previousMillis = 0;        // will store last time data was sent
 long previousSyncDataLossMillis = 0;        // will store last time data was sent
 long previousTXTimeoutMillis = 0;        // will store last time data wa
-byte cyclesSinceLastData;
+byte cyclesSinceLastData, GDO0_State;
 
 void setup(){
   // Setup 
+  pinMode(SS,OUTPUT);
   SPI85.begin();
   SPI85.setDataMode(SPI_MODE0);
   SPI85.setClockDivider(SPI_2XCLOCK_MASK);
-  init_CC2500();    
+  digitalWrite(SS,HIGH);
+  init_CC2500();
 }
 
 void loop(){
   gumboSend(GUMBO_ID, true);
+  listenForPacket();
   unsigned long currentMillis = millis();
-  currentState = 0;
-  if(currentMillis - previousMillis > SEND_INTERVAL) {
+  if(currentMillis - previousMillis > sendInterval) {
     previousMillis = currentMillis;   
     gumboSend(GUMBO_ID, false);
   }
 
   listenForPacket();
-  //listenForNomi();
+  gumboSleep();
 }
 
 void listenForPacket() {
   SendStrobe(CC2500_RX);
   unsigned long currentMillis = millis();
-  
-  if (getGDO0()) {
+  if (digitalRead(MISO)) {
     char PacketLength = ReadReg(CC2500_RXFIFO);
     char recvPacket[PacketLength];
-    if(PacketLength > 0) {
+    if(PacketLength >= 6) {
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
       }
@@ -90,48 +88,32 @@ void listenForPacket() {
     // Flush RX FIFO
     SendStrobe(CC2500_FRX);
   } else {
-    if(currentMillis - previousSyncDataLossMillis > SYNC_DATA_LOSS_INTERVAL) {
+    if(currentMillis - previousSyncDataLossMillis > syncDataLossInterval) {
       previousSyncDataLossMillis = currentMillis;
     }
   }
 }
 
-void checkStrength(char recvCode) {
-  unsigned long currentMillis = millis();;
-  
-  // Get RSSI readout which is not usable right now
-  ReadReg(CC2500_RXFIFO);
-  // Get LQI which is second byte
-  int lqi = ReadReg(CC2500_RXFIFO);
-  if(lqi >= 40) {
-
-  } else if(lqi >= 25) {
-
-  } else if(lqi >= 15) {
-
-  } else {
-    
-  }
-}
-
 void gumboSend(byte gumboDataID, boolean sync) {
+  WriteReg(REG_IOCFG1,0x06);
   // Make sure that the radio is in IDLE state before flushing the FIFO
   SendStrobe(CC2500_IDLE);
   // Flush TX FIFO
   SendStrobe(CC2500_FTX);
   // prepare Packet
   int length = 8;
-  if(sync) {
-    length = 3;
-  } else {
-    length = 8;
-  }
+
   unsigned char packet[length];
   if(sync) {
     // First Byte = Length Of Packet
     packet[0] = length;
     packet[1] = 'w';
     packet[2] = GUMBO_ID;
+    packet[3] = 0;
+    packet[4] = 0;
+    packet[5] = 0;
+    packet[6] = 0;
+    packet[7] = 0;
   }
   else {
     // First Byte = Length Of Packet
@@ -157,35 +139,22 @@ void gumboSend(byte gumboDataID, boolean sync) {
   SendStrobe(CC2500_TX);
   // Wait for GDO0 to be set -> sync transmitted
   previousTXTimeoutMillis = millis();
-  while (!GDO0_State && (millis() - previousTXTimeoutMillis) <= TX_TIMEOUT) {
-     // read the state of the GDO0_PIN value:
-     GDO0_State = getGDO2();
-     
+  while (!digitalRead(MISO) && (millis() - previousTXTimeoutMillis) <= TX_TIMEOUT) {
   }
-  SendStrobe(CC2500_FTX);
   previousTXTimeoutMillis = millis();
   // Wait for GDO0 to be cleared -> end of packet
-  while (GDO0_State && (millis() - previousTXTimeoutMillis) <= TX_TIMEOUT)
-  {
-      // read the state of the GDO0_PIN value:
-      GDO0_State = getGDO2();
+  while (digitalRead(MISO) && (millis() - previousTXTimeoutMillis) <= TX_TIMEOUT) {
   }
   //Serial.println("Finished sending");
   SendStrobe(CC2500_IDLE);
 }
 
-void sleep() {
+void checkQuality() {
   
 }
 
-byte getGDO0() {
-  //Serial.println(ReadReg(REG_PKTSTATUS) & 00000001);
-  return ReadReg(REG_PKTSTATUS) && 00000001;
-}
-
-byte getGDO2() {
-  //Serial.println((ReadReg(REG_PKTSTATUS)& 00000100) >> 2, BIN);
-  return (ReadReg(REG_PKTSTATUS) && 00000100) >> 2;
+void gumboSleep() {
+ delay(sleepTime); 
 }
 
 void WriteReg(char addr, char value){
@@ -216,8 +185,8 @@ char SendStrobe(char strobe){
 
 void init_CC2500(){
   WriteReg(REG_IOCFG2,0x06);
+  WriteReg(REG_IOCFG1,0x06);
   WriteReg(REG_IOCFG0,0x01);
-  WriteReg(REG_IOCFG1,VAL_IOCFG1);
   WriteReg(REG_FIFOTHR, 0x02);
   WriteReg(REG_SYNC1,VAL_SYNC1);
   WriteReg(REG_SYNC0,VAL_SYNC0);
