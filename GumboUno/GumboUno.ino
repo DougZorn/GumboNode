@@ -62,7 +62,7 @@ void setup(){
   init_CC2500();
   Read_Config_Regs();
 
-  Serial.println("GumboNode Uno 1.0");  
+  Serial.println("GumboNode Uno 0.8");  
 }
 
 void loop(){
@@ -88,7 +88,6 @@ void listenForPacket() {
     char recvPacket[PacketLength];
     if(PacketLength >= 6) {
       Serial.println("Packet Received!");
-      Serial.println(ReadReg(REG_RXBYTES), HEX);
       Serial.print("Packet Length: ");
       Serial.println(PacketLength, DEC);
       Serial.print("Data: ");
@@ -98,10 +97,16 @@ void listenForPacket() {
         Serial.print(" ");
       }
       Serial.println(" ");
+      byte rssi = ReadReg(CC2500_RXFIFO);
+      byte lqi = ReadReg(CC2500_RXFIFO);
       if(recvPacket[1] == 'd') {
-        
+        if (addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7])) {
+          Serial.println("Data updated!");
+        } else { 
+          Serial.println("Data discarded");
+        }
       } else if (recvPacket[1] == 'w') {
-        
+        previousSyncDataLossMillis = currentMillis;
       } else {
         
       }
@@ -116,23 +121,6 @@ void listenForPacket() {
     if(currentMillis - previousSyncDataLossMillis > syncDataLossInterval) {
       previousSyncDataLossMillis = currentMillis;
     }
-  }
-}
-
-void checkStrength(char recvCode) {
-  unsigned long currentMillis = millis();
-  // Get RSSI readout which is not usable right now
-  ReadReg(CC2500_RXFIFO);
-  // Get LQI which is second byte
-  int lqi = ReadReg(CC2500_RXFIFO);
-  if(lqi >= 40) {
-    Serial.print("Found Nomi within Vicinity: ");
-  } else if(lqi >= 25) {
-    Serial.println("Medium Nomi");
-  } else if(lqi >= 15) {
-    Serial.println("Weak Nomi");
-  } else {
-    Serial.println("Nomi too weak");
   }
 }
 
@@ -191,6 +179,37 @@ void gumboSend(byte gumboDataID, boolean sync) {
   SendStrobe(CC2500_IDLE);
 }
 
+byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte lqi, byte hops) {
+  byte listLocation = getListLocation(id);
+  if (gumboData[listLocation].id == 0) {
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    return 1;
+  } else if (hops <= gumboData[listLocation].hops){
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    return 1;
+  } else {
+    return 0; 
+  }
+  return 0;
+}
+
+byte getListLocation(byte id) {
+  byte i, zeroLocation;
+  for(i=0; i<GUMBO_SIZE; i++) {
+    if (id == gumboData[i].id) return i;
+    if (gumboData[i].id == 0) zeroLocation = i;
+  }
+  return 0;
+}
+
 double GetTemp(void) {
   unsigned int wADC;
   double t;
@@ -212,7 +231,6 @@ double GetTemp(void) {
   // The returned temperature is in degrees Celcius.
   return (t);
 }
-
 void sleep() {
   delay(sleepTime);
 }

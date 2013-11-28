@@ -56,6 +56,7 @@ void setup(){
   SPI85.setClockDivider(SPI_2XCLOCK_MASK);
   digitalWrite(SS,HIGH);
   gumboData[0].id = GUMBO_ID;
+  //zeroGumboData();
   init_CC2500();
 }
 
@@ -83,15 +84,18 @@ void listenForPacket() {
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
       }
+      byte rssi = ReadReg(CC2500_RXFIFO);
+      byte lqi = ReadReg(CC2500_RXFIFO);
       if(recvPacket[1] == 'd') {
-        
+        // Data packet received
+        addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7]);
       } else if (recvPacket[1] == 'w') {
-        
+        // Wake packet received.
+        previousSyncDataLossMillis = currentMillis;
       } else {
-        
+        // Bunk
       }
     }
-    
     // Make sure that the radio is in IDLE state before flushing the FIFO
     // (Unless RXOFF_MODE has been changed, the radio should be in IDLE state at this point) 
     SendStrobe(CC2500_IDLE);
@@ -163,10 +167,55 @@ void gumboSend(byte gumboDataID, boolean sync) {
   SendStrobe(CC2500_IDLE);
 }
 
+byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte lqi, byte hops) {
+  byte listLocation = getListLocation(id);
+  if (gumboData[listLocation].id == 0) {
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    return 1;
+  } else if (hops <= gumboData[listLocation].hops){
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    return 1;
+  } else {
+    return 0; 
+  }
+  return 0;
+}
+
+byte getListLocation(byte id) {
+  byte i, zeroLocation;
+  for(i=0; i<GUMBO_SIZE; i++) {
+    if (id == gumboData[i].id) return i;
+    if (gumboData[i].id == 0) zeroLocation = i;
+  }
+  return 0;
+}
+
 void sampleTemperature() {
   int_sensor_init();
   gumboData[0].sensorReading = in_lsb() + offset - 273;
 }
+
+void averageTemperature() {
+  gumboData[0].sensorReading2 = 10;
+}
+
+void gumboSleep() {
+ delay(sleepTime); 
+}
+
+void zeroGumboData () {
+  
+}
+
+// Here be dragons...
 
 void int_sensor_init() {
 
@@ -227,18 +276,6 @@ int raw() {
     ADCSRA |= _BV(ADSC);              // Start new conversion
     return ret;
   }
-}
-
-void averageTemperature() {
-  gumboData[0].sensorReading2 = 10;
-}
-
-void checkQuality() {
-  
-}
-
-void gumboSleep() {
- delay(sleepTime); 
 }
 
 void WriteReg(char addr, char value){
