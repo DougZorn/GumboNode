@@ -16,7 +16,7 @@
 #define CC2500_SPWD    0x39
 #define CC2500_TXFIFO  0x3F
 #define CC2500_RXFIFO  0x3F
-#define GUMBO_ID 2
+#define GUMBO_ID 1
 #define GUMBO_SIZE 25
 
 #define TX_TIMEOUT 50 // in milliseconds
@@ -339,7 +339,7 @@ void init_CC2500(){
   WriteReg(REG_SYNC1,VAL_SYNC1);
   WriteReg(REG_SYNC0,VAL_SYNC0);
   WriteReg(REG_PKTLEN,VAL_PKTLEN);
-  WriteReg(REG_PKTCTRL1,VAL_PKTCTRL1);
+  WriteReg(REG_PKTCTRL1,0x0C);
   WriteReg(REG_PKTCTRL0, 0x0D);
   
   WriteReg(REG_ADDR,VAL_ADDR);

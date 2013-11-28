@@ -63,7 +63,7 @@ void setup(){
   Read_Config_Regs();
   initGumboList();
   sendSync = true;
-  Serial.println("GumboNode Uno 0.8");  
+  Serial.println("GumboNode Uno 0.9");  
 }
 
 void loop(){
@@ -367,7 +367,7 @@ void init_CC2500(){
   WriteReg(REG_SYNC0,VAL_SYNC0);
   WriteReg(REG_PKTLEN,VAL_PKTLEN);
   //WriteReg(REG_PKTLEN, 0x06);
-  WriteReg(REG_PKTCTRL1,VAL_PKTCTRL1);
+  WriteReg(REG_PKTCTRL1,0x0C);
   //WriteReg(REG_PKTCTRL0,VAL_PKTCTRL0);
   WriteReg(REG_PKTCTRL0, 0x0D);
   
