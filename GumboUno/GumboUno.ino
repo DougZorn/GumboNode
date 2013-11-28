@@ -43,12 +43,12 @@ typedef struct {
 GumboNode gumboData[GUMBO_SIZE];
 long sendInterval = 1000; // in milliseconds
 long sleepTime = 1000;
-long wakeTime = 1000;
+long wakeTime = 3000;
 long syncDataLossInterval = 3000;
 long previousMillis = 0;        // will store last time data was sent
 long previousSyncDataLossMillis = 0;        // will store last time data was sent
 long previousTXTimeoutMillis = 0;        // will store last time data wa
-byte cyclesSinceLastData, GDO0_State;
+byte cyclesSinceLastData, GDO0_State, sendSync;
 
 void setup(){
   Serial.begin(9600);
@@ -57,21 +57,23 @@ void setup(){
   pinMode(SS,OUTPUT);
   SPI.begin();
   digitalWrite(SS,HIGH);
-
   Serial.println("Initializing Wireless..");
   init_CC2500();
   Read_Config_Regs();
-
+  initGumboList();
+  sendSync = true;
   Serial.println("GumboNode Uno 0.8");  
 }
 
 void loop(){
-  //gumboSend(GUMBO_ID, true);
+  if(sendSync) {
+     gumboSend(GUMBO_ID, true);
+     sendSync = false;
+  }
   unsigned long currentMillis = millis();
   if(currentMillis - previousMillis > sendInterval) {
     previousMillis = currentMillis;
-    //Serial.println(GetTemp());
-    //gumboSend(GUMBO_ID, false);
+    gumboSend(GUMBO_ID, false);
   }
 
   listenForPacket();
@@ -210,7 +212,16 @@ byte getListLocation(byte id) {
   return 0;
 }
 
-double GetTemp(void) {
+void initGumboList() {
+  byte i;
+  gumboData[0].id = GUMBO_ID;
+  gumboData[0].sensorReading = getTemp();
+  for(i=1; i<GUMBO_SIZE; i++) {
+    gumboData[i].id = 0;
+  }
+}
+
+double getTemp(void) {
   unsigned int wADC;
   double t;
   // The internal temperature has to be used
@@ -233,6 +244,7 @@ double GetTemp(void) {
 }
 void sleep() {
   delay(sleepTime);
+  sendSync = true;
 }
 
 byte getTemperature() {

@@ -31,14 +31,14 @@ typedef struct {
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
-long sendInterval = 5000; // in milliseconds
+long sendInterval = 1000; // in milliseconds
 long sleepTime = 1000;
 long wakeTime = 1000;
 long syncDataLossInterval = 3000;
 long previousMillis = 0;        // will store last time data was sent
 long previousSyncDataLossMillis = 0;        // will store last time data was sent
 long previousTXTimeoutMillis = 0;        // will store last time data wa
-byte cyclesSinceLastData, GDO0_State;
+byte cyclesSinceLastData, GDO0_State, sendSync;
 
 #define TEMPERATURE_SAMPLES 30
 #define TEMPERATURE_ADJUSTMENT -13
@@ -56,20 +56,21 @@ void setup(){
   SPI85.setClockDivider(SPI_2XCLOCK_MASK);
   digitalWrite(SS,HIGH);
   gumboData[0].id = GUMBO_ID;
-  //zeroGumboData();
+  initGumboList();
+  sendSync = true;
   init_CC2500();
 }
 
 void loop(){
-  gumboSend(0, true);
-  listenForPacket();
-  sampleTemperature();
+  if(sendSync) {
+     gumboSend(GUMBO_ID, true);
+     sendSync = false;
+  }
   unsigned long currentMillis = millis();
   if(currentMillis - previousMillis > sendInterval) {
-    previousMillis = currentMillis;   
-    gumboSend(0, false);
+    previousMillis = currentMillis;
+    gumboSend(GUMBO_ID, false);
   }
-
   listenForPacket();
   gumboSleep();
 }
@@ -138,7 +139,7 @@ void gumboSend(byte gumboDataID, boolean sync) {
     packet[4] = gumboData[gumboDataID].sensorReading;
     packet[5] = gumboData[gumboDataID].sensorReading2;
     packet[6] = gumboData[gumboDataID].rssi;
-    if (gumboDataID == 0) {
+    if (gumboDataID == GUMBO_ID) {
       packet[7] = 0;
     } else {
       packet[7] = gumboData[gumboDataID].hops + 1;
@@ -198,9 +199,18 @@ byte getListLocation(byte id) {
   return 0;
 }
 
-void sampleTemperature() {
+void initGumboList() {
+  byte i;
+  gumboData[0].id = GUMBO_ID;
+  //gumboData[0].sensorReading = getTemp();
+  for(i=1; i<GUMBO_SIZE; i++) {
+    gumboData[i].id = getTemp();
+  }
+}
+
+int getTemp() {
   int_sensor_init();
-  gumboData[0].sensorReading = in_lsb() + offset - 273;
+  return in_lsb() + offset - 273;
 }
 
 void averageTemperature() {
@@ -209,10 +219,7 @@ void averageTemperature() {
 
 void gumboSleep() {
  delay(sleepTime); 
-}
-
-void zeroGumboData () {
-  
+ sendSync = true;
 }
 
 // Here be dragons...
