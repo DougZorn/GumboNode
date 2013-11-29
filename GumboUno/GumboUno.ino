@@ -38,12 +38,14 @@ typedef struct {
   byte sensorReading2;
   int8_t rssi;
   byte hops;
+  boolean staleData;
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
 long sendInterval = 1000; // in milliseconds
 long sleepTime = 1000;
 long wakeLength = 1000;
+long staleDataTime = 20*wakeLength;
 long lastSync = 0;
 long syncDataLossInterval = 3*wakeLength;
 long overWriteDataInterval = 5*wakeLength;
@@ -112,7 +114,6 @@ void listenForPacket() {
       if(recvPacket[1] == 'd') {
         if (addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7])) {
           Serial.println("Data updated!");
-          printData();
         } else { 
           Serial.println("Data discarded");
         }
@@ -214,6 +215,7 @@ byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte l
     gumboData[listLocation].hops = hops;
     Serial.print("Found no data. adding at ");
     Serial.println(listLocation);
+    printNode(listLocation);
     return 1;
   } else if (hops <= gumboData[listLocation].hops){
     gumboData[listLocation].id = id;
@@ -223,6 +225,7 @@ byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte l
     gumboData[listLocation].hops = hops;
     Serial.print("Found data at ");
     Serial.println(listLocation);
+    printNode(listLocation);
     return 1;
   } else {
     Serial.print("No Good!");
@@ -255,14 +258,30 @@ byte getListLocation(byte id) {
   byte zeroLocation = 0;
   for(i=0; i<GUMBO_SIZE; i++) {
     if (id == gumboData[i].id) return i;
-    if (gumboData[i].id == 0 && zeroLocation == 0) { 
+    if ((gumboData[i].id == 0 || gumboData[i].staleData == true) && zeroLocation == 0) { 
       zeroLocation = i;
     }
   }
   return zeroLocation;
 }
 
-void printData() {
+void printNode(byte node) {
+  Serial.print("Point ");
+  Serial.print(node);
+  Serial.print(": ");
+  Serial.print(gumboData[node].id);
+  Serial.print(" ");
+  Serial.print(gumboData[node].sensorReading);
+  Serial.print(" ");
+  Serial.print(gumboData[node].sensorReading2);
+  Serial.print(" ");
+  Serial.print(gumboData[node].rssi);
+  Serial.print(" ");
+  Serial.print(gumboData[node].hops);
+  Serial.println();
+}
+
+void printAllData() {
   int i;
   Serial.println("Data");
   for(i=0; i<GUMBO_SIZE; i++) {
@@ -290,6 +309,7 @@ void initGumboList() {
     gumboData[i].id = 0;
     gumboData[i].rssi = 0;
     gumboData[i].hops = 255;
+    gumboData[i].staleData = false;
   }
 }
 
@@ -367,7 +387,7 @@ void init_CC2500(){
   WriteReg(REG_SYNC0,VAL_SYNC0);
   WriteReg(REG_PKTLEN,VAL_PKTLEN);
   //WriteReg(REG_PKTLEN, 0x06);
-  WriteReg(REG_PKTCTRL1,0x0C);
+  WriteReg(REG_PKTCTRL1,0x8C);
   //WriteReg(REG_PKTCTRL0,VAL_PKTCTRL0);
   WriteReg(REG_PKTCTRL0, 0x0D);
   

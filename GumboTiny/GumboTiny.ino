@@ -16,7 +16,7 @@
 #define CC2500_SPWD    0x39
 #define CC2500_TXFIFO  0x3F
 #define CC2500_RXFIFO  0x3F
-#define GUMBO_ID 1
+#define GUMBO_ID 2
 #define GUMBO_SIZE 25
 
 #define TX_TIMEOUT 50 // in milliseconds
@@ -32,12 +32,14 @@ typedef struct {
   byte sensorReading2;
   byte rssi;
   byte hops;
+  boolean staleData;
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
 InternalTemperatureSensor temperature(1.0, TEMPERATURE_ADJUSTMENT);
 long wakeLength = 1000;
-long syncDataLossInterval = 3*1000; // 3 * WatchDog Sleep Timer
+long syncDataLossInterval = 5*wakeLength; // 5 * WatchDog Sleep Timer
+long staleDataTime = 20*wakeLength;
 long lastSync = 0;   
 long previousTXTimeoutMillis = 0;  
 long previousWakeMillis = 0;       
@@ -238,7 +240,9 @@ byte getListLocation(byte id) {
   byte zeroLocation = 0;
   for(i=0; i<GUMBO_SIZE; i++) {
     if (id == gumboData[i].id) return i;
-    if (gumboData[i].id == 0 && zeroLocation == 0) zeroLocation = i;
+    if ((gumboData[i].id == 0 || gumboData[i].staleData == true) && zeroLocation == 0) { 
+      zeroLocation = i;
+    }
   }
   return zeroLocation;
 }
@@ -339,7 +343,7 @@ void init_CC2500(){
   WriteReg(REG_SYNC1,VAL_SYNC1);
   WriteReg(REG_SYNC0,VAL_SYNC0);
   WriteReg(REG_PKTLEN,VAL_PKTLEN);
-  WriteReg(REG_PKTCTRL1,0x0C);
+  WriteReg(REG_PKTCTRL1,0x8C);
   WriteReg(REG_PKTCTRL0, 0x0D);
   
   WriteReg(REG_ADDR,VAL_ADDR);
