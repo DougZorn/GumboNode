@@ -36,19 +36,22 @@ typedef struct {
   byte id;
   byte sensorReading;
   byte sensorReading2;
-  byte rssi;
+  int8_t rssi;
   byte hops;
+  boolean staleData;
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
 long sendInterval = 1000; // in milliseconds
 long sleepTime = 1000;
-long wakeTime = 1000;
-long syncDataLossInterval = 3000;
-long previousMillis = 0;        // will store last time data was sent
-long previousSyncDataLossMillis = 0;        // will store last time data was sent
+long wakeLength = 1000;
+long staleDataTime = 20*wakeLength;
+long lastSync = 0;
+long syncDataLossInterval = 3*wakeLength;
+long overWriteDataInterval = 5*wakeLength;
+long previousWakeMillis = 0; 
 long previousTXTimeoutMillis = 0;        // will store last time data wa
-byte cyclesSinceLastData, GDO0_State;
+byte cyclesSinceLastData, GDO0_State, sendSync, gumboListIndex;
 
 void setup(){
   Serial.begin(9600);
@@ -57,25 +60,34 @@ void setup(){
   pinMode(SS,OUTPUT);
   SPI.begin();
   digitalWrite(SS,HIGH);
-
   Serial.println("Initializing Wireless..");
   init_CC2500();
   Read_Config_Regs();
-
-  Serial.println("GumboNode Uno 1.0");  
+  initGumboList();
+  sendSync = true;
+  Serial.println("GumboNode Uno 0.9");  
 }
 
 void loop(){
-  //gumboSend(GUMBO_ID, true);
-  unsigned long currentMillis = millis();
-  if(currentMillis - previousMillis > sendInterval) {
-    previousMillis = currentMillis;
-    //Serial.println(GetTemp());
-    //gumboSend(GUMBO_ID, false);
+  if(sendSync) {
+     gumboSendSync();
+     sendSync = false;
   }
-
+  // Immediately listen
   listenForPacket();
-  //sleep();
+  unsigned long currentMillis = millis();
+  gumboSendData(0);
+  //gumboListIndex++;
+  listenForPacket();
+  if(currentMillis - lastSync > syncDataLossInterval) {
+      // SYNC LOST
+      lastSync = 0;
+      waitForSync();
+  }
+  if(currentMillis - previousWakeMillis > wakeLength) {
+    previousWakeMillis = currentMillis;
+    gumboSleep();
+  }
 }
 
 void listenForPacket() {
@@ -86,22 +98,28 @@ void listenForPacket() {
   if (digitalRead(MISO)) {
     char PacketLength = ReadReg(CC2500_RXFIFO);
     char recvPacket[PacketLength];
-    if(PacketLength >= 6) {
-      Serial.println("Packet Received!");
-      Serial.println(ReadReg(REG_RXBYTES), HEX);
-      Serial.print("Packet Length: ");
-      Serial.println(PacketLength, DEC);
-      Serial.print("Data: ");
+    if(PacketLength == 8) {
+      //Serial.println("Packet Received!");
+      //Serial.print("Packet Length: ");
+      //Serial.println(PacketLength, DEC);
+      //Serial.print("Data: ");
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
-        Serial.print(recvPacket[i], DEC);
-        Serial.print(" ");
+        //Serial.print(recvPacket[i], DEC);
+        //Serial.print(" ");
       }
-      Serial.println(" ");
+      //Serial.println(" ");
+      byte rssi = ReadReg(CC2500_RXFIFO);
+      byte lqi = ReadReg(CC2500_RXFIFO);
       if(recvPacket[1] == 'd') {
-        
+        if (addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7])) {
+          Serial.println("Data updated!");
+        } else { 
+          Serial.println("Data discarded");
+        }
       } else if (recvPacket[1] == 'w') {
-        
+        lastSync = millis();
+        Serial.println("Sync Received!");
       } else {
         
       }
@@ -113,30 +131,22 @@ void listenForPacket() {
     // Flush RX FIFO
     SendStrobe(CC2500_FRX);
   } else {
-    if(currentMillis - previousSyncDataLossMillis > syncDataLossInterval) {
-      previousSyncDataLossMillis = currentMillis;
-    }
+    
   }
 }
 
-void checkStrength(char recvCode) {
-  unsigned long currentMillis = millis();
-  // Get RSSI readout which is not usable right now
-  ReadReg(CC2500_RXFIFO);
-  // Get LQI which is second byte
-  int lqi = ReadReg(CC2500_RXFIFO);
-  if(lqi >= 40) {
-    Serial.print("Found Nomi within Vicinity: ");
-  } else if(lqi >= 25) {
-    Serial.println("Medium Nomi");
-  } else if(lqi >= 15) {
-    Serial.println("Weak Nomi");
-  } else {
-    Serial.println("Nomi too weak");
-  }
+void gumboSendSync() {
+  gumboSend(0, true);
+}
+
+void gumboSendData(byte gumboDataID) {
+  gumboSend(gumboDataID, false);
 }
 
 void gumboSend(byte gumboDataID, boolean sync) {
+  // Not valid data
+  if(gumboData[gumboDataID].id == 0) return;
+  
   WriteReg(REG_IOCFG1,0x06);
   // Make sure that the radio is in IDLE state before flushing the FIFO
   SendStrobe(CC2500_IDLE);
@@ -166,7 +176,11 @@ void gumboSend(byte gumboDataID, boolean sync) {
     packet[4] = gumboData[gumboDataID].sensorReading;
     packet[5] = gumboData[gumboDataID].sensorReading2;
     packet[6] = gumboData[gumboDataID].rssi;
-    packet[7] = gumboData[gumboDataID].hops;
+    if (gumboData[gumboDataID].id == GUMBO_ID) {
+      packet[7] = 0;
+    } else {
+      packet[7] = gumboData[gumboDataID].hops + 1;
+    }
   }
   
   // SIDLE: exit RX/TX
@@ -191,7 +205,115 @@ void gumboSend(byte gumboDataID, boolean sync) {
   SendStrobe(CC2500_IDLE);
 }
 
-double GetTemp(void) {
+byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte lqi, byte hops) {
+  byte listLocation = getListLocation(id);
+  if (gumboData[listLocation].id == 0) {
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    Serial.print("Found no data. adding at ");
+    Serial.println(listLocation);
+    printNode(listLocation);
+    return 1;
+  } else if (hops <= gumboData[listLocation].hops){
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    Serial.print("Found data at ");
+    Serial.println(listLocation);
+    printNode(listLocation);
+    return 1;
+  } else {
+    Serial.print("No Good!");
+    Serial.print(listLocation);
+    Serial.print(hops);
+    Serial.println(gumboData[listLocation].hops);
+    return 0; 
+  }
+  return 0;
+}
+
+void waitForSync() {
+  unsigned long startMillis = millis();
+  unsigned long currentMillis;
+  while(lastSync == 0) {
+    currentMillis = millis();
+    listenForPacket();
+    if(currentMillis - startMillis> syncDataLossInterval) {
+      // Make this system a slave.
+      startMillis = millis();
+      Serial.println("Still waiting for sync!");
+      ///gumboSend(GUMBO_ID, true);
+      //lastSync = millis();
+    }
+  }
+}
+
+byte getListLocation(byte id) {
+  byte i;
+  byte zeroLocation = 0;
+  for(i=0; i<GUMBO_SIZE; i++) {
+    if (id == gumboData[i].id) return i;
+    if ((gumboData[i].id == 0 || gumboData[i].staleData == true) && zeroLocation == 0) { 
+      zeroLocation = i;
+    }
+  }
+  return zeroLocation;
+}
+
+void printNode(byte node) {
+  Serial.print("Point ");
+  Serial.print(node);
+  Serial.print(": ");
+  Serial.print(gumboData[node].id);
+  Serial.print(" ");
+  Serial.print(gumboData[node].sensorReading);
+  Serial.print(" ");
+  Serial.print(gumboData[node].sensorReading2);
+  Serial.print(" ");
+  Serial.print(gumboData[node].rssi);
+  Serial.print(" ");
+  Serial.print(gumboData[node].hops);
+  Serial.println();
+}
+
+void printAllData() {
+  int i;
+  Serial.println("Data");
+  for(i=0; i<GUMBO_SIZE; i++) {
+    Serial.print("Point ");
+    Serial.print(i);
+    Serial.print(": ");
+    Serial.print(gumboData[i].id);
+    Serial.print(" ");
+    Serial.print(gumboData[i].sensorReading);
+    Serial.print(" ");
+    Serial.print(gumboData[i].sensorReading2);
+    Serial.print(" ");
+    Serial.print(gumboData[i].rssi);
+    Serial.print(" ");
+    Serial.print(gumboData[i].hops);
+    Serial.println();
+  } 
+}
+
+void initGumboList() {
+  byte i;
+  gumboData[0].id = GUMBO_ID;
+  gumboData[0].sensorReading = getTemp();
+  for(i=1; i<GUMBO_SIZE; i++) {
+    gumboData[i].id = 0;
+    gumboData[i].rssi = 0;
+    gumboData[i].hops = 255;
+    gumboData[i].staleData = false;
+  }
+}
+
+double getTemp(void) {
   unsigned int wADC;
   double t;
   // The internal temperature has to be used
@@ -212,14 +334,9 @@ double GetTemp(void) {
   // The returned temperature is in degrees Celcius.
   return (t);
 }
-
-void sleep() {
+void gumboSleep() {
   delay(sleepTime);
-}
-
-byte getTemperature() {
-  //SendStrobe(CC2500_IDLE);
-  //WriteReg(REG_PTEST, 0xBF);
+  sendSync = true;
 }
 
 void WriteReg(char addr, char value){
@@ -270,7 +387,7 @@ void init_CC2500(){
   WriteReg(REG_SYNC0,VAL_SYNC0);
   WriteReg(REG_PKTLEN,VAL_PKTLEN);
   //WriteReg(REG_PKTLEN, 0x06);
-  WriteReg(REG_PKTCTRL1,VAL_PKTCTRL1);
+  WriteReg(REG_PKTCTRL1,0x8C);
   //WriteReg(REG_PKTCTRL0,VAL_PKTCTRL0);
   WriteReg(REG_PKTCTRL0, 0x0D);
   

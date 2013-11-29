@@ -1,8 +1,9 @@
 #include "contiki.h"
 #include "sys/ctimer.h"
 #include "sys/etimer.h"
+#include "sys/node-id.h"
 #include "lib/random.h"
-#include "cooja-radio-driver-cb.h"
+#include "cooja-radio-cb.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,8 +24,6 @@ struct gumbo_node_data {
   uint8_t hops;
 };
 
-static struct gumbo_node_data g_db[NODE_COUNT];
-
 PROCESS(gumbo_master, "Top level gumbo node process.");
 PROCESS(gumbo_slave, "Handles the mechanics of sending and receiving packets.");
 AUTOSTART_PROCESSES(&gumbo_master);
@@ -35,6 +34,7 @@ void receive_handler(const char *, int);
 void sample_temperature(void);
 
 extern const struct radio_driver cooja_radio_driver;
+static struct gumbo_node_data g_db[NODE_COUNT];
 static gumbo_addr_t g_node_address;
 
 PROCESS_THREAD(gumbo_master, ev, data)
@@ -51,6 +51,7 @@ PROCESS_THREAD(gumbo_master, ev, data)
   static int dp_flag = 0;
   ctimer_set(&datapacket_flag_timer, 5 * CLOCK_SECOND, set_datapacket_flag, (void * ) &dp_flag);
 
+  init_receive_callback(&receive_handler);
   cooja_radio_driver.init();
 
   while (1) {
@@ -128,7 +129,7 @@ void send_sync(void)
   cooja_radio_driver.send(packet, MESSAGE_SIZE);
 }
 
-void receiver_handler(const char *msg, int len)
+void receive_handler(const char *msg, int len)
 {
   if (len > MESSAGE_SIZE) {
     printf("Message in buffer is too large to copy.\n");

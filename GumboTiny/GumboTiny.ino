@@ -1,18 +1,22 @@
 /**
  */
+#include <avr/sleep.h>
+#include <avr/wdt.h>
+#include <avr/interrupt.h>
 #include "cc2500_REG.h"
 #include "cc2500_VAL.h"
 #include "SPI85.h"
+#include "InternalTemperatureSensor.h"
 
 #define CC2500_IDLE    0x36      // Exit RX / TX, turn
 #define CC2500_TX      0x35      // Enable TX. If in RX state, only enable TX if CCA passes
 #define CC2500_RX      0x34      // Enable RX. Perform calibration if enabled
 #define CC2500_FTX     0x3B      // Flush the TX FIFO buffer. Only issue SFTX in IDLE or TXFIFO_UNDERFLOW states
 #define CC2500_FRX     0x3A      // Flush the RX FIFO buffer. Only issue SFRX in IDLE or RXFIFO_OVERFLOW states
-#define CC2500_SWOR    0x38
+#define CC2500_SPWD    0x39
 #define CC2500_TXFIFO  0x3F
 #define CC2500_RXFIFO  0x3F
-#define GUMBO_ID 25
+#define GUMBO_ID 2
 #define GUMBO_SIZE 25
 
 #define TX_TIMEOUT 50 // in milliseconds
@@ -28,25 +32,20 @@ typedef struct {
   byte sensorReading2;
   byte rssi;
   byte hops;
+  boolean staleData;
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
-long sendInterval = 5000; // in milliseconds
-long sleepTime = 1000;
-long wakeTime = 1000;
-long syncDataLossInterval = 3000;
-long previousMillis = 0;        // will store last time data was sent
-long previousSyncDataLossMillis = 0;        // will store last time data was sent
-long previousTXTimeoutMillis = 0;        // will store last time data wa
-byte cyclesSinceLastData, GDO0_State;
-
-#define TEMPERATURE_SAMPLES 30
-#define TEMPERATURE_ADJUSTMENT -13
-#define EXTREMES_RATIO 5
-int offset=TEMPERATURE_ADJUSTMENT;
-float coefficient=1;
-int readings[30];
-int pos=0;
+InternalTemperatureSensor temperature(1.0, TEMPERATURE_ADJUSTMENT);
+long wakeLength = 1000;
+long syncDataLossInterval = 5*wakeLength; // 5 * WatchDog Sleep Timer
+long staleDataTime = 20*wakeLength;
+long lastSync = 0;   
+long previousTXTimeoutMillis = 0;  
+long previousWakeMillis = 0;       
+byte cyclesSinceLastData, GDO0_State, gumboDataIndex;
+boolean sendSync;
+boolean f_wdt = true;
 
 void setup(){
   // Setup 
@@ -55,22 +54,48 @@ void setup(){
   SPI85.setDataMode(SPI_MODE0);
   SPI85.setClockDivider(SPI_2XCLOCK_MASK);
   digitalWrite(SS,HIGH);
-  gumboData[0].id = GUMBO_ID;
+  sendSync = false;
+  gumboDataIndex = 1;
+  setup_watchdog(WDTO_1S); // approximately 1 seconds sleep
   init_CC2500();
+  temperature.init();
+  initGumboList();
+  waitForSync();
 }
 
 void loop(){
-  gumboSend(0, true);
-  listenForPacket();
-  sampleTemperature();
-  unsigned long currentMillis = millis();
-  if(currentMillis - previousMillis > sendInterval) {
-    previousMillis = currentMillis;   
-    gumboSend(0, false);
+  if(f_wdt) {
+    sendSync = true;
+    f_wdt = false;
   }
-
+  if(sendSync) {
+     gumboSendSync();
+     sendSync = false;
+     // Immediately listen and then send out own data
+     listenForPacket();
+     gumboSendData(0);
+  }
+  // Get the time now that sync has been sent.
+  unsigned long currentMillis = millis();
+  
+  // Send out other GumboNodes data
+  if(gumboData[gumboDataIndex].id > 0) {
+    gumboSendData(gumboDataIndex);
+    gumboDataIndex++;
+  } else {
+    gumboDataIndex = 1;
+  }
+  
   listenForPacket();
-  gumboSleep();
+  if(currentMillis - lastSync > syncDataLossInterval) {
+      // SYNC LOST
+      lastSync = 0;
+      waitForSync();
+  }
+  if(currentMillis - previousWakeMillis > wakeLength) {
+    previousWakeMillis = currentMillis;
+    gumboSleep();
+  }
 }
 
 void listenForPacket() {
@@ -79,32 +104,44 @@ void listenForPacket() {
   if (digitalRead(MISO)) {
     char PacketLength = ReadReg(CC2500_RXFIFO);
     char recvPacket[PacketLength];
-    if(PacketLength >= 6) {
+    if(PacketLength == 8) {
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
       }
+      byte rssi = ReadReg(CC2500_RXFIFO);
+      byte lqi = ReadReg(CC2500_RXFIFO);
       if(recvPacket[1] == 'd') {
-        
+        // Data packet received
+        addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7]);
       } else if (recvPacket[1] == 'w') {
-        
+        // Wake packet received.
+        lastSync = millis();
       } else {
-        
+        // Bunk
       }
     }
-    
     // Make sure that the radio is in IDLE state before flushing the FIFO
     // (Unless RXOFF_MODE has been changed, the radio should be in IDLE state at this point) 
     SendStrobe(CC2500_IDLE);
     // Flush RX FIFO
     SendStrobe(CC2500_FRX);
   } else {
-    if(currentMillis - previousSyncDataLossMillis > syncDataLossInterval) {
-      previousSyncDataLossMillis = currentMillis;
-    }
+
   }
 }
 
+void gumboSendSync() {
+  gumboSend(0, true);
+}
+
+void gumboSendData(byte gumboDataID) {
+  gumboSend(gumboDataID, false);
+}
+
 void gumboSend(byte gumboDataID, boolean sync) {
+  // Not valid data
+  if(gumboData[gumboDataID].id == 0) return;
+  
   WriteReg(REG_IOCFG1,0x06);
   // Make sure that the radio is in IDLE state before flushing the FIFO
   SendStrobe(CC2500_IDLE);
@@ -134,7 +171,7 @@ void gumboSend(byte gumboDataID, boolean sync) {
     packet[4] = gumboData[gumboDataID].sensorReading;
     packet[5] = gumboData[gumboDataID].sensorReading2;
     packet[6] = gumboData[gumboDataID].rssi;
-    if (gumboDataID == 0) {
+    if (gumboData[gumboDataID].id == GUMBO_ID) {
       packet[7] = 0;
     } else {
       packet[7] = gumboData[gumboDataID].hops + 1;
@@ -163,82 +200,113 @@ void gumboSend(byte gumboDataID, boolean sync) {
   SendStrobe(CC2500_IDLE);
 }
 
-void sampleTemperature() {
-  int_sensor_init();
-  gumboData[0].sensorReading = in_lsb() + offset - 273;
+byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte lqi, byte hops) {
+  byte listLocation = getListLocation(id);
+  if (gumboData[listLocation].id == 0) {
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    return 1;
+  } else if (hops <= gumboData[listLocation].hops){
+    gumboData[listLocation].id = id;
+    gumboData[listLocation].sensorReading = sensorReading;
+    gumboData[listLocation].sensorReading2 = sensorReading2;
+    gumboData[listLocation].rssi = lqi;
+    gumboData[listLocation].hops = hops;
+    return 1;
+  } else {
+    return 0; 
+  }
+  return 0;
 }
 
-void int_sensor_init() {
-
-  ADMUX = B00100010;                // Select temperature sensor
-  ADMUX &= ~_BV( ADLAR );       // Right-adjust result
-  ADMUX |= _BV( REFS1 );                      // Set Ref voltage
-  ADMUX &= ~( _BV( REFS0 ) );  // to 1.1V
-  // Configure ADCSRA
-  ADCSRA &= ~( _BV( ADATE ) |_BV( ADIE ) ); // Disable autotrigger, Disable Interrupt
-  ADCSRA |= _BV(ADEN);                      // Enable ADC
-  ADCSRA |= _BV(ADSC);          // Start first conversion
-  // Seed samples
-  int raw_temp;
-  while( ( ( raw_temp = raw() ) < 0 ) );
-  for( int i = 0; i < 30; i++ ) {
-    readings[i] = raw_temp;
-  }
-}
-
-int in_lsb() {
-  int readings_dup[30];
-  int raw_temp;
-  // remember the sample
-  if( ( raw_temp = raw() ) > 0 ) {
-    readings[pos] = raw_temp;
-    pos++;
-    pos %= 30;
-  }
-  // copy the samples
-  for( int i = 0; i < 30; i++ ) {
-    readings_dup[i] = readings[i];
-  }
-  // bubble extremes to the ends of the array
-  int extremes_count = 6;
-  int swap;
-  for( int i = 0; i < extremes_count; ++i ) { // percent of iterations of bubble sort on small N works faster than Q-sort
-    for( int j = 0;j<29;j++ ) {
-      if( readings_dup[i] > readings_dup[i+1] ) { 
-        swap = readings_dup[i];
-        readings_dup[i] = readings_dup[i+1];
-        readings_dup[i+1] = swap;
-      }
+void waitForSync() {
+  unsigned long startMillis = millis();
+  unsigned long currentMillis;
+  while(lastSync == 0) {
+    currentMillis = millis();
+    listenForPacket();
+    if(currentMillis - startMillis> syncDataLossInterval) {
+      gumboSendSync();
+      lastSync = millis();
     }
   }
-  // average the middle of the array
-  int sum_temp = 0;
-  for( int i = extremes_count; i < 30 - extremes_count; i++ ) {
-    sum_temp += readings_dup[i];
-  }
-  return sum_temp / ( 30 - extremes_count * 2 );
 }
 
-int raw() {
-  if( ADCSRA & _BV( ADSC ) ) {
-    return -1;
-  } else {
-    int ret = ADCL | ( ADCH << 8 );   // Get the previous conversion result
-    ADCSRA |= _BV(ADSC);              // Start new conversion
-    return ret;
+byte getListLocation(byte id) {
+  byte i;
+  byte zeroLocation = 0;
+  for(i=0; i<GUMBO_SIZE; i++) {
+    if (id == gumboData[i].id) return i;
+    if ((gumboData[i].id == 0 || gumboData[i].staleData == true) && zeroLocation == 0) { 
+      zeroLocation = i;
+    }
   }
+  return zeroLocation;
+}
+
+void initGumboList() {
+  byte i;
+  gumboData[0].id = GUMBO_ID;
+  gumboData[0].sensorReading = getTemp();
+  for(i=1; i<GUMBO_SIZE; i++) {
+    gumboData[i].id = 0;
+    gumboData[i].rssi = 0;
+    gumboData[i].hops = 255;
+  }
+}
+
+int getTemp() {
+  return temperature.in_c();
 }
 
 void averageTemperature() {
-  gumboData[0].sensorReading2 = 10;
-}
-
-void checkQuality() {
-  
+  int i, averageTemperature;
+  int validNodes = 0;
+  for (i = 0; i<GUMBO_SIZE; i++) {
+    if(gumboData[i].id != 0) {
+      validNodes++;
+      averageTemperature += gumboData[i].sensorReading;
+    }
+  }
+  averageTemperature = averageTemperature/validNodes;
+  gumboData[0].sensorReading2 = averageTemperature;
 }
 
 void gumboSleep() {
- delay(sleepTime); 
+  SendStrobe(CC2500_SPWD);
+  sleep_enable();
+  sei();                         //ensure interrupts enabled so we can wake up again
+  sleep_cpu();                   //go to sleep
+  sleep_disable();
+  sei();                         //enable interrupts again (but INT0 is disabled from above)
+}
+
+// Here be dragons...
+
+// Watchdog Interrupt Service / is executed when watchdog timed out
+ISR(WDT_vect) {
+  f_wdt=true;  // set global flag
+}
+
+void setup_watchdog(int ii) {
+
+  byte bb;
+  int ww;
+  if (ii > 9 ) ii=9;
+  bb=ii & 7;
+  if (ii > 7) bb|= (1<<5);
+  bb|= (1<<WDCE);
+  ww=bb;
+
+  MCUSR &= ~(1<<WDRF);
+  // start timed sequence
+  WDTCR |= (1<<WDCE) | (1<<WDE);
+  // set new watchdog timeout value
+  WDTCR = bb;
+  WDTCR |= _BV(WDIE);
 }
 
 void WriteReg(char addr, char value){
@@ -275,7 +343,7 @@ void init_CC2500(){
   WriteReg(REG_SYNC1,VAL_SYNC1);
   WriteReg(REG_SYNC0,VAL_SYNC0);
   WriteReg(REG_PKTLEN,VAL_PKTLEN);
-  WriteReg(REG_PKTCTRL1,VAL_PKTCTRL1);
+  WriteReg(REG_PKTCTRL1,0x8C);
   WriteReg(REG_PKTCTRL0, 0x0D);
   
   WriteReg(REG_ADDR,VAL_ADDR);
