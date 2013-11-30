@@ -39,12 +39,12 @@ typedef struct {
   int8_t rssi;
   byte hops;
   boolean staleData;
+  long packetArrivalTime;
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
-long sendInterval = 1000; // in milliseconds
 long sleepTime = 1000;
-long wakeLength = 1000;
+long wakeLength = 1500;
 long staleDataTime = 20*wakeLength;
 long lastSync = 0;
 long syncDataLossInterval = 3*wakeLength;
@@ -65,6 +65,8 @@ void setup(){
   Read_Config_Regs();
   initGumboList();
   sendSync = true;
+  getTemp();    
+  averageTemperature();
   Serial.println("GumboNode Uno 0.9");  
 }
 
@@ -88,6 +90,7 @@ void loop(){
     previousWakeMillis = currentMillis;
     gumboSleep();
   }
+  10%2;
 }
 
 void listenForPacket() {
@@ -100,15 +103,15 @@ void listenForPacket() {
     char recvPacket[PacketLength];
     if(PacketLength == 8) {
       Serial.println("Packet Received!");
-      Serial.print("Packet Length: ");
-      Serial.println(PacketLength, DEC);
-      Serial.print("Data: ");
+      //Serial.print("Packet Length: ");
+      //Serial.println(PacketLength, DEC);
+      //Serial.print("Data: ");
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
-        Serial.print(recvPacket[i], DEC);
-        Serial.print(" ");
+        //Serial.print(recvPacket[i], DEC);
+        //Serial.print(" ");
       }
-      Serial.println(" ");
+      //Serial.println(" ");
       byte rssi = ReadReg(CC2500_RXFIFO);
       byte lqi = ReadReg(CC2500_RXFIFO);
       byte PQTReached = isPQTReached();
@@ -335,6 +338,39 @@ double getTemp(void) {
   // The returned temperature is in degrees Celcius.
   return (t);
 }
+
+void averageTemperature() {
+  int i, averageTemperature;
+  int validNodes = 0;
+  for (i = 0; i<GUMBO_SIZE; i++) {
+    if(gumboData[i].id != 0 && !gumboData[i].staleData) {
+      validNodes++;
+      //averageTemperature += (gumboData[i].sensorReading);
+      averageTemperature += (gumboData[i].sensorReading / qualityFactor(i));
+    }
+  }
+  averageTemperature = averageTemperature/validNodes;
+  gumboData[0].sensorReading2 = averageTemperature;
+  Serial.print("Average Temperature: ");
+  Serial.println(averageTemperature);
+}
+
+byte qualityFactor(byte gumboListLocation) {
+  byte qualityFactor = 4 * gumboData[gumboListLocation].hops;
+  if(gumboData[gumboListLocation].rssi >= 30) {
+    qualityFactor = qualityFactor + 1;
+  } else if (gumboData[gumboListLocation].rssi >= 15) {
+    qualityFactor = qualityFactor + 2;
+  } else if (gumboData[gumboListLocation].rssi >= 0) {
+    qualityFactor = qualityFactor + 3;
+  } else if (gumboData[gumboListLocation].rssi >= -15) {
+    qualityFactor = qualityFactor + 4;
+  } else {
+    qualityFactor = qualityFactor + 5;
+  }
+  return 1;
+}
+
 void gumboSleep() {
   delay(sleepTime);
   sendSync = true;

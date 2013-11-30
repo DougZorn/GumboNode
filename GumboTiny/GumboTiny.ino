@@ -33,11 +33,12 @@ typedef struct {
   byte rssi;
   byte hops;
   boolean staleData;
+  long packetArrivalTime;
 } GumboNode;
 
 GumboNode gumboData[GUMBO_SIZE];
 InternalTemperatureSensor temperature(1.0, TEMPERATURE_ADJUSTMENT);
-long wakeLength = 1000;
+long wakeLength = 1500;
 long syncDataLossInterval = 5*wakeLength; // 5 * WatchDog Sleep Timer
 long staleDataTime = 20*wakeLength;
 long lastSync = 0;   
@@ -58,8 +59,9 @@ void setup(){
   gumboDataIndex = 1;
   setup_watchdog(WDTO_1S); // approximately 1 seconds sleep
   init_CC2500();
+  initGumboList(); 
   temperature.init();
-  initGumboList();
+  averageTemperature();
   waitForSync();
 }
 
@@ -92,10 +94,12 @@ void loop(){
       lastSync = 0;
       waitForSync();
   }
+
   if(currentMillis - previousWakeMillis > wakeLength) {
     previousWakeMillis = currentMillis;
     gumboSleep();
   }
+  10%2;
 }
 
 void listenForPacket() {
@@ -209,6 +213,7 @@ byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte l
     gumboData[listLocation].sensorReading2 = sensorReading2;
     gumboData[listLocation].rssi = lqi;
     gumboData[listLocation].hops = hops;
+    gumboData[listLocation].packetArrivalTime = millis();
     return 1;
   } else if (hops <= gumboData[listLocation].hops){
     gumboData[listLocation].id = id;
@@ -216,6 +221,7 @@ byte addIfHigherQuality(byte id, byte sensorReading, byte sensorReading2, byte l
     gumboData[listLocation].sensorReading2 = sensorReading2;
     gumboData[listLocation].rssi = lqi;
     gumboData[listLocation].hops = hops;
+    gumboData[listLocation].packetArrivalTime = millis();
     return 1;
   } else {
     return 0; 
@@ -267,13 +273,30 @@ void averageTemperature() {
   int i, averageTemperature;
   int validNodes = 0;
   for (i = 0; i<GUMBO_SIZE; i++) {
-    if(gumboData[i].id != 0) {
+    if(gumboData[i].id != 0 && !gumboData[i].staleData) {
       validNodes++;
-      averageTemperature += gumboData[i].sensorReading;
+      //averageTemperature += (gumboData[i].sensorReading);
+      averageTemperature += (gumboData[i].sensorReading / qualityFactor(i));
     }
   }
   averageTemperature = averageTemperature/validNodes;
   gumboData[0].sensorReading2 = averageTemperature;
+}
+
+byte qualityFactor(byte gumboListLocation) {
+  byte qualityFactor = 4 * gumboData[gumboListLocation].hops;
+  if(gumboData[gumboListLocation].rssi >= 30) {
+    qualityFactor = qualityFactor + 1;
+  } else if (gumboData[gumboListLocation].rssi >= 15) {
+    qualityFactor = qualityFactor + 2;
+  } else if (gumboData[gumboListLocation].rssi >= 0) {
+    qualityFactor = qualityFactor + 3;
+  } else if (gumboData[gumboListLocation].rssi >= -15) {
+    qualityFactor = qualityFactor + 4;
+  } else {
+    qualityFactor = qualityFactor + 5;
+  }
+  return 1;
 }
 
 void gumboSleep() {
