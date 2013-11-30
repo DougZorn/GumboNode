@@ -110,10 +110,11 @@ void listenForPacket() {
       }
       byte rssi = ReadReg(CC2500_RXFIFO);
       byte lqi = ReadReg(CC2500_RXFIFO);
-      if(recvPacket[1] == 'd') {
+      byte PQTReached = isPQTReached();
+      if(recvPacket[1] == 'd' && PQTReached) {
         // Data packet received
         addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7]);
-      } else if (recvPacket[1] == 'w') {
+      } else if (recvPacket[1] == 'w' && PQTReached) {
         // Wake packet received.
         lastSync = millis();
       } else {
@@ -307,6 +308,10 @@ void setup_watchdog(int ii) {
   // set new watchdog timeout value
   WDTCR = bb;
   WDTCR |= _BV(WDIE);
+}
+
+boolean isPQTReached() {
+  return ReadReg(REG_PKTSTATUS) && B00100000;
 }
 
 void WriteReg(char addr, char value){

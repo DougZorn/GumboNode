@@ -95,29 +95,30 @@ void listenForPacket() {
   WriteReg(REG_IOCFG1,0x01);
   delay(20);
   unsigned long currentMillis = millis();
-  if (digitalRead(MISO)) {
+  if (digitalRead(MISO)) {      
     char PacketLength = ReadReg(CC2500_RXFIFO);
     char recvPacket[PacketLength];
     if(PacketLength == 8) {
-      //Serial.println("Packet Received!");
-      //Serial.print("Packet Length: ");
-      //Serial.println(PacketLength, DEC);
-      //Serial.print("Data: ");
+      Serial.println("Packet Received!");
+      Serial.print("Packet Length: ");
+      Serial.println(PacketLength, DEC);
+      Serial.print("Data: ");
       for(int i = 1; i < PacketLength; i++){
         recvPacket[i] = ReadReg(CC2500_RXFIFO);
-        //Serial.print(recvPacket[i], DEC);
-        //Serial.print(" ");
+        Serial.print(recvPacket[i], DEC);
+        Serial.print(" ");
       }
-      //Serial.println(" ");
+      Serial.println(" ");
       byte rssi = ReadReg(CC2500_RXFIFO);
       byte lqi = ReadReg(CC2500_RXFIFO);
-      if(recvPacket[1] == 'd') {
+      byte PQTReached = isPQTReached();
+      if(recvPacket[1] == 'd' && PQTReached) {
         if (addIfHigherQuality(recvPacket[3], recvPacket[4], recvPacket[5], lqi, recvPacket[7])) {
           Serial.println("Data updated!");
         } else { 
           Serial.println("Data discarded");
         }
-      } else if (recvPacket[1] == 'w') {
+      } else if (recvPacket[1] == 'w' && PQTReached) {
         lastSync = millis();
         Serial.println("Sync Received!");
       } else {
@@ -337,6 +338,10 @@ double getTemp(void) {
 void gumboSleep() {
   delay(sleepTime);
   sendSync = true;
+}
+
+boolean isPQTReached() {
+  return ReadReg(REG_PKTSTATUS) && B00100000;
 }
 
 void WriteReg(char addr, char value){
