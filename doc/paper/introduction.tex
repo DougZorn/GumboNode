@@ -1,3 +1,36 @@
 \section{Introduction}
 
-Wireless sensor nodes consist of low-cost microcontrollers with a few sensors attached. Their low cost, small size, and low power consumption make them extremely attractive for deployment over large areas or areas inaccessible to humans. However, this benefit precludes the ability to repair or maintain a specific individual node. As such, nodes need to be as cheap and power efficient as possible.
+Wireless sensor networks generally consist of a large number of small computers, or nodes, often built using micro-controllers.
+There has been increasing interest in being able to construct such a network with and manage it with a fully distributed,
+ad-hoc protocol.  This has been enabled by advances in the size, power consumption, and overall efficiency of the
+core hardware components of the network, along with advances in development and simulation tools.  Sensor networks have
+already generated a considerable amount of interest among academic researchers, numerous private companies including
+start-ups, and with various government, especially military, organizations.
+
+Monetary cost and power consumption continue to be limiting factors, however, and although the quality of hardware expected to
+continue to improve,
+applications involving wireless sensor networks often require, hundreds, or even thousands of nodes,
+even small differences in cost are multiplied.
+Furthermore, engineers designing these sensor networks must select between hardware components currently available on
+the market, which can introduce considerable price-thresholds into the design process.  For example, the difference in cost
+between a micro-controller with 8MB and 32MB of flash memory is only a few dollars, but this could easily represent a
+thousands of dollars of cost difference between a network requiring less than 8MB of memory on each node and a network
+requiring more than 8MB.  Furthermore, the power consumption of larger chips is greater as well, meaning a few extra
+kilo-bytes of memory could also add battery and logistical costs.  Smaller micro-controllers also have less IO pins and
+a generally have a slower clock-speed so thresholds exist in around those parameters as well.  Although the overall efficiency of
+hardware is expected to improve while cost continues to decrease, wireless sensor engineers will have to contend with price/feature
+thresholds for the foreseeable future.
+
+In this paper, we would like to explore the cost of building a low power wireless network.  We propose several protocols
+designed to minimize the total cost of a network, in terms of hardware and power usage.  We then demonstrate the throughput and
+other network characteristics possible with these schemes, which are not ideal, but are workable for many applications, and
+represents the minimum cost/functionality available with current technology.  We believe this serves as a useful demonstration
+of what can be expected from a functional, bare-bones wireless sensor network and the cost and difficulty of implementing it.
+
+The protocols we discuss could be implemented with minimal difficulty, from scratch, on even the lowest-end micro-controllers
+available.  We also discuss implementing them on Contiki~\cite{contiki},
+an open-source operating system for small-scale networked devices which is accompanied by an open-source simulator,
+Cooja~\cite{cooja}.  With this we hope to demonstrate the capabilities and cost of a minimally-effective distributed
+wireless sensor network and how it can be applied to a variety of applications.
+
+%Wireless sensor nodes consist of low-cost microcontrollers with a few sensors attached. Their low cost, small size, and low power consumption make them extremely attractive for deployment over large areas or areas inaccessible to humans. However, this benefit precludes the ability to repair or maintain a specific individual node. As such, nodes need to be as cheap and power efficient as possible.
