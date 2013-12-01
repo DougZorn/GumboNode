@@ -1,20 +1,48 @@
 \section{Related Work}
 
 \begin{quote}
-\emph{``There’s Plenty of Room at the Bottom.''} – Richard Feynman
+\emph{``There's Plenty of Room at the Bottom.''} – Richard Feynman
 \end{quote}
 
-Work on this was inspired after an investigation of Mainland’s paper that implemented a network that took actions based on an energy cost to reward ratio [1]. Primary criticisms included the cost of actual hardware and the relative inefficiency of the network communication. Additionally, we wanted to investigate what OS solutions existed besides TinyOS.
+Wireless sensor networks have attracted considerable research interest, but much of the early groundwork in the field
+is still being laid.  Min et. al.~\cite{min01} discusses general technologies useful for designing low-power networks.
+They also discuss the general clustering strategies to reduce overall power dissipation, such as the clustering strategy
+of the Low Energy Adaptive Clustering Hierarchy (LEACH) protocol~\cite{heinzelman00}.  This dynamically partitions nodes
+into clusters to reduce the overall energy dissipation through network packets.  LEACH also provides a mechanism to
+designate one node a ``cluster-head'', to handle the majority of the input and output for the cluster.  The cluster-head
+designation is rotated all the nodes in the system to balance power usage and general wear-and-tear.  Various improvements
+on LEACH have been proposed, many of which are covered by~\cite{ramesh11}.  Schurgers et. al.~\cite{schurgers02} recognizes
+that radios mainly need to be on to forward data and manages their on/off cycles based on the network density and its
+forwarding needs.  Finally, Mainland et. al.~\cite{mainland05} proposes determining node behavior based on assigning value
+to certain data and actions and assign costs to power usage.
+All of these proposals are based around creating an ad-hoc topology for the wireless nodes.  Though
+this could be useful for many applications, we wish to explore a more undirected solution which can be implemented on more
+modest hardware.
 
-\subsection{Hardware}
 
-\subsection{Network Communication}
+Other research has focused on improving the tools and paradigms for designing sensor networks.  Telos~\cite{telos} is a
+low-power wireless sensor module (``mote'') developed to aid in wireless sensor research.  TinyOS~\cite{tinyos} is an
+open-source operating system for wireless sensor networks.  It provides a custom C and Java programming environment and
+supports many different hardware platforms.  Nano-RK~\cite{eswaran05} is an operating system designed to meet deadline
+criteria while scheduling multi-tasked applications on wireless sensor networks.  EMERALDS~\cite{zuberi99} is a
+micro-kernel specifically designed for small systems.  Contiki~\cite{contiki} is an open source operating system designed
+to provide modern protocol support to low-power micro-controllers, it is also the OS we use to evaluate our protocols
+in this paper.
+While there are many applications which could benefit from these
+systems, they cannot be implemented in the lowest-end hardware available and represent greater complexity than may be
+necessary given the relatively small datasets and throughput requirements of some sensor network applications.
 
-\subsection{Sensor Network Operating Systems}
+%Work on this was inspired after an investigation of Mainland’s paper that implemented a network that took actions based on an energy cost to reward ratio [1]. Primary criticisms included the cost of actual hardware and the relative inefficiency of the network communication. Additionally, we wanted to investigate what OS solutions existed besides TinyOS.
 
-Mainland’s paper simulated the nodes in TinyOS. TinyOS [2]
-Nano-RK is an operating system developed at Carnegie-Mellon University. RK stands for Resource Kernel, as it attempts to meet an energy budget by limiting CPU cycles or network usage [3]. 
-
-There are a number of other microcontroller operating systems such as EMERALDS [4], but none could be found that would run on the limited resources of our microcontroller and still have wireless functionality.
-
-ContikiOS [5]
+%\subsection{Hardware}
+%
+%\subsection{Network Communication}
+%
+%\subsection{Sensor Network Operating Systems}
+%
+%Mainland’s paper simulated the nodes in TinyOS. TinyOS [2]
+%Nano-RK is an operating system developed at Carnegie-Mellon University. RK stands for Resource Kernel, as it attempts to meet an energy budget by limiting CPU cycles or network usage [3]. 
+%
+%There are a number of other microcontroller operating systems such as EMERALDS [4], but none could be found that would run on the limited resources of our microcontroller and still have wireless functionality.
+%
+%ContikiOS [5]

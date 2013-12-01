@@ -21,16 +21,19 @@ a generally have a slower clock-speed so thresholds exist in around those parame
 hardware is expected to improve while cost continues to decrease, wireless sensor engineers will have to contend with price/feature
 thresholds for the foreseeable future.
 
-In this paper, we would like to explore the cost of building a low power wireless network.  We propose several protocols
-designed to minimize the total cost of a network, in terms of hardware and power usage.  We then demonstrate the throughput and
+In this paper, we would like to explore the cost of building a low power wireless network.  We particularly wish to
+propose a distributed network built using the very lowest-end micro-controllers and wireless chips currently available on the market.
+We propose several protocols designed to implement a peer-to-peer, distributed system while minimizing the total cost
+of a network, in terms of hardware and power usage.  We then demonstrate the throughput and
 other network characteristics possible with these schemes, which are not ideal, but are workable for many applications, and
-represents the minimum cost/functionality available with current technology.  We believe this serves as a useful demonstration
-of what can be expected from a functional, bare-bones wireless sensor network and the cost and difficulty of implementing it.
+represents the minimum cost/functionality available with current technology.
 
 The protocols we discuss could be implemented with minimal difficulty, from scratch, on even the lowest-end micro-controllers
-available.  We also discuss implementing them on Contiki~\cite{contiki},
+available, using modern, open-source development tools.  We also discuss implementing them on Contiki~\cite{contiki},
 an open-source operating system for small-scale networked devices which is accompanied by an open-source simulator,
 Cooja~\cite{cooja}.  With this we hope to demonstrate the capabilities and cost of a minimally-effective distributed
-wireless sensor network and how it can be applied to a variety of applications.
+wireless sensor network and how it can be applied to a variety of applications.  We believe this serves as a useful demonstration
+of what can be expected from a functional, bare-bones, distributed, wireless sensor network and the cost and
+difficulty of implementing it.
 
 %Wireless sensor nodes consist of low-cost microcontrollers with a few sensors attached. Their low cost, small size, and low power consumption make them extremely attractive for deployment over large areas or areas inaccessible to humans. However, this benefit precludes the ability to repair or maintain a specific individual node. As such, nodes need to be as cheap and power efficient as possible.
