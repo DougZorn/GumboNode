@@ -2,20 +2,22 @@
 
 Wireless sensor networks generally consist of a large number of small computers, or nodes, often built using micro-controllers.
 There has been increasing interest in being able to construct such a network with and manage it with a fully distributed,
-ad-hoc protocol.  This has been enabled by advances in the size, power consumption, and overall efficiency of the
+ad-hock protocol.  This has been enabled by advances in the size, power consumption, and overall efficiency of the
 core hardware components of the network, along with advances in development and simulation tools.  Sensor networks have
 already generated a considerable amount of interest among academic researchers, numerous private companies including
 start-ups, and with various government, especially military, organizations.
 
 Monetary cost and power consumption continue to be limiting factors, however, and although the quality of hardware expected to
-continue to improve,
-applications involving wireless sensor networks often require, hundreds, or even thousands of nodes,
+continue to improve, applications involving wireless sensor networks often require, hundreds, or even thousands of nodes,
 even small differences in cost are multiplied.
-Furthermore, engineers designing these sensor networks must select between hardware components currently available on
-the market, which can introduce considerable price-thresholds into the design process.  For example, the difference in cost
-between a micro-controller with 8MB and 32MB of flash memory is only a few dollars, but this could easily represent a
-thousands of dollars of cost difference between a network requiring less than 8MB of memory on each node and a network
-requiring more than 8MB.  Furthermore, the power consumption of larger chips is greater as well, meaning a few extra
+
+Furthermore, the cookie-cutter manufacturing process of modern digital hardware, which has allowed the performance-to-price
+ratio to improve dramatically over the last few decades, also requires that engineers designing sensor networks pick from
+the chips currently available on the market.  This can introduce considerable price-thresholds into the design process.
+For example, the difference in cost
+between a micro-controller with 8kB and 32kB of flash memory is often only a few dollars, but this could easily represent a
+thousands of dollars of cost difference between a network requiring less than 8kB of memory on each node and a network
+requiring more than 8kB.  Furthermore, the power consumption of larger chips is greater as well, meaning a few extra
 kilo-bytes of memory could also add battery and logistical costs.  Smaller micro-controllers also have less IO pins and
 a generally have a slower clock-speed so thresholds exist in around those parameters as well.  Although the overall efficiency of
 hardware is expected to improve while cost continues to decrease, wireless sensor engineers will have to contend with price/feature
@@ -28,12 +30,20 @@ of a network, in terms of hardware and power usage.  We then demonstrate the thr
 other network characteristics possible with these schemes, which are not ideal, but are workable for many applications, and
 represents the minimum cost/functionality available with current technology.
 
-The protocols we discuss could be implemented with minimal difficulty, from scratch, on even the lowest-end micro-controllers
-available, using modern, open-source development tools.  We also discuss implementing them on Contiki~\cite{contiki},
+We do this with platforms like Arduino~\cite{arduino} in mind.  Arduino is a micro-controller development board built
+around open source hardware, designed to be easy to develop on and network together, with one of the stated goals of
+the project being to increase the accessibility of multi-disciplinary projects.  Combined with the continued improvement
+of micro-kernels, simulators, and other platforms to facilitate the design of sensor networks, we believe the technology
+is only becoming more accessible.
+
+The protocols we discuss could be implemented with minimal difficulty, without prior infrastructure, on even the lowest-end
+micro-controllers available.  We do this because low-end chips such as the ATtiny~\cite{attinyds} can come with as little as
+2kB of memory, which is too small for most micro-kernels, and such chips are rarely given technical support.  We also discuss
+implementing them on Contiki~\cite{contiki},
 an open-source operating system for small-scale networked devices which is accompanied by an open-source simulator,
 Cooja~\cite{cooja}.  With this we hope to demonstrate the capabilities and cost of a minimally-effective distributed
 wireless sensor network and how it can be applied to a variety of applications.  We believe this serves as a useful demonstration
 of what can be expected from a functional, bare-bones, distributed, wireless sensor network and the cost and
 difficulty of implementing it.
 
-%Wireless sensor nodes consist of low-cost microcontrollers with a few sensors attached. Their low cost, small size, and low power consumption make them extremely attractive for deployment over large areas or areas inaccessible to humans. However, this benefit precludes the ability to repair or maintain a specific individual node. As such, nodes need to be as cheap and power efficient as possible.
+%Wireless sensor nodes consist of low-cost micro-controllers with a few sensors attached. Their low cost, small size, and low power consumption make them extremely attractive for deployment over large areas or areas inaccessible to humans. However, this benefit precludes the ability to repair or maintain a specific individual node. As such, nodes need to be as cheap and power efficient as possible.

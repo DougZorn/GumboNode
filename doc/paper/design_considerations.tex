@@ -1,0 +1,20 @@
+\section{Design Considerations}
+
+Cost remains a major limiting factor in the adoption of sensor networks.  Though the performance-to-price ratio of
+hardware is expected to continue to improve, even small differences in price are multiplied across numerous nodes,
+and the cookie-cutter manufacturing process of modern digital hardware, which has delivered increasingly powerful
+chips for increasingly low costs, also presents cost thresholds to the design process.  This is not likely to change
+anytime soon.
+
+We present several protocols designed to create a minimal-effort, minimal-cost, low-power distributed sensor network
+which can be implemented with relatively little effort without using external infrastructure, such as micro-kernel or
+embedded OSs like EMERALD~\cite{zuberi99} or TinyOS~\cite{tinyos}.  We do this with low-end micro-controllers, such
+as the ATtiny~\cite{attinyds}, in mind.
+
+The primary mechanism to save power on a sensor network is to turn the node's radio off.  This presents an inherent
+challenge, especially for peer-to-peer systems because when the radio is off, the node is effectively removed from
+the network.  We explore two different strategies for tackling this problem, the first, discussed in
+Section~\ref{section:heart_beat_protocol} is to dynamically put the nodes
+on a synchronized schedule, the other, discussed in Section~\ref{section:random_dc} is to turn the radio on and off
+based on duty-cycles which should guarantee an intersection over regular intervals.
+
