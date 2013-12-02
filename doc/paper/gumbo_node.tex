@@ -1,4 +1,5 @@
 \section{GumboNode}
+\label{section:gumbo_node}
 
 \begin{figure}[h!]
   \centering
@@ -16,7 +17,8 @@
   }
 \end{figure}
 
-We developed GumboNodes. GumboNodes are barebones sensor nodes consisting of a microcontroller, a wireless transceiver, a sensor, and a battery. In our specific hardware, the system already comes on-board with a temperature sensor. 
+In order to accuratly profile the network, we have created minimum-cost hardware nodes to test the protocols on, which we have named
+\textbf{GumboNodes}.  GumboNodes are barebones sensor nodes consisting of a microcontroller, a wireless transceiver, a sensor, and a battery. In our specific hardware, the system already comes on-board with a temperature sensor. 
 
 We selected the ATTiny85 as the microcontroller for the chip. The ATTiny85 is a low-cost, low-power 8-bit processor. It is Arduino-compatible and has a wide range of options to optimize the processor for power consumption. Table 1 provides power information from the datasheet [6]. In the lowest power mode, the processor uses less than 2 μA. There are only two ways to wake the chip from this deep sleep: an external interrupt caused by a logic level change on an input pin, or periodically by an internal oscillator known as the watchdog timer. The watchdog timer has maximum time limit of 8 seconds after which the microcontroller automatically wakes up and enters idle state. The system may immediately be put back to sleep, or act after it wakes up a certain number of times.
 

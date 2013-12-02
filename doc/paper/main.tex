@@ -1,7 +1,6 @@
 \documentclass[12pt,twocolumn]{article}
 \usepackage{graphicx}
 \usepackage{multicol}
-\usepackage{spreadtab}
 
 \begin{document}
 
@@ -22,7 +21,37 @@
 \end{multicols}
 
 \begin{abstract}
-We have developed an extremely low-cost wireless sensor node, and have maximized its life by implementing a variety of power-conservation techniques. We introduce a localization system using received signal strength indicators provided when the wireless transceiver receives a packet to account for variations in measurements due to distance. We first demonstrate our system in  ContikiOS. Next we construct twenty of these nodes using off-the-shelf hardware on an extremely limited budget.. Finally, we also construct a gateway to enable communication between simulated nodes and hardware. 
+Ad-hoc wireless sensor networks are predicted to increase in use significantly as advances in their core
+hardware components continue.  They have already attracted considerable interest in academia and have
+been successfully deployed for a variety of applications.  Despite advances in this area, cost and power
+limitations remain the major obstacles to their use.
+
+In this paper we explore the general problem of transferring data around a network
+at minimal cost.  We present several protocols to transfer data across an ad-hoc network while
+preserving the data's locality.  We will explore the problem of exchanging throughput for power
+savings and will demonstrate what is possible in terms of through-put and power use with hardware
+currently available on the market.  With this we hope to demonstrate the cost trade-offs associated
+with wireless ad-hoc networks today how throughput can be sacrificed for power savings.
+
+%Wireless sensor networks are predicted to increase in use significantly as advances in their core
+%hardware components continue.  There are already many distributed, wireless sensor networks in use for
+%a variety of applications, including wildlife conservation, security, and general purpose data-transfer
+%networks.  Despite advances in the private sector and the research community in these areas, the
+%primary limiting factor for such networks remain: cost and power consumption.
+%
+%In this paper, we would like to explore the general problem of transferring data around a network
+%while preserving both the information and its locality.  Cost remains an issue in such network, as
+%even a small cost is multiplied among many nodes.  Though memory has gotten increasingly cheap, there
+%remain cut-offs between different models of chips, and even a few KBs of memory can make a significant
+%difference in the project's budget.  We propose a several bare-bones protocols for synchronizing data,
+%which can achieve reasonable through-put rates using a minimum of power and instruction memory.  We
+%will demonstrate the through-put rates achievable with our system and relate them to cost, based on
+%hardware currently available.
+%
+%In this paper we would like to explore low-power wireless sensor networks.  Sensor networks are predicted
+%to increase in use significantly as advances in their core hardware components continue.  
+%
+%We have developed an extremely low-cost wireless sensor node, and have maximized its life by implementing a variety of power-conservation techniques. We introduce a localization system using received signal strength indicators provided when the wireless transceiver receives a packet to account for variations in measurements due to distance. We first demonstrate our system in  ContikiOS. Next we construct twenty of these nodes using off-the-shelf hardware on an extremely limited budget.  Finally, we also construct a gateway to enable communication between simulated nodes and hardware. 
 
 {\bf Keywords:} sensor networks, low power
 \end{abstract}
@@ -30,11 +59,11 @@ We have developed an extremely low-cost wireless sensor node, and have maximized
 
 \input{introduction}
 \input{related_work}
+\input{design_considerations}
 \input{gumbo_node}
 \input{evaluation}
 \input{challenges}
 \input{acknowledgements}
-\input{references}
 
 \bibliographystyle{plain}
 \bibliography{gumbo_bib}
