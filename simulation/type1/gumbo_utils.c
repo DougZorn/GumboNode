@@ -11,7 +11,6 @@ void build_packet(struct gumbo_node_data *, char *);
 void extract_packet_data(const char *, struct gumbo_node_data *);
 int compare_revisions(gumbo_rev_t, gumbo_rev_t);
 struct gumbo_node_data *find_entry(gumbo_addr_t);
-void add_entry(gumbo_addr_t, gumbo_data_t);
 
 BOOL is_opcode_packet(const char *msg)
 {

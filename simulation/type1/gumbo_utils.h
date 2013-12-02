@@ -24,8 +24,8 @@ typedef int BOOL;
 #define CONTINUE_OPCODE   1
 #define STOP_OPCODE       0
 
-#define NEW_DATA  1
-#define OLD_DATA  0
+#define NEW_DATA  10
+#define OLD_DATA  11
 
 #define SUCCESS     1
 #define END_OF_DATA 0

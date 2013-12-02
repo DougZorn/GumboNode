@@ -4,6 +4,7 @@
 #include "sys/ctimer.h"
 #include "sys/node-id.h"
 #include "lib/random.h"
+#include "dev/serial-line.h"
 
 /* master states */
 #define OFF   0
@@ -18,8 +19,8 @@
 
 PROCESS(gumbo_master, "Top-level process for a Gumbo node.");
 PROCESS(gumbo_slave, "Sending and receiving management process.");
-PROCESS(gumbo_data, "Reads data from a generic sensor and updates the database.");
-AUTOSTART_PROCESSES(&gumbo_master, &gumbo_data);
+PROCESS(gumbo_sensor, "Reads data from a generic sensor and updates the database.");
+AUTOSTART_PROCESSES(&gumbo_master, &gumbo_sensor);
 
 struct slave_packet_info {
   gumbo_opcode_t opcode;
@@ -115,7 +116,6 @@ PROCESS_THREAD(gumbo_slave, ev, data)
       case WAITING_FOR_BEGIN:
         if (pinfo->opcode == BEGIN_OPCODE && pinfo->addr == node_address) {
           send_first_data_packet();
-          printf("Sending data packets.\n");
           state = SENDING_DATABASE;
         }
         
@@ -165,14 +165,20 @@ PROCESS_THREAD(gumbo_slave, ev, data)
   PROCESS_END();
 }
 
-PROCESS_THREAD(gumbo_data, ev, data)
+PROCESS_THREAD(gumbo_sensor, ev, data)
 {
   PROCESS_BEGIN();
+  
+  static struct etimer sensor_timer;
+  clock_time_t interval;
 
   while (1) {
-    PROCESS_YIELD();
-    if (ev == serial_line_event_message)
-      g_sensor_data = atoi((const char *) data);
+    interval = ((random_rand() % 300) + 500) * CLOCK_SECOND;
+    etimer_set(&sensor_timer, interval);
+  
+    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&sensor_timer));
+    g_sensor_data = (gumbo_data_t) (random_rand() % 100);
+    printf("Sensor reading: %d\n", g_sensor_data);
   }
 
   PROCESS_END();
@@ -189,18 +195,12 @@ void receive_handler(const char *msg, int len) {
   if (is_opcode_packet(msg)) {
     info.opcode = OPCODE(msg);
     info.addr   = WIDE_DATA(msg);
-//    dump_opcode_info(&info);
     process_post(&gumbo_slave, PROCESS_EVENT_MSG, &info);
   }
   
   else {
     info.opcode = log_and_save(msg);
     info.addr   = 0;
-    
-    /*if (info.opcode == NEW_DATA)
-      printf("New node data received.\n");
-    else if (info.opcode == OLD_DATA)
-      printf("Old node data received.\n");*/
     
     if (info.opcode == NEW_DATA || info.opcode == OLD_DATA)
       process_post(&gumbo_slave, PROCESS_EVENT_MSG, &info);
