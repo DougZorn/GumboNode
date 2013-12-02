@@ -30,14 +30,17 @@ typedef int BOOL;
 #define SUCCESS     1
 #define END_OF_DATA 0
 
-#define OPCODE(msg)     ( *((gumbo_opcode_t *) msg) )
-#define WIDE_DATA(msg)  ( *((gumbo_addr_t *) &msg[sizeof(gumbo_opcode_t)]) )
+#define CREATE_MOTE_ID(x) ((x) + 4)
+#define OPCODE(msg)       ( *((gumbo_opcode_t *) msg) )
+#define WIDE_DATA(msg)    ( *((gumbo_addr_t *) &msg[sizeof(gumbo_opcode_t)]) )
+
 
 /* packet types */
 typedef uint16_t gumbo_addr_t;
 typedef uint16_t gumbo_opcode_t;
 typedef uint8_t gumbo_data_t;
 typedef uint8_t gumbo_rev_t;
+#define MAX_REVISION 256
 
 struct gumbo_node_data {
   void *next;
@@ -48,6 +51,7 @@ struct gumbo_node_data {
 
 #define MAX_GUMBO_NODES 256
 #define MESSAGE_SIZE (sizeof(gumbo_addr_t) + sizeof(gumbo_data_t) + sizeof(gumbo_rev_t))
+#define RING_INCREMENT(r) ((r == MAX_REVISION-1) ? 0 : r+1)
 
 LIST(gumbo_node_entries);
 MEMB(gumbo_mem_pool, struct gumbo_node_data, MAX_GUMBO_NODES);
@@ -56,11 +60,13 @@ BOOL is_opcode_packet(const char *);
 BOOL is_data_packet(const char *);
 
 int log_and_save(const char *);
+void read_temperature(gumbo_addr_t);
 
 void send_query_message(gumbo_addr_t);
 void send_confirm_message(gumbo_addr_t);
 void send_continue_message(gumbo_addr_t);
 void send_stop_message(gumbo_addr_t);
+void send_begin_message(gumbo_addr_t);
 
 int send_first_data_packet();
 int send_next_data_packet();

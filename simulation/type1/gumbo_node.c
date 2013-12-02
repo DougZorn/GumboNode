@@ -10,7 +10,7 @@
 #define ON    1
 
 /* slave states */
-#define WAITING_FOR_CONTINUE    1
+#define WAITING_FOR_BEGIN    1
 #define WAITING_FOR_CONFIRM     2
 #define WAITING_FOR_QUERY       3
 #define WAITING_FOR_DATA        4
@@ -41,9 +41,10 @@ PROCESS_THREAD(gumbo_master, ev, data)
   
   clock_time_t interval;
 
-  node_address = (gumbo_addr_t) simMoteID;
+  node_address = CREATE_MOTE_ID((gumbo_addr_t) simMoteID);
 
   list_init(gumbo_node_entries);
+  memb_init(&gumbo_mem_pool);
   
   interval = (random_rand() % 5 + 20) * CLOCK_SECOND;
   etimer_set(&on_off_timer, interval);
@@ -93,19 +94,23 @@ PROCESS_THREAD(gumbo_slave, ev, data)
   
   static struct ctimer send_timer;
   clock_time_t interval = (random_rand() % 5 + 1) * CLOCK_SECOND;
-  ctimer_set(&send_timer, interval, send_query_handler, &node_address);
+  
+  read_temperature(node_address);
+  
+  if (random_rand() % 5 == 0)
+    ctimer_set(&send_timer, interval, send_query_handler, &state);
   
   while (1) {
     PROCESS_WAIT_EVENT_UNTIL(ev == PROCESS_EVENT_MSG);
     pinfo = (struct slave_packet_info *) data;
     
-    if (pinfo->opcode == QUERY_OPCODE) {
+    if (pinfo->opcode == QUERY_OPCODE && (state == WAITING_FOR_QUERY || state == WAITING_FOR_BEGIN)) {
       send_confirm_message(node_address);
-      state = WAITING_FOR_CONTINUE;
+      state = WAITING_FOR_BEGIN;
     } else {
       switch (state) {
-      case WAITING_FOR_CONTINUE:
-        if (pinfo->opcode == CONTINUE_OPCODE && pinfo->addr == node_address) {
+      case WAITING_FOR_BEGIN:
+        if (pinfo->opcode == BEGIN_OPCODE && pinfo->addr == node_address) {
           send_first_data_packet();
           printf("Sending data packets.\n");
           state = SENDING_DATABASE;
@@ -129,7 +134,7 @@ PROCESS_THREAD(gumbo_slave, ev, data)
       case WAITING_FOR_CONFIRM:
         if (pinfo->opcode == CONFIRM_OPCODE) {
           sender_address = pinfo->addr;
-          send_continue_message(sender_address);
+          send_begin_message(sender_address);
           state = WAITING_FOR_DATA;
         }
         
@@ -168,7 +173,7 @@ void receive_handler(const char *msg, int len) {
   if (is_opcode_packet(msg)) {
     info.opcode = OPCODE(msg);
     info.addr   = WIDE_DATA(msg);
-    dump_opcode_info(&info);
+//    dump_opcode_info(&info);
     process_post(&gumbo_slave, PROCESS_EVENT_MSG, &info);
   }
   
@@ -176,10 +181,10 @@ void receive_handler(const char *msg, int len) {
     info.opcode = log_and_save(msg);
     info.addr   = 0;
     
-    if (info.opcode == NEW_DATA)
+    /*if (info.opcode == NEW_DATA)
       printf("New node data received.\n");
     else if (info.opcode == OLD_DATA)
-      printf("Old node data received.\n");
+      printf("Old node data received.\n");*/
     
     if (info.opcode == NEW_DATA || info.opcode == OLD_DATA)
       process_post(&gumbo_slave, PROCESS_EVENT_MSG, &info);
@@ -187,8 +192,9 @@ void receive_handler(const char *msg, int len) {
 }
 
 void send_query_handler(void *arg) {
-  gumbo_addr_t *ptr_addr = (gumbo_addr_t *) arg;
-  send_query_message(*ptr_addr);
+  int *ptr_slave_state = (int *) arg;
+  send_query_message(node_address);
+  *ptr_slave_state = WAITING_FOR_CONFIRM;
 }
 
 void dump_opcode_info(struct slave_packet_info *info) {
