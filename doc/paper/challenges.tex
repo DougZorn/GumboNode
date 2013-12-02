@@ -2,10 +2,12 @@
 \label{section:challenges}
 
 The ATTiny85 is extremely limited on General Purpose Input Output (GPIO) pins. The entire chip only has 8 pins; after reset, power, and ground the user is left with only five pins to work with. 1
-There are concerns of networks splitting and forming two separately synced networks, even more so in hardware where the watchdog is an imprecise timer. 
+There are concerns of networks splitting and forming two separately synced networks, even more so in hardware where the watchdog is an imprecise timer.
 
-It was surprising how easily bad data . Werner-Allen et al. mention similar problems in their flooding time syncronization protocol. 
+The CC2500 is a very low-level radio transceiver. As such a significant amount of 'bit-banging' 
+
+It was surprising how easily bad data passed preamble, checksum, packet length, and opcode checks. Four forms of validation still was insufficient. Werner-Allen et. al.  mention similar problems with their flooding time syncronization protocol despite using the more sophisticated Zigbee-compatible CC2420 provided on the Telos mote they used ~\cite{wernerallen}. 
 
 Ensuring a transmission is guaranteed to be received by at least 1 node was surprisingly difficult in smaller networks. The larger network test showed no sync loss, but on the 2-3 node network tests nodes fell out of sync around once per minute.
 
-Lengths of cables caused problems in this low power environment. The jumper wires between the nodes and the transceiver were made by the lowest bidder, and had a tendency to lose parts of the signal. While not difficult to measure, we are confident that this significantly contributed to the packet errors. Along with this, the USB cable used for serial communication was too long, resulting in more frequent serial print errors until the Uno locked up and had to be reset. During the long-term network test the Uno would begin sending corrupted messages within an hour, and would lock up within four hours.
+Lengths of cables caused problems in this low power environment. The jumper wires between the nodes and the transceiver were made by the lowest bidder, and had a tendency to lose parts of the signal. While not difficult to measure, we are confident that this significantly contributed to the packet errors. Along with this, the USB cable used for serial communication was too long, eventually resulting in serial print errors that would lock the Uno and force a reset. During the long-term network test the Uno required frequent restarting. Fortunately, it regained the node list quite quickly (including any fake nodes).
