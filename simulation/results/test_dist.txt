@@ -1,0 +1,2510 @@
+6	ID:105	Contiki 2.6 started. Node id is set to 105.
+6	ID:105	Rime started with address 105.0
+6	ID:105	MAC 69:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+6	ID:105	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+9	ID:40	Contiki 2.6 started. Node id is set to 40.
+9	ID:40	Rime started with address 40.0
+9	ID:40	MAC 28:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+9	ID:40	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+11	ID:39	Contiki 2.6 started. Node id is set to 39.
+11	ID:39	Rime started with address 39.0
+11	ID:39	MAC 27:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+11	ID:39	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+13	ID:154	Contiki 2.6 started. Node id is set to 154.
+13	ID:154	Rime started with address 154.0
+13	ID:154	MAC 9a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+13	ID:154	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+14	ID:159	Contiki 2.6 started. Node id is set to 159.
+14	ID:159	Rime started with address 159.0
+14	ID:159	MAC 9f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+14	ID:159	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+35	ID:21	Contiki 2.6 started. Node id is set to 21.
+35	ID:21	Rime started with address 21.0
+35	ID:21	MAC 15:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+35	ID:21	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+36	ID:68	Contiki 2.6 started. Node id is set to 68.
+36	ID:68	Rime started with address 68.0
+36	ID:68	MAC 44:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+36	ID:68	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+51	ID:99	Contiki 2.6 started. Node id is set to 99.
+51	ID:99	Rime started with address 99.0
+51	ID:99	MAC 63:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+51	ID:99	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+52	ID:166	Contiki 2.6 started. Node id is set to 166.
+52	ID:166	Rime started with address 166.0
+52	ID:166	MAC a6:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+52	ID:166	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+54	ID:4	Contiki 2.6 started. Node id is set to 4.
+54	ID:4	Rime started with address 4.0
+54	ID:4	MAC 04:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+54	ID:4	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+59	ID:186	Contiki 2.6 started. Node id is set to 186.
+59	ID:186	Rime started with address 186.0
+59	ID:186	MAC ba:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+59	ID:186	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+61	ID:192	Contiki 2.6 started. Node id is set to 192.
+61	ID:192	Rime started with address 192.0
+61	ID:192	MAC c0:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+61	ID:192	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+63	ID:60	Contiki 2.6 started. Node id is set to 60.
+63	ID:60	Rime started with address 60.0
+63	ID:60	MAC 3c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+63	ID:60	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+64	ID:111	Contiki 2.6 started. Node id is set to 111.
+64	ID:111	Rime started with address 111.0
+64	ID:111	MAC 6f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+64	ID:111	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+66	ID:10	Contiki 2.6 started. Node id is set to 10.
+66	ID:10	Rime started with address 10.0
+66	ID:10	MAC 0a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+66	ID:10	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+76	ID:131	Contiki 2.6 started. Node id is set to 131.
+76	ID:131	Rime started with address 131.0
+76	ID:131	MAC 83:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+76	ID:131	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+82	ID:88	Contiki 2.6 started. Node id is set to 88.
+82	ID:88	Rime started with address 88.0
+82	ID:88	MAC 58:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+82	ID:88	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+84	ID:41	Contiki 2.6 started. Node id is set to 41.
+84	ID:41	Rime started with address 41.0
+84	ID:41	MAC 29:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+84	ID:41	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+86	ID:29	Contiki 2.6 started. Node id is set to 29.
+86	ID:29	Rime started with address 29.0
+86	ID:29	MAC 1d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+86	ID:29	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+96	ID:98	Contiki 2.6 started. Node id is set to 98.
+96	ID:98	Rime started with address 98.0
+96	ID:98	MAC 62:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+96	ID:98	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+97	ID:33	Contiki 2.6 started. Node id is set to 33.
+97	ID:33	Rime started with address 33.0
+97	ID:33	MAC 21:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+97	ID:33	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+106	ID:81	Contiki 2.6 started. Node id is set to 81.
+106	ID:81	Rime started with address 81.0
+106	ID:81	MAC 51:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+106	ID:81	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+108	ID:28	Contiki 2.6 started. Node id is set to 28.
+108	ID:28	Rime started with address 28.0
+108	ID:28	MAC 1c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+108	ID:28	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+117	ID:158	Contiki 2.6 started. Node id is set to 158.
+117	ID:158	Rime started with address 158.0
+117	ID:158	MAC 9e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+117	ID:158	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+122	ID:58	Contiki 2.6 started. Node id is set to 58.
+122	ID:58	Rime started with address 58.0
+122	ID:58	MAC 3a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+122	ID:58	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+136	ID:168	Contiki 2.6 started. Node id is set to 168.
+136	ID:168	Rime started with address 168.0
+136	ID:168	MAC a8:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+136	ID:168	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+137	ID:120	Contiki 2.6 started. Node id is set to 120.
+137	ID:120	Rime started with address 120.0
+137	ID:120	MAC 78:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+137	ID:120	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+137	ID:140	Contiki 2.6 started. Node id is set to 140.
+137	ID:140	Rime started with address 140.0
+137	ID:140	MAC 8c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+137	ID:140	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+145	ID:188	Contiki 2.6 started. Node id is set to 188.
+145	ID:188	Rime started with address 188.0
+145	ID:188	MAC bc:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+145	ID:188	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+153	ID:8	Contiki 2.6 started. Node id is set to 8.
+153	ID:8	Rime started with address 8.0
+153	ID:8	MAC 08:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+153	ID:8	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+154	ID:178	Contiki 2.6 started. Node id is set to 178.
+154	ID:178	Rime started with address 178.0
+154	ID:178	MAC b2:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+154	ID:178	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+157	ID:32	Contiki 2.6 started. Node id is set to 32.
+157	ID:32	Rime started with address 32.0
+157	ID:32	MAC 20:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+157	ID:32	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+164	ID:124	Contiki 2.6 started. Node id is set to 124.
+164	ID:124	Rime started with address 124.0
+164	ID:124	MAC 7c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+164	ID:124	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+173	ID:14	Contiki 2.6 started. Node id is set to 14.
+173	ID:14	Rime started with address 14.0
+173	ID:14	MAC 0e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+173	ID:14	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+180	ID:175	Contiki 2.6 started. Node id is set to 175.
+180	ID:175	Rime started with address 175.0
+180	ID:175	MAC af:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+180	ID:175	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+181	ID:199	Contiki 2.6 started. Node id is set to 199.
+181	ID:199	Rime started with address 199.0
+181	ID:199	MAC c7:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+181	ID:199	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+187	ID:11	Contiki 2.6 started. Node id is set to 11.
+187	ID:11	Rime started with address 11.0
+187	ID:11	MAC 0b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+187	ID:11	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+200	ID:75	Contiki 2.6 started. Node id is set to 75.
+200	ID:75	Rime started with address 75.0
+200	ID:75	MAC 4b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+200	ID:75	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+201	ID:152	Contiki 2.6 started. Node id is set to 152.
+201	ID:152	Rime started with address 152.0
+201	ID:152	MAC 98:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+201	ID:152	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+203	ID:5	Contiki 2.6 started. Node id is set to 5.
+203	ID:5	Rime started with address 5.0
+203	ID:5	MAC 05:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+203	ID:5	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+209	ID:171	Contiki 2.6 started. Node id is set to 171.
+209	ID:171	Rime started with address 171.0
+209	ID:171	MAC ab:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+209	ID:171	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+209	ID:197	Contiki 2.6 started. Node id is set to 197.
+209	ID:197	Rime started with address 197.0
+209	ID:197	MAC c5:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+209	ID:197	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+215	ID:69	Contiki 2.6 started. Node id is set to 69.
+215	ID:69	Rime started with address 69.0
+215	ID:69	MAC 45:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+215	ID:69	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+221	ID:172	Contiki 2.6 started. Node id is set to 172.
+221	ID:172	Rime started with address 172.0
+221	ID:172	MAC ac:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+221	ID:172	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+222	ID:145	Contiki 2.6 started. Node id is set to 145.
+222	ID:145	Rime started with address 145.0
+222	ID:145	MAC 91:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+222	ID:145	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+224	ID:167	Contiki 2.6 started. Node id is set to 167.
+224	ID:167	Rime started with address 167.0
+224	ID:167	MAC a7:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+224	ID:167	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+226	ID:35	Contiki 2.6 started. Node id is set to 35.
+226	ID:35	Rime started with address 35.0
+226	ID:35	MAC 23:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+226	ID:35	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+226	ID:115	Contiki 2.6 started. Node id is set to 115.
+226	ID:115	Rime started with address 115.0
+226	ID:115	MAC 73:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+226	ID:115	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+231	ID:119	Contiki 2.6 started. Node id is set to 119.
+231	ID:119	Rime started with address 119.0
+231	ID:119	MAC 77:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+231	ID:119	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+254	ID:106	Contiki 2.6 started. Node id is set to 106.
+254	ID:106	Rime started with address 106.0
+254	ID:106	MAC 6a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+254	ID:106	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+255	ID:114	Contiki 2.6 started. Node id is set to 114.
+255	ID:114	Rime started with address 114.0
+255	ID:114	MAC 72:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+255	ID:114	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+257	ID:200	Contiki 2.6 started. Node id is set to 200.
+257	ID:200	Rime started with address 200.0
+257	ID:200	MAC c8:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+257	ID:200	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+264	ID:34	Contiki 2.6 started. Node id is set to 34.
+264	ID:34	Rime started with address 34.0
+264	ID:34	MAC 22:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+264	ID:34	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+271	ID:123	Contiki 2.6 started. Node id is set to 123.
+271	ID:123	Rime started with address 123.0
+271	ID:123	MAC 7b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+271	ID:123	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+273	ID:61	Contiki 2.6 started. Node id is set to 61.
+273	ID:61	Rime started with address 61.0
+273	ID:61	MAC 3d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+273	ID:61	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+274	ID:82	Contiki 2.6 started. Node id is set to 82.
+274	ID:82	Rime started with address 82.0
+274	ID:82	MAC 52:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+274	ID:82	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+279	ID:83	Contiki 2.6 started. Node id is set to 83.
+279	ID:83	Rime started with address 83.0
+279	ID:83	MAC 53:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+279	ID:83	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+280	ID:3	Contiki 2.6 started. Node id is set to 3.
+280	ID:3	Rime started with address 3.0
+280	ID:3	MAC 03:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+280	ID:3	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+280	ID:135	Contiki 2.6 started. Node id is set to 135.
+280	ID:135	Rime started with address 135.0
+280	ID:135	MAC 87:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+280	ID:135	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+280	ID:142	Contiki 2.6 started. Node id is set to 142.
+280	ID:142	Rime started with address 142.0
+280	ID:142	MAC 8e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+280	ID:142	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+285	ID:26	Contiki 2.6 started. Node id is set to 26.
+285	ID:26	Rime started with address 26.0
+285	ID:26	MAC 1a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+285	ID:26	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+293	ID:63	Contiki 2.6 started. Node id is set to 63.
+293	ID:63	Rime started with address 63.0
+293	ID:63	MAC 3f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+293	ID:63	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+298	ID:57	Contiki 2.6 started. Node id is set to 57.
+298	ID:57	Rime started with address 57.0
+298	ID:57	MAC 39:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+298	ID:57	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+303	ID:126	Contiki 2.6 started. Node id is set to 126.
+303	ID:126	Rime started with address 126.0
+303	ID:126	MAC 7e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+303	ID:126	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+303	ID:155	Contiki 2.6 started. Node id is set to 155.
+303	ID:155	Rime started with address 155.0
+303	ID:155	MAC 9b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+303	ID:155	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+307	ID:116	Contiki 2.6 started. Node id is set to 116.
+307	ID:116	Rime started with address 116.0
+307	ID:116	MAC 74:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+307	ID:116	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+312	ID:129	Contiki 2.6 started. Node id is set to 129.
+312	ID:129	Rime started with address 129.0
+312	ID:129	MAC 81:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+312	ID:129	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+319	ID:133	Contiki 2.6 started. Node id is set to 133.
+319	ID:133	Rime started with address 133.0
+319	ID:133	MAC 85:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+319	ID:133	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+324	ID:19	Contiki 2.6 started. Node id is set to 19.
+324	ID:19	Rime started with address 19.0
+324	ID:19	MAC 13:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+324	ID:19	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+325	ID:118	Contiki 2.6 started. Node id is set to 118.
+325	ID:118	Rime started with address 118.0
+325	ID:118	MAC 76:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+325	ID:118	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+330	ID:42	Contiki 2.6 started. Node id is set to 42.
+330	ID:42	Rime started with address 42.0
+330	ID:42	MAC 2a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+330	ID:42	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+337	ID:174	Contiki 2.6 started. Node id is set to 174.
+337	ID:174	Rime started with address 174.0
+337	ID:174	MAC ae:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+337	ID:174	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+337	ID:187	Contiki 2.6 started. Node id is set to 187.
+337	ID:187	Rime started with address 187.0
+337	ID:187	MAC bb:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+337	ID:187	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+344	ID:102	Contiki 2.6 started. Node id is set to 102.
+344	ID:102	Rime started with address 102.0
+344	ID:102	MAC 66:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+344	ID:102	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+344	ID:141	Contiki 2.6 started. Node id is set to 141.
+344	ID:141	Rime started with address 141.0
+344	ID:141	MAC 8d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+344	ID:141	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+346	ID:48	Contiki 2.6 started. Node id is set to 48.
+346	ID:48	Rime started with address 48.0
+346	ID:48	MAC 30:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+346	ID:48	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+361	ID:55	Contiki 2.6 started. Node id is set to 55.
+361	ID:55	Rime started with address 55.0
+361	ID:55	MAC 37:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+361	ID:55	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+366	ID:72	Contiki 2.6 started. Node id is set to 72.
+366	ID:72	Rime started with address 72.0
+366	ID:72	MAC 48:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+366	ID:72	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+366	ID:130	Contiki 2.6 started. Node id is set to 130.
+366	ID:130	Rime started with address 130.0
+366	ID:130	MAC 82:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+366	ID:130	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+367	ID:104	Contiki 2.6 started. Node id is set to 104.
+367	ID:104	Rime started with address 104.0
+367	ID:104	MAC 68:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+367	ID:104	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+370	ID:18	Contiki 2.6 started. Node id is set to 18.
+370	ID:18	Rime started with address 18.0
+370	ID:18	MAC 12:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+370	ID:18	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+376	ID:103	Contiki 2.6 started. Node id is set to 103.
+376	ID:103	Rime started with address 103.0
+376	ID:103	MAC 67:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+376	ID:103	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+381	ID:182	Contiki 2.6 started. Node id is set to 182.
+381	ID:182	Rime started with address 182.0
+381	ID:182	MAC b6:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+381	ID:182	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+398	ID:16	Contiki 2.6 started. Node id is set to 16.
+398	ID:16	Rime started with address 16.0
+398	ID:16	MAC 10:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+398	ID:16	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+400	ID:1	Contiki 2.6 started. Node id is set to 1.
+400	ID:1	Rime started with address 1.0
+400	ID:1	MAC 01:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+400	ID:1	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+402	ID:51	Contiki 2.6 started. Node id is set to 51.
+402	ID:51	Rime started with address 51.0
+402	ID:51	MAC 33:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+402	ID:51	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+418	ID:134	Contiki 2.6 started. Node id is set to 134.
+418	ID:134	Rime started with address 134.0
+418	ID:134	MAC 86:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+418	ID:134	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+426	ID:2	Contiki 2.6 started. Node id is set to 2.
+426	ID:2	Rime started with address 2.0
+426	ID:2	MAC 02:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+426	ID:2	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+429	ID:91	Contiki 2.6 started. Node id is set to 91.
+429	ID:91	Rime started with address 91.0
+429	ID:91	MAC 5b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+429	ID:91	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+433	ID:67	Contiki 2.6 started. Node id is set to 67.
+433	ID:67	Rime started with address 67.0
+433	ID:67	MAC 43:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+433	ID:67	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+439	ID:17	Contiki 2.6 started. Node id is set to 17.
+439	ID:17	Rime started with address 17.0
+439	ID:17	MAC 11:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+439	ID:17	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+442	ID:153	Contiki 2.6 started. Node id is set to 153.
+442	ID:153	Rime started with address 153.0
+442	ID:153	MAC 99:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+442	ID:153	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+444	ID:80	Contiki 2.6 started. Node id is set to 80.
+444	ID:80	Rime started with address 80.0
+444	ID:80	MAC 50:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+444	ID:80	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+444	ID:94	Contiki 2.6 started. Node id is set to 94.
+444	ID:94	Rime started with address 94.0
+444	ID:94	MAC 5e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+444	ID:94	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+445	ID:162	Contiki 2.6 started. Node id is set to 162.
+445	ID:162	Rime started with address 162.0
+445	ID:162	MAC a2:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+445	ID:162	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+451	ID:97	Contiki 2.6 started. Node id is set to 97.
+451	ID:97	Rime started with address 97.0
+451	ID:97	MAC 61:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+451	ID:97	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+455	ID:93	Contiki 2.6 started. Node id is set to 93.
+455	ID:93	Rime started with address 93.0
+455	ID:93	MAC 5d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+455	ID:93	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+458	ID:196	Contiki 2.6 started. Node id is set to 196.
+458	ID:196	Rime started with address 196.0
+458	ID:196	MAC c4:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+458	ID:196	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+463	ID:23	Contiki 2.6 started. Node id is set to 23.
+463	ID:23	Rime started with address 23.0
+463	ID:23	MAC 17:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+463	ID:23	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+464	ID:6	Contiki 2.6 started. Node id is set to 6.
+464	ID:6	Rime started with address 6.0
+464	ID:6	MAC 06:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+464	ID:6	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+467	ID:49	Contiki 2.6 started. Node id is set to 49.
+467	ID:49	Rime started with address 49.0
+467	ID:49	MAC 31:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+467	ID:49	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+482	ID:73	Contiki 2.6 started. Node id is set to 73.
+482	ID:73	Rime started with address 73.0
+482	ID:73	MAC 49:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+482	ID:73	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+486	ID:86	Contiki 2.6 started. Node id is set to 86.
+486	ID:86	Rime started with address 86.0
+486	ID:86	MAC 56:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+486	ID:86	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+487	ID:113	Contiki 2.6 started. Node id is set to 113.
+487	ID:113	Rime started with address 113.0
+487	ID:113	MAC 71:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+487	ID:113	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+490	ID:22	Contiki 2.6 started. Node id is set to 22.
+490	ID:22	Rime started with address 22.0
+490	ID:22	MAC 16:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+490	ID:22	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+490	ID:179	Contiki 2.6 started. Node id is set to 179.
+490	ID:179	Rime started with address 179.0
+490	ID:179	MAC b3:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+490	ID:179	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+493	ID:70	Contiki 2.6 started. Node id is set to 70.
+493	ID:70	Rime started with address 70.0
+493	ID:70	MAC 46:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+493	ID:70	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+494	ID:37	Contiki 2.6 started. Node id is set to 37.
+494	ID:37	Rime started with address 37.0
+494	ID:37	MAC 25:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+494	ID:37	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+496	ID:164	Contiki 2.6 started. Node id is set to 164.
+496	ID:164	Rime started with address 164.0
+496	ID:164	MAC a4:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+496	ID:164	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+498	ID:110	Contiki 2.6 started. Node id is set to 110.
+498	ID:110	Rime started with address 110.0
+498	ID:110	MAC 6e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+498	ID:110	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+516	ID:138	Contiki 2.6 started. Node id is set to 138.
+516	ID:138	Rime started with address 138.0
+516	ID:138	MAC 8a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+516	ID:138	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+519	ID:163	Contiki 2.6 started. Node id is set to 163.
+519	ID:163	Rime started with address 163.0
+519	ID:163	MAC a3:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+519	ID:163	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+539	ID:43	Contiki 2.6 started. Node id is set to 43.
+539	ID:43	Rime started with address 43.0
+539	ID:43	MAC 2b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+539	ID:43	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+547	ID:148	Contiki 2.6 started. Node id is set to 148.
+547	ID:148	Rime started with address 148.0
+547	ID:148	MAC 94:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+547	ID:148	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+561	ID:66	Contiki 2.6 started. Node id is set to 66.
+561	ID:66	Rime started with address 66.0
+561	ID:66	MAC 42:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+561	ID:66	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+563	ID:190	Contiki 2.6 started. Node id is set to 190.
+563	ID:190	Rime started with address 190.0
+563	ID:190	MAC be:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+563	ID:190	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+564	ID:31	Contiki 2.6 started. Node id is set to 31.
+564	ID:31	Rime started with address 31.0
+564	ID:31	MAC 1f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+564	ID:31	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+571	ID:87	Contiki 2.6 started. Node id is set to 87.
+571	ID:87	Rime started with address 87.0
+571	ID:87	MAC 57:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+571	ID:87	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+572	ID:193	Contiki 2.6 started. Node id is set to 193.
+572	ID:193	Rime started with address 193.0
+572	ID:193	MAC c1:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+572	ID:193	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+575	ID:54	Contiki 2.6 started. Node id is set to 54.
+575	ID:54	Rime started with address 54.0
+575	ID:54	MAC 36:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+575	ID:54	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+587	ID:184	Contiki 2.6 started. Node id is set to 184.
+587	ID:184	Rime started with address 184.0
+587	ID:184	MAC b8:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+587	ID:184	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+591	ID:183	Contiki 2.6 started. Node id is set to 183.
+591	ID:183	Rime started with address 183.0
+591	ID:183	MAC b7:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+591	ID:183	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+593	ID:161	Contiki 2.6 started. Node id is set to 161.
+593	ID:161	Rime started with address 161.0
+593	ID:161	MAC a1:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+593	ID:161	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+596	ID:47	Contiki 2.6 started. Node id is set to 47.
+596	ID:47	Rime started with address 47.0
+596	ID:47	MAC 2f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+596	ID:47	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+600	ID:195	Contiki 2.6 started. Node id is set to 195.
+600	ID:195	Rime started with address 195.0
+600	ID:195	MAC c3:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+600	ID:195	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+609	ID:52	Contiki 2.6 started. Node id is set to 52.
+609	ID:52	Rime started with address 52.0
+609	ID:52	MAC 34:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+609	ID:52	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+611	ID:150	Contiki 2.6 started. Node id is set to 150.
+611	ID:150	Rime started with address 150.0
+611	ID:150	MAC 96:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+611	ID:150	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+612	ID:144	Contiki 2.6 started. Node id is set to 144.
+612	ID:144	Rime started with address 144.0
+612	ID:144	MAC 90:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+612	ID:144	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+619	ID:177	Contiki 2.6 started. Node id is set to 177.
+619	ID:177	Rime started with address 177.0
+619	ID:177	MAC b1:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+619	ID:177	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+622	ID:136	Contiki 2.6 started. Node id is set to 136.
+622	ID:136	Rime started with address 136.0
+622	ID:136	MAC 88:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+622	ID:136	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+622	ID:156	Contiki 2.6 started. Node id is set to 156.
+622	ID:156	Rime started with address 156.0
+622	ID:156	MAC 9c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+622	ID:156	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+626	ID:7	Contiki 2.6 started. Node id is set to 7.
+626	ID:7	Rime started with address 7.0
+626	ID:7	MAC 07:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+626	ID:7	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+627	ID:59	Contiki 2.6 started. Node id is set to 59.
+627	ID:59	Rime started with address 59.0
+627	ID:59	MAC 3b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+627	ID:59	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+627	ID:78	Contiki 2.6 started. Node id is set to 78.
+627	ID:78	Rime started with address 78.0
+627	ID:78	MAC 4e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+627	ID:78	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+628	ID:15	Contiki 2.6 started. Node id is set to 15.
+628	ID:15	Rime started with address 15.0
+628	ID:15	MAC 0f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+628	ID:15	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+638	ID:128	Contiki 2.6 started. Node id is set to 128.
+638	ID:128	Rime started with address 128.0
+638	ID:128	MAC 80:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+638	ID:128	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+645	ID:117	Contiki 2.6 started. Node id is set to 117.
+645	ID:117	Rime started with address 117.0
+645	ID:117	MAC 75:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+645	ID:117	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+651	ID:176	Contiki 2.6 started. Node id is set to 176.
+651	ID:176	Rime started with address 176.0
+651	ID:176	MAC b0:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+651	ID:176	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+656	ID:46	Contiki 2.6 started. Node id is set to 46.
+656	ID:46	Rime started with address 46.0
+656	ID:46	MAC 2e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+656	ID:46	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+660	ID:13	Contiki 2.6 started. Node id is set to 13.
+660	ID:13	Rime started with address 13.0
+660	ID:13	MAC 0d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+660	ID:13	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+665	ID:84	Contiki 2.6 started. Node id is set to 84.
+665	ID:84	Rime started with address 84.0
+665	ID:84	MAC 54:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+665	ID:84	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+673	ID:139	Contiki 2.6 started. Node id is set to 139.
+673	ID:139	Rime started with address 139.0
+673	ID:139	MAC 8b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+673	ID:139	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+678	ID:71	Contiki 2.6 started. Node id is set to 71.
+678	ID:71	Rime started with address 71.0
+678	ID:71	MAC 47:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+678	ID:71	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+680	ID:147	Contiki 2.6 started. Node id is set to 147.
+680	ID:147	Rime started with address 147.0
+680	ID:147	MAC 93:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+680	ID:147	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+683	ID:44	Contiki 2.6 started. Node id is set to 44.
+683	ID:44	Rime started with address 44.0
+683	ID:44	MAC 2c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+683	ID:44	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+685	ID:194	Contiki 2.6 started. Node id is set to 194.
+685	ID:194	Rime started with address 194.0
+685	ID:194	MAC c2:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+685	ID:194	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+688	ID:27	Contiki 2.6 started. Node id is set to 27.
+688	ID:27	Rime started with address 27.0
+688	ID:27	MAC 1b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+688	ID:27	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+709	ID:38	Contiki 2.6 started. Node id is set to 38.
+709	ID:38	Rime started with address 38.0
+709	ID:38	MAC 26:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+709	ID:38	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+710	ID:30	Contiki 2.6 started. Node id is set to 30.
+710	ID:30	Rime started with address 30.0
+710	ID:30	MAC 1e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+710	ID:30	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+729	ID:151	Contiki 2.6 started. Node id is set to 151.
+729	ID:151	Rime started with address 151.0
+729	ID:151	MAC 97:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+729	ID:151	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+732	ID:76	Contiki 2.6 started. Node id is set to 76.
+732	ID:76	Rime started with address 76.0
+732	ID:76	MAC 4c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+732	ID:76	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+737	ID:132	Contiki 2.6 started. Node id is set to 132.
+737	ID:132	Rime started with address 132.0
+737	ID:132	MAC 84:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+737	ID:132	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+746	ID:95	Contiki 2.6 started. Node id is set to 95.
+746	ID:95	Rime started with address 95.0
+746	ID:95	MAC 5f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+746	ID:95	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+749	ID:169	Contiki 2.6 started. Node id is set to 169.
+749	ID:169	Rime started with address 169.0
+749	ID:169	MAC a9:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+749	ID:169	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+752	ID:180	Contiki 2.6 started. Node id is set to 180.
+752	ID:180	Rime started with address 180.0
+752	ID:180	MAC b4:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+752	ID:180	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+765	ID:62	Contiki 2.6 started. Node id is set to 62.
+765	ID:62	Rime started with address 62.0
+765	ID:62	MAC 3e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+765	ID:62	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+769	ID:25	Contiki 2.6 started. Node id is set to 25.
+769	ID:25	Rime started with address 25.0
+769	ID:25	MAC 19:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+769	ID:25	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+771	ID:191	Contiki 2.6 started. Node id is set to 191.
+771	ID:191	Rime started with address 191.0
+771	ID:191	MAC bf:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+771	ID:191	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+772	ID:9	Contiki 2.6 started. Node id is set to 9.
+772	ID:9	Rime started with address 9.0
+772	ID:9	MAC 09:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+772	ID:9	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+778	ID:121	Contiki 2.6 started. Node id is set to 121.
+778	ID:121	Rime started with address 121.0
+778	ID:121	MAC 79:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+778	ID:121	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+780	ID:89	Contiki 2.6 started. Node id is set to 89.
+780	ID:89	Rime started with address 89.0
+780	ID:89	MAC 59:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+780	ID:89	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+785	ID:20	Contiki 2.6 started. Node id is set to 20.
+785	ID:20	Rime started with address 20.0
+785	ID:20	MAC 14:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+785	ID:20	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+786	ID:143	Contiki 2.6 started. Node id is set to 143.
+786	ID:143	Rime started with address 143.0
+786	ID:143	MAC 8f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+786	ID:143	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+788	ID:122	Contiki 2.6 started. Node id is set to 122.
+788	ID:122	Rime started with address 122.0
+788	ID:122	MAC 7a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+788	ID:122	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+794	ID:149	Contiki 2.6 started. Node id is set to 149.
+794	ID:149	Rime started with address 149.0
+794	ID:149	MAC 95:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+794	ID:149	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+798	ID:12	Contiki 2.6 started. Node id is set to 12.
+798	ID:12	Rime started with address 12.0
+798	ID:12	MAC 0c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+798	ID:12	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+803	ID:181	Contiki 2.6 started. Node id is set to 181.
+803	ID:181	Rime started with address 181.0
+803	ID:181	MAC b5:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+803	ID:181	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+809	ID:64	Contiki 2.6 started. Node id is set to 64.
+809	ID:64	Rime started with address 64.0
+809	ID:64	MAC 40:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+809	ID:64	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+840	ID:109	Contiki 2.6 started. Node id is set to 109.
+840	ID:109	Rime started with address 109.0
+840	ID:109	MAC 6d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+840	ID:109	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+852	ID:127	Contiki 2.6 started. Node id is set to 127.
+852	ID:127	Rime started with address 127.0
+852	ID:127	MAC 7f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+852	ID:127	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+861	ID:112	Contiki 2.6 started. Node id is set to 112.
+861	ID:112	Rime started with address 112.0
+861	ID:112	MAC 70:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+861	ID:112	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+874	ID:74	Contiki 2.6 started. Node id is set to 74.
+874	ID:74	Rime started with address 74.0
+874	ID:74	MAC 4a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+874	ID:74	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+892	ID:185	Contiki 2.6 started. Node id is set to 185.
+892	ID:185	Rime started with address 185.0
+892	ID:185	MAC b9:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+892	ID:185	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+901	ID:24	Contiki 2.6 started. Node id is set to 24.
+901	ID:24	Rime started with address 24.0
+901	ID:24	MAC 18:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+901	ID:24	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+901	ID:137	Contiki 2.6 started. Node id is set to 137.
+901	ID:137	Rime started with address 137.0
+901	ID:137	MAC 89:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+901	ID:137	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+901	ID:198	Contiki 2.6 started. Node id is set to 198.
+901	ID:198	Rime started with address 198.0
+901	ID:198	MAC c6:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+901	ID:198	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+907	ID:96	Contiki 2.6 started. Node id is set to 96.
+907	ID:96	Rime started with address 96.0
+907	ID:96	MAC 60:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+907	ID:96	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+908	ID:157	Contiki 2.6 started. Node id is set to 157.
+908	ID:157	Rime started with address 157.0
+908	ID:157	MAC 9d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+908	ID:157	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+909	ID:146	Contiki 2.6 started. Node id is set to 146.
+909	ID:146	Rime started with address 146.0
+909	ID:146	MAC 92:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+909	ID:146	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+910	ID:173	Contiki 2.6 started. Node id is set to 173.
+910	ID:173	Rime started with address 173.0
+910	ID:173	MAC ad:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+910	ID:173	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+912	ID:170	Contiki 2.6 started. Node id is set to 170.
+912	ID:170	Rime started with address 170.0
+912	ID:170	MAC aa:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+912	ID:170	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+914	ID:50	Contiki 2.6 started. Node id is set to 50.
+914	ID:50	Rime started with address 50.0
+914	ID:50	MAC 32:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+914	ID:50	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+914	ID:108	Contiki 2.6 started. Node id is set to 108.
+914	ID:108	Rime started with address 108.0
+914	ID:108	MAC 6c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+914	ID:108	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+921	ID:100	Contiki 2.6 started. Node id is set to 100.
+921	ID:100	Rime started with address 100.0
+921	ID:100	MAC 64:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+921	ID:100	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+921	ID:165	Contiki 2.6 started. Node id is set to 165.
+921	ID:165	Rime started with address 165.0
+921	ID:165	MAC a5:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+921	ID:165	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+928	ID:36	Contiki 2.6 started. Node id is set to 36.
+928	ID:36	Rime started with address 36.0
+928	ID:36	MAC 24:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+928	ID:36	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+932	ID:56	Contiki 2.6 started. Node id is set to 56.
+932	ID:56	Rime started with address 56.0
+932	ID:56	MAC 38:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+932	ID:56	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+942	ID:85	Contiki 2.6 started. Node id is set to 85.
+942	ID:85	Rime started with address 85.0
+942	ID:85	MAC 55:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+942	ID:85	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+943	ID:92	Contiki 2.6 started. Node id is set to 92.
+943	ID:92	Rime started with address 92.0
+943	ID:92	MAC 5c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+943	ID:92	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+946	ID:45	Contiki 2.6 started. Node id is set to 45.
+946	ID:45	Rime started with address 45.0
+946	ID:45	MAC 2d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+946	ID:45	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+950	ID:160	Contiki 2.6 started. Node id is set to 160.
+950	ID:160	Rime started with address 160.0
+950	ID:160	MAC a0:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+950	ID:160	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+954	ID:65	Contiki 2.6 started. Node id is set to 65.
+954	ID:65	Rime started with address 65.0
+954	ID:65	MAC 41:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+954	ID:65	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+959	ID:77	Contiki 2.6 started. Node id is set to 77.
+959	ID:77	Rime started with address 77.0
+959	ID:77	MAC 4d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+959	ID:77	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+960	ID:189	Contiki 2.6 started. Node id is set to 189.
+960	ID:189	Rime started with address 189.0
+960	ID:189	MAC bd:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+960	ID:189	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+961	ID:79	Contiki 2.6 started. Node id is set to 79.
+961	ID:79	Rime started with address 79.0
+961	ID:79	MAC 4f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+961	ID:79	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+972	ID:107	Contiki 2.6 started. Node id is set to 107.
+972	ID:107	Rime started with address 107.0
+972	ID:107	MAC 6b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+972	ID:107	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+973	ID:90	Contiki 2.6 started. Node id is set to 90.
+973	ID:90	Rime started with address 90.0
+973	ID:90	MAC 5a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+973	ID:90	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+980	ID:53	Contiki 2.6 started. Node id is set to 53.
+980	ID:53	Rime started with address 53.0
+980	ID:53	MAC 35:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+980	ID:53	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+989	ID:125	Contiki 2.6 started. Node id is set to 125.
+989	ID:125	Rime started with address 125.0
+989	ID:125	MAC 7d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+989	ID:125	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+991	ID:101	Contiki 2.6 started. Node id is set to 101.
+991	ID:101	Rime started with address 101.0
+991	ID:101	MAC 65:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+991	ID:101	Starting 'Top-level process for a Gumbo node.' 'Reads data from a generic sensor and updates the database.'
+500274	ID:82	Sensor reading: 73
+502084	ID:41	Sensor reading: 7
+505645	ID:117	Sensor reading: 62
+508173	ID:14	Sensor reading: 46
+510280	ID:142	Sensor reading: 18
+510519	ID:163	Sensor reading: 20
+511455	ID:93	Sensor reading: 26
+512035	ID:21	Sensor reading: 78
+512082	ID:88	Sensor reading: 39
+512464	ID:6	Sensor reading: 69
+516950	ID:160	Sensor reading: 26
+518366	ID:130	Sensor reading: 89
+521798	ID:12	Sensor reading: 29
+525433	ID:67	Sensor reading: 32
+525539	ID:43	Sensor reading: 43
+526749	ID:169	Sensor reading: 12
+531587	ID:184	Sensor reading: 21
+533959	ID:77	Sensor reading: 85
+534122	ID:58	Sensor reading: 21
+540231	ID:119	Sensor reading: 83
+541809	ID:64	Sensor reading: 30
+547772	ID:9	Sensor reading: 34
+548224	ID:167	Sensor reading: 69
+550493	ID:70	Sensor reading: 4
+550600	ID:195	Sensor reading: 84
+550683	ID:44	Sensor reading: 86
+551136	ID:168	Sensor reading: 84
+552108	ID:28	Sensor reading: 77
+555280	ID:135	Sensor reading: 25
+557376	ID:103	Sensor reading: 60
+558209	ID:171	Sensor reading: 53
+558346	ID:48	Sensor reading: 76
+559498	ID:110	Sensor reading: 44
+559960	ID:189	Sensor reading: 28
+560921	ID:165	Sensor reading: 42
+562780	ID:89	Sensor reading: 14
+566494	ID:37	Sensor reading: 82
+566516	ID:138	Sensor reading: 1
+567861	ID:112	Sensor reading: 59
+569344	ID:141	Sensor reading: 71
+569622	ID:136	Sensor reading: 88
+570439	ID:17	Sensor reading: 76
+572066	ID:10	Sensor reading: 71
+573006	ID:105	Sensor reading: 65
+574367	ID:104	Sensor reading: 71
+574547	ID:148	Sensor reading: 46
+574561	ID:66	Sensor reading: 18
+575458	ID:196	Sensor reading: 25
+576442	ID:153	Sensor reading: 10
+578482	ID:73	Sensor reading: 15
+579298	ID:57	Sensor reading: 76
+579418	ID:134	Sensor reading: 26
+580901	ID:24	Sensor reading: 90
+582325	ID:118	Sensor reading: 53
+583014	ID:159	Sensor reading: 6
+585901	ID:198	Sensor reading: 79
+587059	ID:186	Sensor reading: 70
+590752	ID:180	Sensor reading: 20
+596203	ID:5	Sensor reading: 9
+598914	ID:50	Sensor reading: 81
+600222	ID:145	Sensor reading: 53
+600303	ID:155	Sensor reading: 0
+601572	ID:193	Sensor reading: 7
+601591	ID:183	Sensor reading: 40
+604619	ID:177	Sensor reading: 59
+606013	ID:154	Sensor reading: 37
+607852	ID:127	Sensor reading: 41
+607901	ID:137	Sensor reading: 50
+609285	ID:26	Sensor reading: 38
+610575	ID:54	Sensor reading: 98
+612710	ID:30	Sensor reading: 77
+613076	ID:131	Sensor reading: 98
+613293	ID:63	Sensor reading: 38
+613611	ID:150	Sensor reading: 13
+616201	ID:152	Sensor reading: 15
+618932	ID:56	Sensor reading: 36
+618980	ID:53	Sensor reading: 64
+620429	ID:91	Sensor reading: 23
+620909	ID:146	Sensor reading: 95
+622596	ID:47	Sensor reading: 85
+623400	ID:1	Sensor reading: 11
+623638	ID:128	Sensor reading: 31
+623771	ID:191	Sensor reading: 27
+624181	ID:199	Sensor reading: 49
+624209	ID:197	Sensor reading: 98
+630426	ID:2	Sensor reading: 30
+633451	ID:97	Sensor reading: 28
+633486	ID:86	Sensor reading: 56
+634187	ID:11	Sensor reading: 86
+637330	ID:42	Sensor reading: 61
+638280	ID:3	Sensor reading: 68
+638840	ID:109	Sensor reading: 95
+639319	ID:133	Sensor reading: 51
+641907	ID:96	Sensor reading: 55
+643307	ID:116	Sensor reading: 4
+643651	ID:176	Sensor reading: 1
+644678	ID:71	Sensor reading: 64
+645564	ID:31	Sensor reading: 71
+645577	ID:1	New data: {addr: 10, data: 69}
+645577	ID:8	New data: {addr: 10, data: 69}
+645577	ID:9	New data: {addr: 10, data: 69}
+645577	ID:20	New data: {addr: 10, data: 69}
+645577	ID:21	New data: {addr: 10, data: 69}
+645577	ID:22	New data: {addr: 10, data: 69}
+645577	ID:27	New data: {addr: 10, data: 69}
+645577	ID:28	New data: {addr: 10, data: 69}
+645577	ID:29	New data: {addr: 10, data: 69}
+645577	ID:31	New data: {addr: 10, data: 69}
+645577	ID:35	New data: {addr: 10, data: 69}
+645577	ID:36	New data: {addr: 10, data: 69}
+645577	ID:37	New data: {addr: 10, data: 69}
+645577	ID:38	New data: {addr: 10, data: 69}
+645577	ID:39	New data: {addr: 10, data: 69}
+645577	ID:42	New data: {addr: 10, data: 69}
+645577	ID:44	New data: {addr: 10, data: 69}
+645577	ID:45	New data: {addr: 10, data: 69}
+645577	ID:46	New data: {addr: 10, data: 69}
+645577	ID:53	New data: {addr: 10, data: 69}
+645577	ID:55	New data: {addr: 10, data: 69}
+645577	ID:56	New data: {addr: 10, data: 69}
+645577	ID:57	New data: {addr: 10, data: 69}
+645577	ID:64	New data: {addr: 10, data: 69}
+645577	ID:66	New data: {addr: 10, data: 69}
+645577	ID:68	New data: {addr: 10, data: 69}
+645577	ID:70	New data: {addr: 10, data: 69}
+645577	ID:72	New data: {addr: 10, data: 69}
+645577	ID:75	New data: {addr: 10, data: 69}
+645577	ID:83	New data: {addr: 10, data: 69}
+645577	ID:85	New data: {addr: 10, data: 69}
+645577	ID:88	New data: {addr: 10, data: 69}
+645577	ID:89	New data: {addr: 10, data: 69}
+645577	ID:91	New data: {addr: 10, data: 69}
+645577	ID:94	New data: {addr: 10, data: 69}
+645577	ID:97	New data: {addr: 10, data: 69}
+645577	ID:98	New data: {addr: 10, data: 69}
+645577	ID:101	New data: {addr: 10, data: 69}
+645577	ID:102	New data: {addr: 10, data: 69}
+645577	ID:104	New data: {addr: 10, data: 69}
+645577	ID:105	New data: {addr: 10, data: 69}
+645577	ID:107	New data: {addr: 10, data: 69}
+645577	ID:110	New data: {addr: 10, data: 69}
+645577	ID:111	New data: {addr: 10, data: 69}
+645577	ID:115	New data: {addr: 10, data: 69}
+645577	ID:116	New data: {addr: 10, data: 69}
+645577	ID:122	New data: {addr: 10, data: 69}
+645577	ID:123	New data: {addr: 10, data: 69}
+645577	ID:124	New data: {addr: 10, data: 69}
+645577	ID:125	New data: {addr: 10, data: 69}
+645577	ID:128	New data: {addr: 10, data: 69}
+645577	ID:136	New data: {addr: 10, data: 69}
+645577	ID:139	New data: {addr: 10, data: 69}
+645577	ID:143	New data: {addr: 10, data: 69}
+645577	ID:144	New data: {addr: 10, data: 69}
+645577	ID:147	New data: {addr: 10, data: 69}
+645577	ID:150	New data: {addr: 10, data: 69}
+645577	ID:153	New data: {addr: 10, data: 69}
+645577	ID:155	New data: {addr: 10, data: 69}
+645577	ID:156	New data: {addr: 10, data: 69}
+645577	ID:158	New data: {addr: 10, data: 69}
+645577	ID:163	New data: {addr: 10, data: 69}
+645577	ID:165	New data: {addr: 10, data: 69}
+645577	ID:169	New data: {addr: 10, data: 69}
+645577	ID:170	New data: {addr: 10, data: 69}
+645577	ID:178	New data: {addr: 10, data: 69}
+645577	ID:182	New data: {addr: 10, data: 69}
+645577	ID:184	New data: {addr: 10, data: 69}
+645577	ID:185	New data: {addr: 10, data: 69}
+645577	ID:193	New data: {addr: 10, data: 69}
+645577	ID:195	New data: {addr: 10, data: 69}
+645577	ID:196	New data: {addr: 10, data: 69}
+645577	ID:200	New data: {addr: 10, data: 69}
+647063	ID:60	Sensor reading: 14
+647444	ID:80	Sensor reading: 72
+647563	ID:190	Sensor reading: 77
+648912	ID:170	Sensor reading: 26
+651402	ID:51	Sensor reading: 87
+652061	ID:192	Sensor reading: 60
+654490	ID:22	Sensor reading: 23
+655660	ID:13	Sensor reading: 68
+656051	ID:99	Sensor reading: 87
+659656	ID:46	Sensor reading: 91
+660910	ID:173	Sensor reading: 96
+666444	ID:94	Sensor reading: 40
+666627	ID:59	Sensor reading: 81
+667381	ID:182	Sensor reading: 15
+668273	ID:61	Sensor reading: 46
+669972	ID:107	Sensor reading: 17
+672729	ID:151	Sensor reading: 84
+674226	ID:35	Sensor reading: 96
+674609	ID:52	Sensor reading: 60
+674786	ID:143	Sensor reading: 17
+675778	ID:121	Sensor reading: 75
+676200	ID:75	Sensor reading: 72
+676680	ID:147	Sensor reading: 67
+678447	ID:131	New data: {addr: 10, data: 69}
+678447	ID:188	New data: {addr: 10, data: 69}
+678794	ID:149	Sensor reading: 90
+680052	ID:166	Sensor reading: 19
+681946	ID:45	Sensor reading: 34
+682989	ID:125	Sensor reading: 66
+686324	ID:19	Sensor reading: 50
+687366	ID:72	Sensor reading: 64
+689732	ID:76	Sensor reading: 85
+691137	ID:120	Sensor reading: 45
+693271	ID:123	Sensor reading: 83
+693928	ID:36	Sensor reading: 94
+696096	ID:98	Sensor reading: 53
+696593	ID:161	Sensor reading: 52
+697153	ID:8	Sensor reading: 94
+697685	ID:194	Sensor reading: 39
+698337	ID:174	Sensor reading: 73
+699361	ID:55	Sensor reading: 99
+700137	ID:140	Sensor reading: 87
+702117	ID:158	Sensor reading: 62
+702921	ID:100	Sensor reading: 68
+703303	ID:126	Sensor reading: 10
+704785	ID:20	Sensor reading: 61
+706097	ID:33	Sensor reading: 34
+707164	ID:124	Sensor reading: 72
+708370	ID:18	Sensor reading: 95
+709612	ID:144	Sensor reading: 57
+710737	ID:132	Sensor reading: 40
+711490	ID:179	Sensor reading: 29
+716154	ID:178	Sensor reading: 57
+718226	ID:115	Sensor reading: 6
+719221	ID:172	Sensor reading: 86
+719874	ID:74	Sensor reading: 88
+720279	ID:83	Sensor reading: 19
+720736	ID:20	New data: {addr: 6, data: 30}
+720736	ID:30	New data: {addr: 6, data: 30}
+720736	ID:76	New data: {addr: 6, data: 30}
+720736	ID:86	New data: {addr: 6, data: 30}
+720736	ID:107	New data: {addr: 6, data: 30}
+720736	ID:116	New data: {addr: 6, data: 30}
+720736	ID:152	New data: {addr: 6, data: 30}
+720736	ID:157	New data: {addr: 6, data: 30}
+720736	ID:173	New data: {addr: 6, data: 30}
+720736	ID:184	New data: {addr: 6, data: 30}
+720736	ID:191	New data: {addr: 6, data: 30}
+721215	ID:69	Sensor reading: 86
+721973	ID:90	Sensor reading: 67
+722467	ID:49	Sensor reading: 94
+724765	ID:62	Sensor reading: 38
+726106	ID:81	Sensor reading: 44
+727626	ID:7	Sensor reading: 74
+729157	ID:32	Sensor reading: 27
+729803	ID:181	Sensor reading: 76
+731011	ID:39	Sensor reading: 34
+731627	ID:78	Sensor reading: 65
+732064	ID:111	Sensor reading: 69
+736257	ID:200	Sensor reading: 59
+737036	ID:68	Sensor reading: 33
+737255	ID:114	Sensor reading: 69
+738312	ID:129	Sensor reading: 12
+738665	ID:84	Sensor reading: 89
+739337	ID:187	Sensor reading: 44
+745145	ID:188	Sensor reading: 61
+745892	ID:185	Sensor reading: 83
+746571	ID:87	Sensor reading: 98
+747445	ID:162	Sensor reading: 23
+748788	ID:122	Sensor reading: 39
+751628	ID:15	Sensor reading: 90
+751769	ID:25	Sensor reading: 81
+754908	ID:157	Sensor reading: 52
+757344	ID:102	Sensor reading: 56
+759398	ID:16	Sensor reading: 14
+759463	ID:23	Sensor reading: 3
+759914	ID:108	Sensor reading: 13
+760264	ID:34	Sensor reading: 53
+760487	ID:113	Sensor reading: 60
+763943	ID:92	Sensor reading: 61
+765086	ID:29	Sensor reading: 69
+765942	ID:85	Sensor reading: 79
+766054	ID:4	Sensor reading: 12
+772622	ID:156	Sensor reading: 84
+772688	ID:27	Sensor reading: 24
+773673	ID:139	Sensor reading: 48
+775709	ID:38	Sensor reading: 68
+776961	ID:79	Sensor reading: 80
+783954	ID:65	Sensor reading: 28
+784180	ID:175	Sensor reading: 67
+785009	ID:40	Sensor reading: 62
+787746	ID:95	Sensor reading: 79
+792496	ID:164	Sensor reading: 27
+795254	ID:106	Sensor reading: 13
+799991	ID:101	Sensor reading: 33
+807204	ID:62	New data: {addr: 10, data: 69}
+807204	ID:135	New data: {addr: 10, data: 69}
+811919	ID:24	New data: {addr: 7, data: 68}
+811919	ID:25	New data: {addr: 7, data: 68}
+811919	ID:26	New data: {addr: 7, data: 68}
+811919	ID:61	New data: {addr: 7, data: 68}
+811919	ID:69	New data: {addr: 7, data: 68}
+811919	ID:73	New data: {addr: 7, data: 68}
+811919	ID:87	New data: {addr: 7, data: 68}
+811919	ID:93	New data: {addr: 7, data: 68}
+811919	ID:108	New data: {addr: 7, data: 68}
+811919	ID:112	New data: {addr: 7, data: 68}
+811919	ID:113	New data: {addr: 7, data: 68}
+811919	ID:118	New data: {addr: 7, data: 68}
+811919	ID:121	New data: {addr: 7, data: 68}
+811919	ID:130	New data: {addr: 7, data: 68}
+811919	ID:145	New data: {addr: 7, data: 68}
+811919	ID:154	New data: {addr: 7, data: 68}
+811919	ID:157	New data: {addr: 7, data: 68}
+811919	ID:167	New data: {addr: 7, data: 68}
+811919	ID:168	New data: {addr: 7, data: 68}
+811919	ID:171	New data: {addr: 7, data: 68}
+811919	ID:172	New data: {addr: 7, data: 68}
+811919	ID:175	New data: {addr: 7, data: 68}
+811919	ID:176	New data: {addr: 7, data: 68}
+811919	ID:197	New data: {addr: 7, data: 68}
+814431	ID:2	New data: {addr: 21, data: 76}
+814431	ID:20	New data: {addr: 21, data: 76}
+814431	ID:33	New data: {addr: 21, data: 76}
+814431	ID:35	New data: {addr: 21, data: 76}
+814431	ID:39	New data: {addr: 21, data: 76}
+814431	ID:57	New data: {addr: 21, data: 76}
+814431	ID:58	New data: {addr: 21, data: 76}
+814431	ID:60	New data: {addr: 21, data: 76}
+814431	ID:63	New data: {addr: 21, data: 76}
+814431	ID:72	New data: {addr: 21, data: 76}
+814431	ID:76	New data: {addr: 21, data: 76}
+814431	ID:77	New data: {addr: 21, data: 76}
+814431	ID:86	New data: {addr: 21, data: 76}
+814431	ID:107	New data: {addr: 21, data: 76}
+814431	ID:116	New data: {addr: 21, data: 76}
+814431	ID:129	New data: {addr: 21, data: 76}
+814431	ID:152	New data: {addr: 21, data: 76}
+814431	ID:157	New data: {addr: 21, data: 76}
+814431	ID:159	New data: {addr: 21, data: 76}
+814431	ID:162	New data: {addr: 21, data: 76}
+814431	ID:166	New data: {addr: 21, data: 76}
+814431	ID:173	New data: {addr: 21, data: 76}
+814431	ID:184	New data: {addr: 21, data: 76}
+814431	ID:185	New data: {addr: 21, data: 76}
+814431	ID:191	New data: {addr: 21, data: 76}
+814431	ID:192	New data: {addr: 21, data: 76}
+814431	ID:195	New data: {addr: 21, data: 76}
+855284	ID:13	New data: {addr: 7, data: 68}
+855284	ID:34	New data: {addr: 7, data: 68}
+855284	ID:48	New data: {addr: 7, data: 68}
+855284	ID:67	New data: {addr: 7, data: 68}
+855284	ID:140	New data: {addr: 7, data: 68}
+855284	ID:160	New data: {addr: 7, data: 68}
+855284	ID:192	New data: {addr: 7, data: 68}
+888976	ID:30	New data: {addr: 10, data: 69}
+888976	ID:34	New data: {addr: 10, data: 69}
+888976	ID:59	New data: {addr: 10, data: 69}
+888976	ID:61	New data: {addr: 10, data: 69}
+888976	ID:69	New data: {addr: 10, data: 69}
+888976	ID:71	New data: {addr: 10, data: 69}
+888976	ID:74	New data: {addr: 10, data: 69}
+888976	ID:86	New data: {addr: 10, data: 69}
+888976	ID:90	New data: {addr: 10, data: 69}
+888976	ID:117	New data: {addr: 10, data: 69}
+888976	ID:119	New data: {addr: 10, data: 69}
+888976	ID:126	New data: {addr: 10, data: 69}
+888976	ID:134	New data: {addr: 10, data: 69}
+888976	ID:138	New data: {addr: 10, data: 69}
+888976	ID:151	New data: {addr: 10, data: 69}
+888976	ID:173	New data: {addr: 10, data: 69}
+888976	ID:177	New data: {addr: 10, data: 69}
+888976	ID:190	New data: {addr: 10, data: 69}
+888976	ID:197	New data: {addr: 10, data: 69}
+911403	ID:10	New data: {addr: 7, data: 68}
+911403	ID:16	New data: {addr: 7, data: 68}
+911403	ID:41	New data: {addr: 7, data: 68}
+911403	ID:47	New data: {addr: 7, data: 68}
+911403	ID:51	New data: {addr: 7, data: 68}
+911403	ID:54	New data: {addr: 7, data: 68}
+911403	ID:65	New data: {addr: 7, data: 68}
+911403	ID:82	New data: {addr: 7, data: 68}
+911403	ID:92	New data: {addr: 7, data: 68}
+911403	ID:95	New data: {addr: 7, data: 68}
+911403	ID:103	New data: {addr: 7, data: 68}
+911403	ID:120	New data: {addr: 7, data: 68}
+911403	ID:129	New data: {addr: 7, data: 68}
+911403	ID:141	New data: {addr: 7, data: 68}
+911403	ID:166	New data: {addr: 7, data: 68}
+911403	ID:174	New data: {addr: 7, data: 68}
+911403	ID:194	New data: {addr: 7, data: 68}
+911403	ID:198	New data: {addr: 7, data: 68}
+1028433	ID:67	Sensor reading: 44
+1029366	ID:130	Sensor reading: 4
+1038082	ID:88	Sensor reading: 63
+1039455	ID:93	Sensor reading: 12
+1043173	ID:14	Sensor reading: 68
+1044749	ID:169	Sensor reading: 23
+1057519	ID:163	Sensor reading: 73
+1064809	ID:64	Sensor reading: 40
+1069224	ID:167	Sensor reading: 19
+1069670	ID:10	New data: {addr: 11, data: 74}
+1069670	ID:13	New data: {addr: 11, data: 74}
+1069670	ID:14	New data: {addr: 11, data: 74}
+1069670	ID:15	New data: {addr: 11, data: 74}
+1069670	ID:18	New data: {addr: 11, data: 74}
+1069670	ID:32	New data: {addr: 11, data: 74}
+1069670	ID:34	New data: {addr: 11, data: 74}
+1069670	ID:37	New data: {addr: 11, data: 74}
+1069670	ID:48	New data: {addr: 11, data: 74}
+1069670	ID:62	New data: {addr: 11, data: 74}
+1069670	ID:66	New data: {addr: 11, data: 74}
+1069670	ID:84	New data: {addr: 11, data: 74}
+1069670	ID:88	New data: {addr: 11, data: 74}
+1069670	ID:122	New data: {addr: 11, data: 74}
+1069670	ID:131	New data: {addr: 11, data: 74}
+1069670	ID:142	New data: {addr: 11, data: 74}
+1069670	ID:146	New data: {addr: 11, data: 74}
+1069670	ID:147	New data: {addr: 11, data: 74}
+1069670	ID:179	New data: {addr: 11, data: 74}
+1069670	ID:188	New data: {addr: 11, data: 74}
+1069670	ID:189	New data: {addr: 11, data: 74}
+1069670	ID:196	New data: {addr: 11, data: 74}
+1069670	ID:197	New data: {addr: 11, data: 74}
+1076622	ID:136	Sensor reading: 76
+1078231	ID:119	Sensor reading: 20
+1082108	ID:28	Sensor reading: 20
+1095587	ID:184	Sensor reading: 45
+1097084	ID:41	Sensor reading: 2
+1101226	ID:1	New data: {addr: 7, data: 68}
+1101226	ID:11	New data: {addr: 7, data: 68}
+1101226	ID:14	New data: {addr: 7, data: 68}
+1101226	ID:19	New data: {addr: 7, data: 68}
+1101226	ID:31	New data: {addr: 7, data: 68}
+1101226	ID:32	New data: {addr: 7, data: 68}
+1101226	ID:43	New data: {addr: 7, data: 68}
+1101226	ID:46	New data: {addr: 7, data: 68}
+1101226	ID:49	New data: {addr: 7, data: 68}
+1101226	ID:50	New data: {addr: 7, data: 68}
+1101226	ID:52	New data: {addr: 7, data: 68}
+1101226	ID:55	New data: {addr: 7, data: 68}
+1101226	ID:62	New data: {addr: 7, data: 68}
+1101226	ID:64	New data: {addr: 7, data: 68}
+1101226	ID:71	New data: {addr: 7, data: 68}
+1101226	ID:78	New data: {addr: 7, data: 68}
+1101226	ID:83	New data: {addr: 7, data: 68}
+1101226	ID:88	New data: {addr: 7, data: 68}
+1101226	ID:89	New data: {addr: 7, data: 68}
+1101226	ID:90	New data: {addr: 7, data: 68}
+1101226	ID:94	New data: {addr: 7, data: 68}
+1101226	ID:99	New data: {addr: 7, data: 68}
+1101226	ID:101	New data: {addr: 7, data: 68}
+1101226	ID:102	New data: {addr: 7, data: 68}
+1101226	ID:109	New data: {addr: 7, data: 68}
+1101226	ID:117	New data: {addr: 7, data: 68}
+1101226	ID:123	New data: {addr: 7, data: 68}
+1101226	ID:124	New data: {addr: 7, data: 68}
+1101226	ID:127	New data: {addr: 7, data: 68}
+1101226	ID:131	New data: {addr: 7, data: 68}
+1101226	ID:136	New data: {addr: 7, data: 68}
+1101226	ID:137	New data: {addr: 7, data: 68}
+1101226	ID:143	New data: {addr: 7, data: 68}
+1101226	ID:147	New data: {addr: 7, data: 68}
+1101226	ID:149	New data: {addr: 7, data: 68}
+1101226	ID:150	New data: {addr: 7, data: 68}
+1101226	ID:151	New data: {addr: 7, data: 68}
+1101226	ID:155	New data: {addr: 7, data: 68}
+1101226	ID:164	New data: {addr: 7, data: 68}
+1101226	ID:170	New data: {addr: 7, data: 68}
+1101226	ID:177	New data: {addr: 7, data: 68}
+1101226	ID:178	New data: {addr: 7, data: 68}
+1101226	ID:181	New data: {addr: 7, data: 68}
+1101226	ID:187	New data: {addr: 7, data: 68}
+1101226	ID:188	New data: {addr: 7, data: 68}
+1101226	ID:189	New data: {addr: 7, data: 68}
+1101226	ID:199	New data: {addr: 7, data: 68}
+1101226	ID:200	New data: {addr: 7, data: 68}
+1108439	ID:17	Sensor reading: 77
+1108539	ID:43	Sensor reading: 93
+1108901	ID:24	Sensor reading: 97
+1112418	ID:134	Sensor reading: 0
+1115498	ID:110	Sensor reading: 37
+1116375	ID:3	New data: {addr: 11, data: 74}
+1116375	ID:24	New data: {addr: 11, data: 74}
+1116375	ID:28	New data: {addr: 11, data: 74}
+1116375	ID:39	New data: {addr: 11, data: 74}
+1116375	ID:61	New data: {addr: 11, data: 74}
+1116375	ID:67	New data: {addr: 11, data: 74}
+1116375	ID:69	New data: {addr: 11, data: 74}
+1116375	ID:81	New data: {addr: 11, data: 74}
+1116375	ID:87	New data: {addr: 11, data: 74}
+1116375	ID:93	New data: {addr: 11, data: 74}
+1116375	ID:106	New data: {addr: 11, data: 74}
+1116375	ID:118	New data: {addr: 11, data: 74}
+1116375	ID:130	New data: {addr: 11, data: 74}
+1116375	ID:132	New data: {addr: 11, data: 74}
+1116375	ID:133	New data: {addr: 11, data: 74}
+1116375	ID:145	New data: {addr: 11, data: 74}
+1116375	ID:154	New data: {addr: 11, data: 74}
+1116375	ID:160	New data: {addr: 11, data: 74}
+1116375	ID:167	New data: {addr: 11, data: 74}
+1116375	ID:168	New data: {addr: 11, data: 74}
+1116375	ID:172	New data: {addr: 11, data: 74}
+1116375	ID:174	New data: {addr: 11, data: 74}
+1116375	ID:175	New data: {addr: 11, data: 74}
+1116375	ID:192	New data: {addr: 11, data: 74}
+1116458	ID:196	Sensor reading: 50
+1117303	ID:155	Sensor reading: 97
+1122772	ID:9	Sensor reading: 69
+1132076	ID:131	Sensor reading: 90
+1132464	ID:6	Sensor reading: 29
+1132620	ID:177	Sensor reading: 58
+1132710	ID:30	Sensor reading: 80
+1138280	ID:142	Sensor reading: 93
+1142575	ID:54	Sensor reading: 56
+1142959	ID:77	Sensor reading: 96
+1146319	ID:133	Sensor reading: 88
+1147596	ID:47	Sensor reading: 43
+1149367	ID:104	Sensor reading: 26
+1154204	ID:56	New data: {addr: 46, data: 61}
+1154204	ID:62	New data: {addr: 46, data: 61}
+1154204	ID:75	New data: {addr: 46, data: 61}
+1154204	ID:88	New data: {addr: 46, data: 61}
+1154204	ID:107	New data: {addr: 46, data: 61}
+1154204	ID:110	New data: {addr: 46, data: 61}
+1154204	ID:125	New data: {addr: 46, data: 61}
+1154204	ID:126	New data: {addr: 46, data: 61}
+1154204	ID:131	New data: {addr: 46, data: 61}
+1154204	ID:134	New data: {addr: 46, data: 61}
+1154204	ID:135	New data: {addr: 46, data: 61}
+1154204	ID:147	New data: {addr: 46, data: 61}
+1154204	ID:150	New data: {addr: 46, data: 61}
+1154204	ID:151	New data: {addr: 46, data: 61}
+1154204	ID:177	New data: {addr: 46, data: 61}
+1154204	ID:188	New data: {addr: 46, data: 61}
+1154204	ID:196	New data: {addr: 46, data: 61}
+1154909	ID:146	Sensor reading: 31
+1156066	ID:10	Sensor reading: 18
+1157293	ID:63	Sensor reading: 87
+1159325	ID:118	Sensor reading: 12
+1161798	ID:12	Sensor reading: 83
+1163564	ID:31	Sensor reading: 55
+1165222	ID:145	Sensor reading: 94
+1166660	ID:13	Sensor reading: 99
+1167442	ID:153	Sensor reading: 32
+1184645	ID:117	Sensor reading: 72
+1185280	ID:3	Sensor reading: 31
+1185561	ID:66	Sensor reading: 4
+1188444	ID:94	Sensor reading: 97
+1192344	ID:141	Sensor reading: 81
+1196516	ID:138	Sensor reading: 49
+1197593	ID:161	Sensor reading: 25
+1200729	ID:151	Sensor reading: 11
+1201912	ID:170	Sensor reading: 81
+1206111	ID:8	New data: {addr: 11, data: 74}
+1206111	ID:9	New data: {addr: 11, data: 74}
+1206111	ID:91	New data: {addr: 11, data: 74}
+1206111	ID:139	New data: {addr: 11, data: 74}
+1206111	ID:144	New data: {addr: 11, data: 74}
+1206111	ID:148	New data: {addr: 11, data: 74}
+1206111	ID:165	New data: {addr: 11, data: 74}
+1206111	ID:176	New data: {addr: 11, data: 74}
+1206111	ID:182	New data: {addr: 11, data: 74}
+1206111	ID:187	New data: {addr: 11, data: 74}
+1207203	ID:5	Sensor reading: 24
+1209181	ID:199	Sensor reading: 1
+1211285	ID:26	Sensor reading: 76
+1215989	ID:125	Sensor reading: 79
+1216651	ID:176	Sensor reading: 19
+1218950	ID:160	Sensor reading: 21
+1222973	ID:90	Sensor reading: 75
+1223122	ID:58	Sensor reading: 62
+1223215	ID:69	Sensor reading: 83
+1223337	ID:174	Sensor reading: 45
+1224490	ID:22	Sensor reading: 76
+1225006	ID:105	Sensor reading: 74
+1229324	ID:19	Sensor reading: 10
+1230059	ID:186	Sensor reading: 53
+1231307	ID:116	Sensor reading: 52
+1231494	ID:37	Sensor reading: 13
+1234794	ID:149	Sensor reading: 92
+1236346	ID:48	Sensor reading: 24
+1237063	ID:60	Sensor reading: 24
+1237235	ID:17	New data: {addr: 16, data: 83}
+1237235	ID:21	New data: {addr: 16, data: 83}
+1237235	ID:30	New data: {addr: 16, data: 83}
+1237235	ID:38	New data: {addr: 16, data: 83}
+1237235	ID:43	New data: {addr: 16, data: 83}
+1237235	ID:53	New data: {addr: 16, data: 83}
+1237235	ID:54	New data: {addr: 16, data: 83}
+1237235	ID:60	New data: {addr: 16, data: 83}
+1237235	ID:62	New data: {addr: 16, data: 83}
+1237235	ID:69	New data: {addr: 16, data: 83}
+1237235	ID:71	New data: {addr: 16, data: 83}
+1237235	ID:74	New data: {addr: 16, data: 83}
+1237235	ID:79	New data: {addr: 16, data: 83}
+1237235	ID:90	New data: {addr: 16, data: 83}
+1237235	ID:111	New data: {addr: 16, data: 83}
+1237235	ID:113	New data: {addr: 16, data: 83}
+1237235	ID:119	New data: {addr: 16, data: 83}
+1237235	ID:127	New data: {addr: 16, data: 83}
+1237235	ID:138	New data: {addr: 16, data: 83}
+1237235	ID:152	New data: {addr: 16, data: 83}
+1237235	ID:161	New data: {addr: 16, data: 83}
+1237235	ID:173	New data: {addr: 16, data: 83}
+1237235	ID:174	New data: {addr: 16, data: 83}
+1237235	ID:178	New data: {addr: 16, data: 83}
+1237235	ID:180	New data: {addr: 16, data: 83}
+1237235	ID:183	New data: {addr: 16, data: 83}
+1237235	ID:198	New data: {addr: 16, data: 83}
+1237235	ID:200	New data: {addr: 16, data: 83}
+1237400	ID:1	Sensor reading: 94
+1237785	ID:20	Sensor reading: 72
+1240035	ID:21	Sensor reading: 70
+1240972	ID:107	Sensor reading: 25
+1242449	ID:35	New data: {addr: 16, data: 83}
+1242449	ID:39	New data: {addr: 16, data: 83}
+1242449	ID:86	New data: {addr: 16, data: 83}
+1242449	ID:122	New data: {addr: 16, data: 83}
+1242449	ID:162	New data: {addr: 16, data: 83}
+1243946	ID:45	Sensor reading: 85
+1246298	ID:57	Sensor reading: 15
+1248013	ID:154	Sensor reading: 13
+1248609	ID:52	Sensor reading: 23
+1249274	ID:82	Sensor reading: 56
+1249366	ID:72	Sensor reading: 91
+1249906	ID:10	New data: {addr: 7, data: 31}
+1249906	ID:24	New data: {addr: 7, data: 31}
+1249906	ID:61	New data: {addr: 7, data: 31}
+1249906	ID:67	New data: {addr: 7, data: 31}
+1249906	ID:69	New data: {addr: 7, data: 31}
+1249906	ID:87	New data: {addr: 7, data: 31}
+1249906	ID:93	New data: {addr: 7, data: 31}
+1249906	ID:108	New data: {addr: 7, data: 31}
+1249906	ID:118	New data: {addr: 7, data: 31}
+1249906	ID:130	New data: {addr: 7, data: 31}
+1249906	ID:141	New data: {addr: 7, data: 31}
+1249906	ID:160	New data: {addr: 7, data: 31}
+1249906	ID:167	New data: {addr: 7, data: 31}
+1249906	ID:175	New data: {addr: 7, data: 31}
+1249906	ID:176	New data: {addr: 7, data: 31}
+1249906	ID:192	New data: {addr: 7, data: 31}
+1249906	ID:197	New data: {addr: 7, data: 31}
+1250901	ID:137	Sensor reading: 75
+1251852	ID:127	Sensor reading: 38
+1257429	ID:91	Sensor reading: 24
+1260221	ID:172	Sensor reading: 76
+1261381	ID:182	Sensor reading: 84
+1261901	ID:198	Sensor reading: 0
+1262312	ID:129	Sensor reading: 64
+1265376	ID:103	Sensor reading: 18
+1265737	ID:132	Sensor reading: 38
+1267638	ID:128	Sensor reading: 95
+1270752	ID:180	Sensor reading: 59
+1271303	ID:126	Sensor reading: 40
+1274874	ID:74	Sensor reading: 79
+1276330	ID:42	Sensor reading: 37
+1277257	ID:200	Sensor reading: 3
+1278014	ID:159	Sensor reading: 10
+1281611	ID:150	Sensor reading: 85
+1282036	ID:68	Sensor reading: 65
+1283426	ID:2	Sensor reading: 40
+1285665	ID:13	New data: {addr: 7, data: 31}
+1285665	ID:15	New data: {addr: 7, data: 31}
+1285665	ID:32	New data: {addr: 7, data: 31}
+1285665	ID:34	New data: {addr: 7, data: 31}
+1285665	ID:39	New data: {addr: 7, data: 31}
+1285665	ID:43	New data: {addr: 7, data: 31}
+1285665	ID:48	New data: {addr: 7, data: 31}
+1285665	ID:62	New data: {addr: 7, data: 31}
+1285665	ID:71	New data: {addr: 7, data: 31}
+1285665	ID:78	New data: {addr: 7, data: 31}
+1285665	ID:88	New data: {addr: 7, data: 31}
+1285665	ID:92	New data: {addr: 7, data: 31}
+1285665	ID:117	New data: {addr: 7, data: 31}
+1285665	ID:124	New data: {addr: 7, data: 31}
+1285665	ID:131	New data: {addr: 7, data: 31}
+1285665	ID:145	New data: {addr: 7, data: 31}
+1285665	ID:146	New data: {addr: 7, data: 31}
+1285665	ID:150	New data: {addr: 7, data: 31}
+1285665	ID:151	New data: {addr: 7, data: 31}
+1285665	ID:154	New data: {addr: 7, data: 31}
+1285665	ID:170	New data: {addr: 7, data: 31}
+1285665	ID:179	New data: {addr: 7, data: 31}
+1285665	ID:187	New data: {addr: 7, data: 31}
+1285665	ID:188	New data: {addr: 7, data: 31}
+1285665	ID:189	New data: {addr: 7, data: 31}
+1285665	ID:196	New data: {addr: 7, data: 31}
+1285665	ID:199	New data: {addr: 7, data: 31}
+1287571	ID:87	Sensor reading: 92
+1288097	ID:33	Sensor reading: 77
+1289486	ID:86	Sensor reading: 53
+1290402	ID:51	Sensor reading: 6
+1291444	ID:80	Sensor reading: 32
+1293106	ID:81	Sensor reading: 53
+1297678	ID:71	Sensor reading: 32
+1298111	ID:7	New data: {addr: 8, data: 12}
+1298111	ID:8	New data: {addr: 8, data: 12}
+1298111	ID:9	New data: {addr: 8, data: 12}
+1298111	ID:10	New data: {addr: 8, data: 12}
+1298111	ID:13	New data: {addr: 8, data: 12}
+1298111	ID:15	New data: {addr: 8, data: 12}
+1298111	ID:18	New data: {addr: 8, data: 12}
+1298111	ID:28	New data: {addr: 8, data: 12}
+1298111	ID:31	New data: {addr: 8, data: 12}
+1298111	ID:68	New data: {addr: 8, data: 12}
+1298111	ID:81	New data: {addr: 8, data: 12}
+1298111	ID:84	New data: {addr: 8, data: 12}
+1298111	ID:89	New data: {addr: 8, data: 12}
+1298111	ID:101	New data: {addr: 8, data: 12}
+1298111	ID:106	New data: {addr: 8, data: 12}
+1298111	ID:112	New data: {addr: 8, data: 12}
+1298111	ID:131	New data: {addr: 8, data: 12}
+1298111	ID:132	New data: {addr: 8, data: 12}
+1298111	ID:133	New data: {addr: 8, data: 12}
+1298111	ID:139	New data: {addr: 8, data: 12}
+1298111	ID:142	New data: {addr: 8, data: 12}
+1298111	ID:143	New data: {addr: 8, data: 12}
+1298111	ID:144	New data: {addr: 8, data: 12}
+1298111	ID:148	New data: {addr: 8, data: 12}
+1298111	ID:158	New data: {addr: 8, data: 12}
+1298111	ID:163	New data: {addr: 8, data: 12}
+1298111	ID:164	New data: {addr: 8, data: 12}
+1298111	ID:165	New data: {addr: 8, data: 12}
+1298111	ID:176	New data: {addr: 8, data: 12}
+1298111	ID:179	New data: {addr: 8, data: 12}
+1298111	ID:181	New data: {addr: 8, data: 12}
+1298111	ID:182	New data: {addr: 8, data: 12}
+1298111	ID:187	New data: {addr: 8, data: 12}
+1305180	ID:175	Sensor reading: 44
+1305689	ID:16	New data: {addr: 7, data: 31}
+1305689	ID:25	New data: {addr: 7, data: 31}
+1305689	ID:26	New data: {addr: 7, data: 31}
+1305689	ID:41	New data: {addr: 7, data: 31}
+1305689	ID:47	New data: {addr: 7, data: 31}
+1305689	ID:51	New data: {addr: 7, data: 31}
+1305689	ID:54	New data: {addr: 7, data: 31}
+1305689	ID:65	New data: {addr: 7, data: 31}
+1305689	ID:73	New data: {addr: 7, data: 31}
+1305689	ID:82	New data: {addr: 7, data: 31}
+1305689	ID:95	New data: {addr: 7, data: 31}
+1305689	ID:103	New data: {addr: 7, data: 31}
+1305689	ID:112	New data: {addr: 7, data: 31}
+1305689	ID:113	New data: {addr: 7, data: 31}
+1305689	ID:120	New data: {addr: 7, data: 31}
+1305689	ID:121	New data: {addr: 7, data: 31}
+1305689	ID:129	New data: {addr: 7, data: 31}
+1305689	ID:140	New data: {addr: 7, data: 31}
+1305689	ID:157	New data: {addr: 7, data: 31}
+1305689	ID:166	New data: {addr: 7, data: 31}
+1305689	ID:168	New data: {addr: 7, data: 31}
+1305689	ID:171	New data: {addr: 7, data: 31}
+1305689	ID:172	New data: {addr: 7, data: 31}
+1305689	ID:174	New data: {addr: 7, data: 31}
+1305689	ID:194	New data: {addr: 7, data: 31}
+1305689	ID:198	New data: {addr: 7, data: 31}
+1307086	ID:29	Sensor reading: 9
+1308052	ID:166	Sensor reading: 77
+1309451	ID:97	Sensor reading: 40
+1312765	ID:62	Sensor reading: 50
+1315209	ID:171	Sensor reading: 92
+1316786	ID:143	Sensor reading: 80
+1317280	ID:135	Sensor reading: 9
+1318145	ID:188	Sensor reading: 41
+1318910	ID:173	Sensor reading: 6
+1320064	ID:111	Sensor reading: 5
+1324187	ID:11	Sensor reading: 10
+1324683	ID:44	Sensor reading: 7
+1325493	ID:70	Sensor reading: 92
+1327627	ID:78	Sensor reading: 81
+1327861	ID:112	Sensor reading: 38
+1328628	ID:15	Sensor reading: 51
+1330547	ID:148	Sensor reading: 46
+1330921	ID:165	Sensor reading: 90
+1332600	ID:195	Sensor reading: 15
+1336153	ID:8	Sensor reading: 86
+1336157	ID:32	Sensor reading: 69
+1337136	ID:168	Sensor reading: 20
+1337780	ID:89	Sensor reading: 79
+1339137	ID:120	Sensor reading: 73
+1341096	ID:98	Sensor reading: 32
+1342742	ID:19	New data: {addr: 8, data: 12}
+1342742	ID:40	New data: {addr: 8, data: 12}
+1342742	ID:55	New data: {addr: 8, data: 12}
+1342742	ID:88	New data: {addr: 8, data: 12}
+1342742	ID:102	New data: {addr: 8, data: 12}
+1342742	ID:123	New data: {addr: 8, data: 12}
+1344626	ID:7	Sensor reading: 25
+1346009	ID:40	Sensor reading: 86
+1346482	ID:73	Sensor reading: 94
+1349840	ID:109	Sensor reading: 71
+1350255	ID:114	Sensor reading: 28
+1351960	ID:189	Sensor reading: 63
+1352980	ID:53	Sensor reading: 93
+1354709	ID:38	Sensor reading: 26
+1355201	ID:152	Sensor reading: 28
+1355914	ID:50	Sensor reading: 39
+1356612	ID:144	Sensor reading: 94
+1359680	ID:147	Sensor reading: 65
+1359688	ID:27	Sensor reading: 70
+1359942	ID:85	Sensor reading: 91
+1360264	ID:34	Sensor reading: 59
+1361051	ID:99	Sensor reading: 81
+1363591	ID:183	Sensor reading: 97
+1364656	ID:46	Sensor reading: 74
+1365164	ID:124	Sensor reading: 71
+1367771	ID:191	Sensor reading: 36
+1369273	ID:61	Sensor reading: 76
+1370907	ID:96	Sensor reading: 95
+1372235	ID:186	New data: {addr: 16, data: 83}
+1377463	ID:23	Sensor reading: 54
+1379921	ID:100	Sensor reading: 95
+1381741	ID:34	New data: {addr: 8, data: 12}
+1381741	ID:146	New data: {addr: 8, data: 12}
+1381741	ID:150	New data: {addr: 8, data: 12}
+1381741	ID:151	New data: {addr: 8, data: 12}
+1381741	ID:170	New data: {addr: 8, data: 12}
+1381741	ID:196	New data: {addr: 8, data: 12}
+1381741	ID:199	New data: {addr: 8, data: 12}
+1384487	ID:113	Sensor reading: 27
+1386914	ID:108	Sensor reading: 95
+1389154	ID:178	Sensor reading: 45
+1390563	ID:190	Sensor reading: 99
+1391778	ID:121	Sensor reading: 82
+1393925	ID:1	New data: {addr: 8, data: 12}
+1393925	ID:36	New data: {addr: 8, data: 12}
+1393925	ID:45	New data: {addr: 8, data: 12}
+1393925	ID:51	New data: {addr: 8, data: 12}
+1393925	ID:52	New data: {addr: 8, data: 12}
+1393925	ID:64	New data: {addr: 8, data: 12}
+1393925	ID:80	New data: {addr: 8, data: 12}
+1393925	ID:82	New data: {addr: 8, data: 12}
+1393925	ID:94	New data: {addr: 8, data: 12}
+1393925	ID:99	New data: {addr: 8, data: 12}
+1393925	ID:100	New data: {addr: 8, data: 12}
+1393925	ID:103	New data: {addr: 8, data: 12}
+1393925	ID:109	New data: {addr: 8, data: 12}
+1393925	ID:137	New data: {addr: 8, data: 12}
+1395788	ID:122	Sensor reading: 63
+1397572	ID:193	Sensor reading: 90
+1398209	ID:197	Sensor reading: 79
+1399337	ID:187	Sensor reading: 90
+1400961	ID:79	Sensor reading: 31
+1408932	ID:56	Sensor reading: 87
+1412054	ID:4	Sensor reading: 5
+1413445	ID:162	Sensor reading: 93
+1414915	ID:20	New data: {addr: 16, data: 83}
+1414915	ID:22	New data: {addr: 16, data: 83}
+1414915	ID:47	New data: {addr: 16, data: 83}
+1414915	ID:85	New data: {addr: 16, data: 83}
+1414915	ID:184	New data: {addr: 16, data: 83}
+1418627	ID:59	Sensor reading: 86
+1421496	ID:164	Sensor reading: 65
+1424370	ID:18	Sensor reading: 70
+1425011	ID:39	Sensor reading: 13
+1426732	ID:76	Sensor reading: 48
+1427775	ID:5	New data: {addr: 27, data: 54}
+1427775	ID:35	New data: {addr: 27, data: 54}
+1427775	ID:37	New data: {addr: 27, data: 54}
+1427775	ID:39	New data: {addr: 27, data: 54}
+1427775	ID:46	New data: {addr: 27, data: 54}
+1427775	ID:60	New data: {addr: 27, data: 54}
+1427775	ID:62	New data: {addr: 27, data: 54}
+1427775	ID:63	New data: {addr: 27, data: 54}
+1427775	ID:66	New data: {addr: 27, data: 54}
+1427775	ID:72	New data: {addr: 27, data: 54}
+1427775	ID:77	New data: {addr: 27, data: 54}
+1427775	ID:86	New data: {addr: 27, data: 54}
+1427775	ID:91	New data: {addr: 27, data: 54}
+1427775	ID:98	New data: {addr: 27, data: 54}
+1427775	ID:107	New data: {addr: 27, data: 54}
+1427775	ID:116	New data: {addr: 27, data: 54}
+1427775	ID:119	New data: {addr: 27, data: 54}
+1427775	ID:138	New data: {addr: 27, data: 54}
+1427775	ID:157	New data: {addr: 27, data: 54}
+1427775	ID:159	New data: {addr: 27, data: 54}
+1427775	ID:162	New data: {addr: 27, data: 54}
+1427775	ID:173	New data: {addr: 27, data: 54}
+1427775	ID:184	New data: {addr: 27, data: 54}
+1427775	ID:185	New data: {addr: 27, data: 54}
+1427775	ID:191	New data: {addr: 27, data: 54}
+1427775	ID:192	New data: {addr: 27, data: 54}
+1427775	ID:195	New data: {addr: 27, data: 54}
+1428490	ID:179	Sensor reading: 7
+1430803	ID:181	Sensor reading: 9
+1434943	ID:92	Sensor reading: 36
+1441226	ID:35	Sensor reading: 35
+1443756	ID:11	New data: {addr: 7, data: 31}
+1443756	ID:14	New data: {addr: 7, data: 31}
+1443756	ID:18	New data: {addr: 7, data: 31}
+1443756	ID:19	New data: {addr: 7, data: 31}
+1443756	ID:20	New data: {addr: 7, data: 31}
+1443756	ID:21	New data: {addr: 7, data: 31}
+1443756	ID:22	New data: {addr: 7, data: 31}
+1443756	ID:23	New data: {addr: 7, data: 31}
+1443756	ID:31	New data: {addr: 7, data: 31}
+1443756	ID:33	New data: {addr: 7, data: 31}
+1443756	ID:37	New data: {addr: 7, data: 31}
+1443756	ID:38	New data: {addr: 7, data: 31}
+1443756	ID:40	New data: {addr: 7, data: 31}
+1443756	ID:46	New data: {addr: 7, data: 31}
+1443756	ID:49	New data: {addr: 7, data: 31}
+1443756	ID:50	New data: {addr: 7, data: 31}
+1443756	ID:57	New data: {addr: 7, data: 31}
+1443756	ID:58	New data: {addr: 7, data: 31}
+1443756	ID:64	New data: {addr: 7, data: 31}
+1443756	ID:66	New data: {addr: 7, data: 31}
+1443756	ID:72	New data: {addr: 7, data: 31}
+1443756	ID:74	New data: {addr: 7, data: 31}
+1443756	ID:76	New data: {addr: 7, data: 31}
+1443756	ID:77	New data: {addr: 7, data: 31}
+1443756	ID:80	New data: {addr: 7, data: 31}
+1443756	ID:83	New data: {addr: 7, data: 31}
+1443756	ID:85	New data: {addr: 7, data: 31}
+1443756	ID:89	New data: {addr: 7, data: 31}
+1443756	ID:90	New data: {addr: 7, data: 31}
+1443756	ID:91	New data: {addr: 7, data: 31}
+1443756	ID:94	New data: {addr: 7, data: 31}
+1443756	ID:98	New data: {addr: 7, data: 31}
+1443756	ID:99	New data: {addr: 7, data: 31}
+1443756	ID:101	New data: {addr: 7, data: 31}
+1443756	ID:104	New data: {addr: 7, data: 31}
+1443756	ID:105	New data: {addr: 7, data: 31}
+1443756	ID:111	New data: {addr: 7, data: 31}
+1443756	ID:116	New data: {addr: 7, data: 31}
+1443756	ID:122	New data: {addr: 7, data: 31}
+1443756	ID:123	New data: {addr: 7, data: 31}
+1443756	ID:127	New data: {addr: 7, data: 31}
+1443756	ID:128	New data: {addr: 7, data: 31}
+1443756	ID:136	New data: {addr: 7, data: 31}
+1443756	ID:143	New data: {addr: 7, data: 31}
+1443756	ID:144	New data: {addr: 7, data: 31}
+1443756	ID:148	New data: {addr: 7, data: 31}
+1443756	ID:152	New data: {addr: 7, data: 31}
+1443756	ID:155	New data: {addr: 7, data: 31}
+1443756	ID:159	New data: {addr: 7, data: 31}
+1443756	ID:161	New data: {addr: 7, data: 31}
+1443756	ID:165	New data: {addr: 7, data: 31}
+1443756	ID:178	New data: {addr: 7, data: 31}
+1443756	ID:180	New data: {addr: 7, data: 31}
+1443756	ID:182	New data: {addr: 7, data: 31}
+1443756	ID:190	New data: {addr: 7, data: 31}
+1443756	ID:191	New data: {addr: 7, data: 31}
+1443756	ID:195	New data: {addr: 7, data: 31}
+1443756	ID:200	New data: {addr: 7, data: 31}
+1444061	ID:192	Sensor reading: 58
+1458117	ID:158	Sensor reading: 45
+1458200	ID:75	Sensor reading: 83
+1460254	ID:106	Sensor reading: 95
+1464908	ID:157	Sensor reading: 5
+1465892	ID:185	Sensor reading: 69
+1466285	ID:9	New data: {addr: 11, data: 25}
+1466285	ID:10	New data: {addr: 11, data: 25}
+1466285	ID:13	New data: {addr: 11, data: 25}
+1466285	ID:15	New data: {addr: 11, data: 25}
+1466285	ID:34	New data: {addr: 11, data: 25}
+1466285	ID:62	New data: {addr: 11, data: 25}
+1466285	ID:84	New data: {addr: 11, data: 25}
+1466285	ID:88	New data: {addr: 11, data: 25}
+1466285	ID:123	New data: {addr: 11, data: 25}
+1466285	ID:124	New data: {addr: 11, data: 25}
+1466285	ID:126	New data: {addr: 11, data: 25}
+1466285	ID:131	New data: {addr: 11, data: 25}
+1466285	ID:132	New data: {addr: 11, data: 25}
+1466285	ID:133	New data: {addr: 11, data: 25}
+1466285	ID:142	New data: {addr: 11, data: 25}
+1466285	ID:146	New data: {addr: 11, data: 25}
+1466285	ID:147	New data: {addr: 11, data: 25}
+1466285	ID:150	New data: {addr: 11, data: 25}
+1466285	ID:151	New data: {addr: 11, data: 25}
+1466285	ID:163	New data: {addr: 11, data: 25}
+1466285	ID:164	New data: {addr: 11, data: 25}
+1466285	ID:170	New data: {addr: 11, data: 25}
+1466285	ID:179	New data: {addr: 11, data: 25}
+1466285	ID:187	New data: {addr: 11, data: 25}
+1466285	ID:188	New data: {addr: 11, data: 25}
+1466285	ID:189	New data: {addr: 11, data: 25}
+1466285	ID:196	New data: {addr: 11, data: 25}
+1466285	ID:199	New data: {addr: 11, data: 25}
+1466991	ID:101	Sensor reading: 65
+1471137	ID:140	Sensor reading: 27
+1473928	ID:36	Sensor reading: 86
+1475271	ID:123	Sensor reading: 1
+1485361	ID:55	Sensor reading: 50
+1488226	ID:115	Sensor reading: 54
+1490685	ID:194	Sensor reading: 23
+1492398	ID:16	Sensor reading: 52
+1505279	ID:83	Sensor reading: 0
+1509285	ID:32	New data: {addr: 11, data: 25}
+1509285	ID:48	New data: {addr: 11, data: 25}
+1509285	ID:50	New data: {addr: 11, data: 25}
+1509285	ID:177	New data: {addr: 11, data: 25}
+1511467	ID:49	Sensor reading: 97
+1511673	ID:139	Sensor reading: 69
+1511746	ID:95	Sensor reading: 29
+1513954	ID:65	Sensor reading: 40
+1530665	ID:84	Sensor reading: 32
+1536769	ID:25	Sensor reading: 25
+1552344	ID:102	Sensor reading: 97
+1562622	ID:156	Sensor reading: 13
+1585433	ID:67	Sensor reading: 85
+1602742	ID:7	New data: {addr: 8, data: 5}
+1602742	ID:8	New data: {addr: 8, data: 5}
+1602742	ID:10	New data: {addr: 8, data: 5}
+1602742	ID:13	New data: {addr: 8, data: 5}
+1602742	ID:15	New data: {addr: 8, data: 5}
+1602742	ID:18	New data: {addr: 8, data: 5}
+1602742	ID:28	New data: {addr: 8, data: 5}
+1602742	ID:34	New data: {addr: 8, data: 5}
+1602742	ID:40	New data: {addr: 8, data: 5}
+1602742	ID:82	New data: {addr: 8, data: 5}
+1602742	ID:84	New data: {addr: 8, data: 5}
+1602742	ID:88	New data: {addr: 8, data: 5}
+1602742	ID:102	New data: {addr: 8, data: 5}
+1602742	ID:106	New data: {addr: 8, data: 5}
+1602742	ID:123	New data: {addr: 8, data: 5}
+1602742	ID:124	New data: {addr: 8, data: 5}
+1602742	ID:131	New data: {addr: 8, data: 5}
+1602742	ID:132	New data: {addr: 8, data: 5}
+1602742	ID:133	New data: {addr: 8, data: 5}
+1602742	ID:139	New data: {addr: 8, data: 5}
+1602742	ID:142	New data: {addr: 8, data: 5}
+1602742	ID:143	New data: {addr: 8, data: 5}
+1602742	ID:146	New data: {addr: 8, data: 5}
+1602742	ID:148	New data: {addr: 8, data: 5}
+1602742	ID:151	New data: {addr: 8, data: 5}
+1602742	ID:163	New data: {addr: 8, data: 5}
+1602742	ID:164	New data: {addr: 8, data: 5}
+1602742	ID:176	New data: {addr: 8, data: 5}
+1602742	ID:187	New data: {addr: 8, data: 5}
+1602742	ID:189	New data: {addr: 8, data: 5}
+1602742	ID:196	New data: {addr: 8, data: 5}
+1602742	ID:199	New data: {addr: 8, data: 5}
+1617926	ID:6	New data: {addr: 8, data: 12}
+1617926	ID:11	New data: {addr: 8, data: 12}
+1617926	ID:14	New data: {addr: 8, data: 12}
+1617926	ID:29	New data: {addr: 8, data: 12}
+1617926	ID:37	New data: {addr: 8, data: 12}
+1617926	ID:39	New data: {addr: 8, data: 12}
+1617926	ID:46	New data: {addr: 8, data: 12}
+1617926	ID:48	New data: {addr: 8, data: 12}
+1617926	ID:66	New data: {addr: 8, data: 12}
+1617926	ID:83	New data: {addr: 8, data: 12}
+1617926	ID:92	New data: {addr: 8, data: 12}
+1617926	ID:104	New data: {addr: 8, data: 12}
+1617926	ID:105	New data: {addr: 8, data: 12}
+1617926	ID:113	New data: {addr: 8, data: 12}
+1617926	ID:122	New data: {addr: 8, data: 12}
+1617926	ID:136	New data: {addr: 8, data: 12}
+1617926	ID:149	New data: {addr: 8, data: 12}
+1617926	ID:155	New data: {addr: 8, data: 12}
+1617926	ID:156	New data: {addr: 8, data: 12}
+1617926	ID:197	New data: {addr: 8, data: 12}
+1617926	ID:200	New data: {addr: 8, data: 12}
+1619418	ID:134	Sensor reading: 60
+1622596	ID:12	New data: {addr: 6, data: 40}
+1622596	ID:20	New data: {addr: 6, data: 40}
+1622596	ID:21	New data: {addr: 6, data: 40}
+1622596	ID:22	New data: {addr: 6, data: 40}
+1622596	ID:23	New data: {addr: 6, data: 40}
+1622596	ID:33	New data: {addr: 6, data: 40}
+1622596	ID:57	New data: {addr: 6, data: 40}
+1622596	ID:58	New data: {addr: 6, data: 40}
+1622596	ID:71	New data: {addr: 6, data: 40}
+1622596	ID:74	New data: {addr: 6, data: 40}
+1622596	ID:76	New data: {addr: 6, data: 40}
+1622596	ID:77	New data: {addr: 6, data: 40}
+1622596	ID:79	New data: {addr: 6, data: 40}
+1622596	ID:83	New data: {addr: 6, data: 40}
+1622596	ID:85	New data: {addr: 6, data: 40}
+1622596	ID:98	New data: {addr: 6, data: 40}
+1622596	ID:111	New data: {addr: 6, data: 40}
+1622596	ID:114	New data: {addr: 6, data: 40}
+1622596	ID:127	New data: {addr: 6, data: 40}
+1622596	ID:129	New data: {addr: 6, data: 40}
+1622596	ID:152	New data: {addr: 6, data: 40}
+1622596	ID:157	New data: {addr: 6, data: 40}
+1622596	ID:161	New data: {addr: 6, data: 40}
+1622596	ID:166	New data: {addr: 6, data: 40}
+1622596	ID:178	New data: {addr: 6, data: 40}
+1622596	ID:180	New data: {addr: 6, data: 40}
+1622596	ID:183	New data: {addr: 6, data: 40}
+1622596	ID:185	New data: {addr: 6, data: 40}
+1622596	ID:186	New data: {addr: 6, data: 40}
+1622596	ID:190	New data: {addr: 6, data: 40}
+1622596	ID:191	New data: {addr: 6, data: 40}
+1622596	ID:195	New data: {addr: 6, data: 40}
+1622596	ID:198	New data: {addr: 6, data: 40}
+1623227	ID:26	New data: {addr: 29, data: 25}
+1623227	ID:41	New data: {addr: 29, data: 25}
+1623227	ID:43	New data: {addr: 29, data: 25}
+1623227	ID:47	New data: {addr: 29, data: 25}
+1623227	ID:48	New data: {addr: 29, data: 25}
+1623227	ID:49	New data: {addr: 29, data: 25}
+1623227	ID:50	New data: {addr: 29, data: 25}
+1623227	ID:51	New data: {addr: 29, data: 25}
+1623227	ID:54	New data: {addr: 29, data: 25}
+1623227	ID:65	New data: {addr: 29, data: 25}
+1623227	ID:69	New data: {addr: 29, data: 25}
+1623227	ID:73	New data: {addr: 29, data: 25}
+1623227	ID:78	New data: {addr: 29, data: 25}
+1623227	ID:92	New data: {addr: 29, data: 25}
+1623227	ID:95	New data: {addr: 29, data: 25}
+1623227	ID:103	New data: {addr: 29, data: 25}
+1623227	ID:112	New data: {addr: 29, data: 25}
+1623227	ID:113	New data: {addr: 29, data: 25}
+1623227	ID:120	New data: {addr: 29, data: 25}
+1623227	ID:129	New data: {addr: 29, data: 25}
+1623227	ID:140	New data: {addr: 29, data: 25}
+1623227	ID:145	New data: {addr: 29, data: 25}
+1623227	ID:154	New data: {addr: 29, data: 25}
+1623227	ID:157	New data: {addr: 29, data: 25}
+1623227	ID:160	New data: {addr: 29, data: 25}
+1623227	ID:166	New data: {addr: 29, data: 25}
+1623227	ID:168	New data: {addr: 29, data: 25}
+1623227	ID:172	New data: {addr: 29, data: 25}
+1623227	ID:194	New data: {addr: 29, data: 25}
+1623227	ID:197	New data: {addr: 29, data: 25}
+1623227	ID:198	New data: {addr: 29, data: 25}
+1642669	ID:32	New data: {addr: 8, data: 5}
+1642669	ID:37	New data: {addr: 8, data: 5}
+1642669	ID:50	New data: {addr: 8, data: 5}
+1642669	ID:62	New data: {addr: 8, data: 5}
+1642669	ID:91	New data: {addr: 8, data: 5}
+1642669	ID:117	New data: {addr: 8, data: 5}
+1642669	ID:122	New data: {addr: 8, data: 5}
+1642669	ID:126	New data: {addr: 8, data: 5}
+1642669	ID:128	New data: {addr: 8, data: 5}
+1642669	ID:136	New data: {addr: 8, data: 5}
+1642669	ID:150	New data: {addr: 8, data: 5}
+1642669	ID:170	New data: {addr: 8, data: 5}
+1642669	ID:177	New data: {addr: 8, data: 5}
+1642669	ID:179	New data: {addr: 8, data: 5}
+1642669	ID:188	New data: {addr: 8, data: 5}
+1645108	ID:28	Sensor reading: 30
+1647575	ID:54	Sensor reading: 52
+1655498	ID:110	Sensor reading: 30
+1658576	ID:22	New data: {addr: 8, data: 12}
+1658576	ID:27	New data: {addr: 8, data: 12}
+1658576	ID:35	New data: {addr: 8, data: 12}
+1658576	ID:38	New data: {addr: 8, data: 12}
+1658576	ID:56	New data: {addr: 8, data: 12}
+1658576	ID:57	New data: {addr: 8, data: 12}
+1658576	ID:70	New data: {addr: 8, data: 12}
+1658576	ID:96	New data: {addr: 8, data: 12}
+1658576	ID:97	New data: {addr: 8, data: 12}
+1658576	ID:98	New data: {addr: 8, data: 12}
+1658576	ID:107	New data: {addr: 8, data: 12}
+1658576	ID:110	New data: {addr: 8, data: 12}
+1658576	ID:114	New data: {addr: 8, data: 12}
+1658576	ID:115	New data: {addr: 8, data: 12}
+1658576	ID:116	New data: {addr: 8, data: 12}
+1658576	ID:153	New data: {addr: 8, data: 12}
+1658576	ID:169	New data: {addr: 8, data: 12}
+1658576	ID:178	New data: {addr: 8, data: 12}
+1658576	ID:185	New data: {addr: 8, data: 12}
+1658576	ID:193	New data: {addr: 8, data: 12}
+1658576	ID:195	New data: {addr: 8, data: 12}
+1663901	ID:24	Sensor reading: 33
+1671798	ID:12	Sensor reading: 30
+1672367	ID:104	Sensor reading: 32
+1672749	ID:169	Sensor reading: 29
+1675809	ID:64	Sensor reading: 44
+1678539	ID:43	Sensor reading: 58
+1678710	ID:30	Sensor reading: 53
+1689303	ID:155	Sensor reading: 49
+1689596	ID:47	Sensor reading: 39
+1700577	ID:42	New data: {addr: 8, data: 12}
+1700577	ID:44	New data: {addr: 8, data: 12}
+1704564	ID:31	Sensor reading: 66
+1704772	ID:9	Sensor reading: 67
+1709690	ID:25	New data: {addr: 28, data: 33}
+1709690	ID:26	New data: {addr: 28, data: 33}
+1709690	ID:41	New data: {addr: 28, data: 33}
+1709690	ID:43	New data: {addr: 28, data: 33}
+1709690	ID:47	New data: {addr: 28, data: 33}
+1709690	ID:48	New data: {addr: 28, data: 33}
+1709690	ID:49	New data: {addr: 28, data: 33}
+1709690	ID:51	New data: {addr: 28, data: 33}
+1709690	ID:54	New data: {addr: 28, data: 33}
+1709690	ID:65	New data: {addr: 28, data: 33}
+1709690	ID:73	New data: {addr: 28, data: 33}
+1709690	ID:90	New data: {addr: 28, data: 33}
+1709690	ID:92	New data: {addr: 28, data: 33}
+1709690	ID:95	New data: {addr: 28, data: 33}
+1709690	ID:103	New data: {addr: 28, data: 33}
+1709690	ID:112	New data: {addr: 28, data: 33}
+1709690	ID:113	New data: {addr: 28, data: 33}
+1709690	ID:120	New data: {addr: 28, data: 33}
+1709690	ID:121	New data: {addr: 28, data: 33}
+1709690	ID:129	New data: {addr: 28, data: 33}
+1709690	ID:130	New data: {addr: 28, data: 33}
+1709690	ID:140	New data: {addr: 28, data: 33}
+1709690	ID:154	New data: {addr: 28, data: 33}
+1709690	ID:157	New data: {addr: 28, data: 33}
+1709690	ID:160	New data: {addr: 28, data: 33}
+1709690	ID:166	New data: {addr: 28, data: 33}
+1709690	ID:168	New data: {addr: 28, data: 33}
+1709690	ID:172	New data: {addr: 28, data: 33}
+1709690	ID:194	New data: {addr: 28, data: 33}
+1709690	ID:197	New data: {addr: 28, data: 33}
+1709690	ID:198	New data: {addr: 28, data: 33}
+1714231	ID:119	Sensor reading: 34
+1715458	ID:196	Sensor reading: 28
+1720222	ID:145	Sensor reading: 97
+1722455	ID:93	Sensor reading: 33
+1725729	ID:151	Sensor reading: 70
+1726280	ID:142	Sensor reading: 73
+1731181	ID:199	Sensor reading: 65
+1738082	ID:88	Sensor reading: 88
+1743066	ID:10	Sensor reading: 90
+1759084	ID:41	Sensor reading: 27
+1759587	ID:184	Sensor reading: 93
+1761366	ID:130	Sensor reading: 94
+1762274	ID:82	Sensor reading: 71
+1769439	ID:17	Sensor reading: 20
+1770224	ID:167	Sensor reading: 47
+1770737	ID:132	Sensor reading: 37
+1773516	ID:138	Sensor reading: 61
+1775946	ID:45	Sensor reading: 43
+1778901	ID:198	Sensor reading: 11
+1780638	ID:128	Sensor reading: 4
+1782622	ID:136	Sensor reading: 35
+1783337	ID:174	Sensor reading: 53
+1783519	ID:163	Sensor reading: 53
+1784950	ID:160	Sensor reading: 84
+1790490	ID:22	Sensor reading: 66
+1793444	ID:80	Sensor reading: 79
+1794752	ID:180	Sensor reading: 28
+1795324	ID:19	Sensor reading: 92
+1801221	ID:172	Sensor reading: 38
+1803312	ID:129	Sensor reading: 34
+1803444	ID:94	Sensor reading: 90
+1805444	ID:17	New data: {addr: 16, data: 30}
+1805444	ID:20	New data: {addr: 16, data: 30}
+1805444	ID:21	New data: {addr: 16, data: 30}
+1805444	ID:22	New data: {addr: 16, data: 30}
+1805444	ID:23	New data: {addr: 16, data: 30}
+1805444	ID:30	New data: {addr: 16, data: 30}
+1805444	ID:38	New data: {addr: 16, data: 30}
+1805444	ID:43	New data: {addr: 16, data: 30}
+1805444	ID:47	New data: {addr: 16, data: 30}
+1805444	ID:53	New data: {addr: 16, data: 30}
+1805444	ID:54	New data: {addr: 16, data: 30}
+1805444	ID:57	New data: {addr: 16, data: 30}
+1805444	ID:58	New data: {addr: 16, data: 30}
+1805444	ID:62	New data: {addr: 16, data: 30}
+1805444	ID:69	New data: {addr: 16, data: 30}
+1805444	ID:71	New data: {addr: 16, data: 30}
+1805444	ID:74	New data: {addr: 16, data: 30}
+1805444	ID:76	New data: {addr: 16, data: 30}
+1805444	ID:79	New data: {addr: 16, data: 30}
+1805444	ID:83	New data: {addr: 16, data: 30}
+1805444	ID:85	New data: {addr: 16, data: 30}
+1805444	ID:90	New data: {addr: 16, data: 30}
+1805444	ID:111	New data: {addr: 16, data: 30}
+1805444	ID:113	New data: {addr: 16, data: 30}
+1805444	ID:114	New data: {addr: 16, data: 30}
+1805444	ID:120	New data: {addr: 16, data: 30}
+1805444	ID:127	New data: {addr: 16, data: 30}
+1805444	ID:128	New data: {addr: 16, data: 30}
+1805444	ID:155	New data: {addr: 16, data: 30}
+1805444	ID:157	New data: {addr: 16, data: 30}
+1805444	ID:160	New data: {addr: 16, data: 30}
+1805444	ID:161	New data: {addr: 16, data: 30}
+1805444	ID:173	New data: {addr: 16, data: 30}
+1805444	ID:174	New data: {addr: 16, data: 30}
+1805444	ID:178	New data: {addr: 16, data: 30}
+1805444	ID:180	New data: {addr: 16, data: 30}
+1805444	ID:183	New data: {addr: 16, data: 30}
+1805444	ID:184	New data: {addr: 16, data: 30}
+1805444	ID:186	New data: {addr: 16, data: 30}
+1805444	ID:191	New data: {addr: 16, data: 30}
+1805444	ID:198	New data: {addr: 16, data: 30}
+1805609	ID:52	Sensor reading: 87
+1806874	ID:74	Sensor reading: 5
+1806959	ID:77	Sensor reading: 86
+1808620	ID:177	Sensor reading: 8
+1818678	ID:71	Sensor reading: 84
+1822742	ID:171	New data: {addr: 8, data: 12}
+1825765	ID:62	Sensor reading: 27
+1826493	ID:70	Sensor reading: 7
+1828097	ID:33	Sensor reading: 90
+1834122	ID:58	Sensor reading: 56
+1835013	ID:154	Sensor reading: 67
+1838173	ID:14	Sensor reading: 33
+1839926	ID:9	New data: {addr: 8, data: 5}
+1839926	ID:11	New data: {addr: 8, data: 5}
+1839926	ID:14	New data: {addr: 8, data: 5}
+1839926	ID:19	New data: {addr: 8, data: 5}
+1839926	ID:31	New data: {addr: 8, data: 5}
+1839926	ID:36	New data: {addr: 8, data: 5}
+1839926	ID:45	New data: {addr: 8, data: 5}
+1839926	ID:51	New data: {addr: 8, data: 5}
+1839926	ID:52	New data: {addr: 8, data: 5}
+1839926	ID:55	New data: {addr: 8, data: 5}
+1839926	ID:64	New data: {addr: 8, data: 5}
+1839926	ID:68	New data: {addr: 8, data: 5}
+1839926	ID:80	New data: {addr: 8, data: 5}
+1839926	ID:81	New data: {addr: 8, data: 5}
+1839926	ID:94	New data: {addr: 8, data: 5}
+1839926	ID:99	New data: {addr: 8, data: 5}
+1839926	ID:100	New data: {addr: 8, data: 5}
+1839926	ID:101	New data: {addr: 8, data: 5}
+1839926	ID:103	New data: {addr: 8, data: 5}
+1839926	ID:109	New data: {addr: 8, data: 5}
+1839926	ID:112	New data: {addr: 8, data: 5}
+1839926	ID:137	New data: {addr: 8, data: 5}
+1839926	ID:144	New data: {addr: 8, data: 5}
+1839926	ID:149	New data: {addr: 8, data: 5}
+1839926	ID:158	New data: {addr: 8, data: 5}
+1839926	ID:165	New data: {addr: 8, data: 5}
+1839926	ID:182	New data: {addr: 8, data: 5}
+1839926	ID:197	New data: {addr: 8, data: 5}
+1840325	ID:118	Sensor reading: 8
+1848973	ID:90	Sensor reading: 63
+1850064	ID:77	New data: {addr: 16, data: 30}
+1850064	ID:86	New data: {addr: 16, data: 30}
+1851209	ID:171	Sensor reading: 82
+1853972	ID:107	Sensor reading: 38
+1854561	ID:66	Sensor reading: 26
+1858086	ID:29	Sensor reading: 56
+1858346	ID:48	Sensor reading: 96
+1865215	ID:69	Sensor reading: 31
+1868381	ID:182	Sensor reading: 85
+1869486	ID:86	Sensor reading: 16
+1872628	ID:15	Sensor reading: 68
+1873064	ID:111	Sensor reading: 56
+1873451	ID:97	Sensor reading: 38
+1874611	ID:150	Sensor reading: 36
+1875909	ID:146	Sensor reading: 39
+1875989	ID:125	Sensor reading: 81
+1878164	ID:124	Sensor reading: 65
+1878912	ID:170	Sensor reading: 80
+1879442	ID:153	Sensor reading: 79
+1879907	ID:96	Sensor reading: 84
+1880180	ID:175	Sensor reading: 46
+1883926	ID:48	New data: {addr: 8, data: 5}
+1883926	ID:89	New data: {addr: 8, data: 5}
+1887137	ID:120	Sensor reading: 91
+1889376	ID:103	Sensor reading: 6
+1891255	ID:114	Sensor reading: 25
+1892273	ID:61	Sensor reading: 75
+1897709	ID:38	Sensor reading: 56
+1898145	ID:188	Sensor reading: 41
+1898303	ID:126	Sensor reading: 42
+1901264	ID:34	Sensor reading: 66
+1906901	ID:137	Sensor reading: 85
+1907464	ID:6	Sensor reading: 13
+1908921	ID:100	Sensor reading: 42
+1913076	ID:131	Sensor reading: 33
+1913741	ID:1	New data: {addr: 8, data: 5}
+1913741	ID:181	New data: {addr: 8, data: 5}
+1916036	ID:68	Sensor reading: 52
+1917096	ID:98	Sensor reading: 6
+1921786	ID:143	Sensor reading: 39
+1925307	ID:116	Sensor reading: 96
+1925593	ID:161	Sensor reading: 66
+1926463	ID:23	Sensor reading: 70
+1927595	ID:30	New data: {addr: 6, data: 40}
+1927595	ID:35	New data: {addr: 6, data: 40}
+1927595	ID:60	New data: {addr: 6, data: 40}
+1927595	ID:63	New data: {addr: 6, data: 40}
+1927595	ID:90	New data: {addr: 6, data: 40}
+1927595	ID:138	New data: {addr: 6, data: 40}
+1927595	ID:159	New data: {addr: 6, data: 40}
+1930203	ID:5	Sensor reading: 96
+1930280	ID:3	Sensor reading: 53
+1932063	ID:60	Sensor reading: 82
+1934052	ID:166	Sensor reading: 76
+1935494	ID:37	Sensor reading: 2
+1937226	ID:50	New data: {addr: 28, data: 33}
+1937226	ID:69	New data: {addr: 28, data: 33}
+1937226	ID:78	New data: {addr: 28, data: 33}
+1937226	ID:87	New data: {addr: 28, data: 33}
+1937226	ID:141	New data: {addr: 28, data: 33}
+1937226	ID:145	New data: {addr: 28, data: 33}
+1937226	ID:167	New data: {addr: 28, data: 33}
+1937226	ID:174	New data: {addr: 28, data: 33}
+1937226	ID:175	New data: {addr: 28, data: 33}
+1944293	ID:63	Sensor reading: 36
+1944319	ID:133	Sensor reading: 55
+1944627	ID:78	Sensor reading: 77
+1946612	ID:144	Sensor reading: 50
+1946919	ID:54	New data: {addr: 7, data: 53}
+1946919	ID:69	New data: {addr: 7, data: 53}
+1946919	ID:78	New data: {addr: 7, data: 53}
+1946919	ID:82	New data: {addr: 7, data: 53}
+1946919	ID:87	New data: {addr: 7, data: 53}
+1946919	ID:90	New data: {addr: 7, data: 53}
+1946919	ID:93	New data: {addr: 7, data: 53}
+1946919	ID:95	New data: {addr: 7, data: 53}
+1946919	ID:103	New data: {addr: 7, data: 53}
+1946919	ID:108	New data: {addr: 7, data: 53}
+1946919	ID:145	New data: {addr: 7, data: 53}
+1946919	ID:167	New data: {addr: 7, data: 53}
+1946919	ID:174	New data: {addr: 7, data: 53}
+1946919	ID:175	New data: {addr: 7, data: 53}
+1946919	ID:176	New data: {addr: 7, data: 53}
+1946919	ID:192	New data: {addr: 7, data: 53}
+1946919	ID:198	New data: {addr: 7, data: 53}
+1948563	ID:190	Sensor reading: 92
+1948785	ID:20	Sensor reading: 39
+1951980	ID:53	Sensor reading: 77
+1952960	ID:189	Sensor reading: 88
+1954780	ID:89	Sensor reading: 26
+1956794	ID:149	Sensor reading: 44
+1957626	ID:7	Sensor reading: 55
+1958910	ID:173	Sensor reading: 42
+1960651	ID:176	Sensor reading: 22
+1961006	ID:105	Sensor reading: 29
+1962280	ID:135	Sensor reading: 61
+1964660	ID:13	Sensor reading: 35
+1965645	ID:117	Sensor reading: 95
+1965932	ID:56	Sensor reading: 79
+1966226	ID:35	Sensor reading: 73
+1967852	ID:127	Sensor reading: 21
+1968157	ID:32	Sensor reading: 48
+1968756	ID:107	New data: {addr: 6, data: 40}
+1970803	ID:181	Sensor reading: 72
+1973035	ID:21	Sensor reading: 63
+1977344	ID:141	Sensor reading: 48
+1979330	ID:42	Sensor reading: 16
+1980298	ID:57	Sensor reading: 4
+1980400	ID:1	Sensor reading: 96
+1982136	ID:168	Sensor reading: 80
+1982285	ID:26	Sensor reading: 97
+1987054	ID:4	Sensor reading: 98
+1992429	ID:91	Sensor reading: 48
+1992680	ID:147	Sensor reading: 36
+1993257	ID:200	Sensor reading: 4
+1995490	ID:179	Sensor reading: 96
+1995807	ID:4	New data: {addr: 5, data: 96}
+1995807	ID:7	New data: {addr: 5, data: 96}
+1995807	ID:13	New data: {addr: 5, data: 96}
+1995807	ID:15	New data: {addr: 5, data: 96}
+1995807	ID:28	New data: {addr: 5, data: 96}
+1995807	ID:32	New data: {addr: 5, data: 96}
+1995807	ID:34	New data: {addr: 5, data: 96}
+1995807	ID:40	New data: {addr: 5, data: 96}
+1995807	ID:82	New data: {addr: 5, data: 96}
+1995807	ID:84	New data: {addr: 5, data: 96}
+1995807	ID:88	New data: {addr: 5, data: 96}
+1995807	ID:89	New data: {addr: 5, data: 96}
+1995807	ID:91	New data: {addr: 5, data: 96}
+1995807	ID:102	New data: {addr: 5, data: 96}
+1995807	ID:106	New data: {addr: 5, data: 96}
+1995807	ID:117	New data: {addr: 5, data: 96}
+1995807	ID:122	New data: {addr: 5, data: 96}
+1995807	ID:124	New data: {addr: 5, data: 96}
+1995807	ID:128	New data: {addr: 5, data: 96}
+1995807	ID:131	New data: {addr: 5, data: 96}
+1995807	ID:133	New data: {addr: 5, data: 96}
+1995807	ID:136	New data: {addr: 5, data: 96}
+1995807	ID:139	New data: {addr: 5, data: 96}
+1995807	ID:142	New data: {addr: 5, data: 96}
+1995807	ID:146	New data: {addr: 5, data: 96}
+1995807	ID:148	New data: {addr: 5, data: 96}
+1995807	ID:150	New data: {addr: 5, data: 96}
+1995807	ID:151	New data: {addr: 5, data: 96}
+1995807	ID:158	New data: {addr: 5, data: 96}
+1995807	ID:163	New data: {addr: 5, data: 96}
+1995807	ID:164	New data: {addr: 5, data: 96}
+1995807	ID:170	New data: {addr: 5, data: 96}
+1995807	ID:176	New data: {addr: 5, data: 96}
+1995807	ID:177	New data: {addr: 5, data: 96}
+1995807	ID:179	New data: {addr: 5, data: 96}
+1995807	ID:181	New data: {addr: 5, data: 96}
+1995807	ID:187	New data: {addr: 5, data: 96}
+1995807	ID:188	New data: {addr: 5, data: 96}
+1995807	ID:189	New data: {addr: 5, data: 96}
+1995807	ID:196	New data: {addr: 5, data: 96}
+2000742	ID:9	New data: {addr: 5, data: 96}
+2000742	ID:10	New data: {addr: 5, data: 96}
+2000742	ID:18	New data: {addr: 5, data: 96}
+2000742	ID:45	New data: {addr: 5, data: 96}
+2000742	ID:51	New data: {addr: 5, data: 96}
+2000742	ID:64	New data: {addr: 5, data: 96}
+2000742	ID:68	New data: {addr: 5, data: 96}
+2000742	ID:101	New data: {addr: 5, data: 96}
+2000742	ID:123	New data: {addr: 5, data: 96}
+2000742	ID:132	New data: {addr: 5, data: 96}
+2000742	ID:143	New data: {addr: 5, data: 96}
+2000742	ID:144	New data: {addr: 5, data: 96}
+2001861	ID:112	Sensor reading: 6
+2005840	ID:109	Sensor reading: 45
+2008142	ID:10	New data: {addr: 7, data: 53}
+2008142	ID:16	New data: {addr: 7, data: 53}
+2008142	ID:24	New data: {addr: 7, data: 53}
+2008142	ID:26	New data: {addr: 7, data: 53}
+2008142	ID:41	New data: {addr: 7, data: 53}
+2008142	ID:47	New data: {addr: 7, data: 53}
+2008142	ID:51	New data: {addr: 7, data: 53}
+2008142	ID:61	New data: {addr: 7, data: 53}
+2008142	ID:65	New data: {addr: 7, data: 53}
+2008142	ID:67	New data: {addr: 7, data: 53}
+2008142	ID:73	New data: {addr: 7, data: 53}
+2008142	ID:92	New data: {addr: 7, data: 53}
+2008142	ID:112	New data: {addr: 7, data: 53}
+2008142	ID:113	New data: {addr: 7, data: 53}
+2008142	ID:118	New data: {addr: 7, data: 53}
+2008142	ID:120	New data: {addr: 7, data: 53}
+2008142	ID:121	New data: {addr: 7, data: 53}
+2008142	ID:129	New data: {addr: 7, data: 53}
+2008142	ID:130	New data: {addr: 7, data: 53}
+2008142	ID:140	New data: {addr: 7, data: 53}
+2008142	ID:141	New data: {addr: 7, data: 53}
+2008142	ID:154	New data: {addr: 7, data: 53}
+2008142	ID:157	New data: {addr: 7, data: 53}
+2008142	ID:160	New data: {addr: 7, data: 53}
+2008142	ID:166	New data: {addr: 7, data: 53}
+2008142	ID:168	New data: {addr: 7, data: 53}
+2008142	ID:171	New data: {addr: 7, data: 53}
+2008142	ID:172	New data: {addr: 7, data: 53}
+2008142	ID:194	New data: {addr: 7, data: 53}
+2010059	ID:186	Sensor reading: 22
+2010117	ID:158	Sensor reading: 74
+2018137	ID:140	Sensor reading: 6
+2018402	ID:51	Sensor reading: 32
+2025009	ID:40	Sensor reading: 94
+2025467	ID:49	Sensor reading: 28
+2028426	ID:2	Sensor reading: 32
+2031366	ID:72	Sensor reading: 54
+2031746	ID:95	Sensor reading: 45
+2032187	ID:11	Sensor reading: 17
+2038279	ID:83	Sensor reading: 44
+2044591	ID:183	Sensor reading: 79
+2046011	ID:39	Sensor reading: 62
+2046487	ID:113	Sensor reading: 68
+2048445	ID:162	Sensor reading: 89
+2049742	ID:8	New data: {addr: 5, data: 96}
+2049742	ID:11	New data: {addr: 5, data: 96}
+2049742	ID:19	New data: {addr: 5, data: 96}
+2049742	ID:31	New data: {addr: 5, data: 96}
+2049742	ID:52	New data: {addr: 5, data: 96}
+2049742	ID:55	New data: {addr: 5, data: 96}
+2049742	ID:81	New data: {addr: 5, data: 96}
+2049742	ID:109	New data: {addr: 5, data: 96}
+2049742	ID:112	New data: {addr: 5, data: 96}
+2049742	ID:182	New data: {addr: 5, data: 96}
+2051683	ID:44	Sensor reading: 30
+2053398	ID:16	Sensor reading: 70
+2055014	ID:159	Sensor reading: 35
+2056361	ID:55	Sensor reading: 95
+2061153	ID:8	Sensor reading: 97
+2064595	ID:20	New data: {addr: 6, data: 32}
+2064595	ID:21	New data: {addr: 6, data: 32}
+2064595	ID:22	New data: {addr: 6, data: 32}
+2064595	ID:23	New data: {addr: 6, data: 32}
+2064595	ID:30	New data: {addr: 6, data: 32}
+2064595	ID:33	New data: {addr: 6, data: 32}
+2064595	ID:35	New data: {addr: 6, data: 32}
+2064595	ID:57	New data: {addr: 6, data: 32}
+2064595	ID:58	New data: {addr: 6, data: 32}
+2064595	ID:60	New data: {addr: 6, data: 32}
+2064595	ID:71	New data: {addr: 6, data: 32}
+2064595	ID:74	New data: {addr: 6, data: 32}
+2064595	ID:76	New data: {addr: 6, data: 32}
+2064595	ID:77	New data: {addr: 6, data: 32}
+2064595	ID:79	New data: {addr: 6, data: 32}
+2064595	ID:83	New data: {addr: 6, data: 32}
+2064595	ID:85	New data: {addr: 6, data: 32}
+2064595	ID:86	New data: {addr: 6, data: 32}
+2064595	ID:90	New data: {addr: 6, data: 32}
+2064595	ID:98	New data: {addr: 6, data: 32}
+2064595	ID:111	New data: {addr: 6, data: 32}
+2064595	ID:114	New data: {addr: 6, data: 32}
+2064595	ID:127	New data: {addr: 6, data: 32}
+2064595	ID:129	New data: {addr: 6, data: 32}
+2064595	ID:138	New data: {addr: 6, data: 32}
+2064595	ID:157	New data: {addr: 6, data: 32}
+2064595	ID:161	New data: {addr: 6, data: 32}
+2064595	ID:178	New data: {addr: 6, data: 32}
+2064595	ID:180	New data: {addr: 6, data: 32}
+2064595	ID:183	New data: {addr: 6, data: 32}
+2064595	ID:186	New data: {addr: 6, data: 32}
+2064595	ID:190	New data: {addr: 6, data: 32}
+2064595	ID:191	New data: {addr: 6, data: 32}
+2064595	ID:198	New data: {addr: 6, data: 32}
+2066632	ID:25	New data: {addr: 7, data: 53}
+2066632	ID:43	New data: {addr: 7, data: 53}
+2066632	ID:48	New data: {addr: 7, data: 53}
+2066632	ID:49	New data: {addr: 7, data: 53}
+2066632	ID:197	New data: {addr: 7, data: 53}
+2073571	ID:87	Sensor reading: 28
+2073892	ID:185	Sensor reading: 93
+2074271	ID:123	Sensor reading: 75
+2075622	ID:156	Sensor reading: 34
+2081991	ID:101	Sensor reading: 54
+2082914	ID:50	Sensor reading: 50
+2085106	ID:81	Sensor reading: 30
+2086058	ID:46	New data: {addr: 5, data: 96}
+2086058	ID:105	New data: {addr: 5, data: 96}
+2087963	ID:5	New data: {addr: 16, data: 30}
+2087963	ID:41	New data: {addr: 16, data: 30}
+2087963	ID:60	New data: {addr: 16, data: 30}
+2087963	ID:61	New data: {addr: 16, data: 30}
+2087963	ID:63	New data: {addr: 16, data: 30}
+2087963	ID:65	New data: {addr: 16, data: 30}
+2087963	ID:72	New data: {addr: 16, data: 30}
+2087963	ID:91	New data: {addr: 16, data: 30}
+2087963	ID:93	New data: {addr: 16, data: 30}
+2087963	ID:95	New data: {addr: 16, data: 30}
+2087963	ID:107	New data: {addr: 16, data: 30}
+2087963	ID:116	New data: {addr: 16, data: 30}
+2087963	ID:119	New data: {addr: 16, data: 30}
+2087963	ID:121	New data: {addr: 16, data: 30}
+2087963	ID:122	New data: {addr: 16, data: 30}
+2087963	ID:141	New data: {addr: 16, data: 30}
+2087963	ID:152	New data: {addr: 16, data: 30}
+2087963	ID:159	New data: {addr: 16, data: 30}
+2087963	ID:162	New data: {addr: 16, data: 30}
+2087963	ID:163	New data: {addr: 16, data: 30}
+2087963	ID:166	New data: {addr: 16, data: 30}
+2087963	ID:185	New data: {addr: 16, data: 30}
+2087963	ID:192	New data: {addr: 16, data: 30}
+2087963	ID:195	New data: {addr: 16, data: 30}
+2089656	ID:46	Sensor reading: 7
+2096482	ID:73	Sensor reading: 12
+2101209	ID:197	Sensor reading: 1
+2103921	ID:165	Sensor reading: 64
+2109051	ID:99	Sensor reading: 3
+2109627	ID:59	Sensor reading: 26
+2112370	ID:18	Sensor reading: 5
+2114943	ID:92	Sensor reading: 68
+2115788	ID:122	Sensor reading: 76
+2116942	ID:85	Sensor reading: 88
+2125600	ID:195	Sensor reading: 74
+2126547	ID:148	Sensor reading: 76
+2128961	ID:79	Sensor reading: 66
+2135201	ID:152	Sensor reading: 86
+2139572	ID:193	Sensor reading: 34
+2141914	ID:108	Sensor reading: 46
+2142577	ID:1	New data: {addr: 10, data: 13}
+2142577	ID:8	New data: {addr: 10, data: 13}
+2142577	ID:9	New data: {addr: 10, data: 13}
+2142577	ID:22	New data: {addr: 10, data: 13}
+2142577	ID:27	New data: {addr: 10, data: 13}
+2142577	ID:28	New data: {addr: 10, data: 13}
+2142577	ID:29	New data: {addr: 10, data: 13}
+2142577	ID:30	New data: {addr: 10, data: 13}
+2142577	ID:31	New data: {addr: 10, data: 13}
+2142577	ID:35	New data: {addr: 10, data: 13}
+2142577	ID:37	New data: {addr: 10, data: 13}
+2142577	ID:38	New data: {addr: 10, data: 13}
+2142577	ID:39	New data: {addr: 10, data: 13}
+2142577	ID:42	New data: {addr: 10, data: 13}
+2142577	ID:45	New data: {addr: 10, data: 13}
+2142577	ID:46	New data: {addr: 10, data: 13}
+2142577	ID:55	New data: {addr: 10, data: 13}
+2142577	ID:56	New data: {addr: 10, data: 13}
+2142577	ID:57	New data: {addr: 10, data: 13}
+2142577	ID:62	New data: {addr: 10, data: 13}
+2142577	ID:64	New data: {addr: 10, data: 13}
+2142577	ID:66	New data: {addr: 10, data: 13}
+2142577	ID:68	New data: {addr: 10, data: 13}
+2142577	ID:70	New data: {addr: 10, data: 13}
+2142577	ID:74	New data: {addr: 10, data: 13}
+2142577	ID:83	New data: {addr: 10, data: 13}
+2142577	ID:85	New data: {addr: 10, data: 13}
+2142577	ID:89	New data: {addr: 10, data: 13}
+2142577	ID:96	New data: {addr: 10, data: 13}
+2142577	ID:97	New data: {addr: 10, data: 13}
+2142577	ID:98	New data: {addr: 10, data: 13}
+2142577	ID:99	New data: {addr: 10, data: 13}
+2142577	ID:101	New data: {addr: 10, data: 13}
+2142577	ID:104	New data: {addr: 10, data: 13}
+2142577	ID:105	New data: {addr: 10, data: 13}
+2142577	ID:107	New data: {addr: 10, data: 13}
+2142577	ID:110	New data: {addr: 10, data: 13}
+2142577	ID:114	New data: {addr: 10, data: 13}
+2142577	ID:115	New data: {addr: 10, data: 13}
+2142577	ID:123	New data: {addr: 10, data: 13}
+2142577	ID:126	New data: {addr: 10, data: 13}
+2142577	ID:136	New data: {addr: 10, data: 13}
+2142577	ID:143	New data: {addr: 10, data: 13}
+2142577	ID:144	New data: {addr: 10, data: 13}
+2142577	ID:147	New data: {addr: 10, data: 13}
+2142577	ID:153	New data: {addr: 10, data: 13}
+2142577	ID:155	New data: {addr: 10, data: 13}
+2142577	ID:158	New data: {addr: 10, data: 13}
+2142577	ID:165	New data: {addr: 10, data: 13}
+2142577	ID:169	New data: {addr: 10, data: 13}
+2142577	ID:178	New data: {addr: 10, data: 13}
+2142577	ID:182	New data: {addr: 10, data: 13}
+2142577	ID:185	New data: {addr: 10, data: 13}
+2142577	ID:193	New data: {addr: 10, data: 13}
+2142577	ID:200	New data: {addr: 10, data: 13}
+2143925	ID:4	New data: {addr: 10, data: 13}
+2143925	ID:10	New data: {addr: 10, data: 13}
+2143925	ID:11	New data: {addr: 10, data: 13}
+2143925	ID:18	New data: {addr: 10, data: 13}
+2143925	ID:19	New data: {addr: 10, data: 13}
+2143925	ID:34	New data: {addr: 10, data: 13}
+2143925	ID:48	New data: {addr: 10, data: 13}
+2143925	ID:50	New data: {addr: 10, data: 13}
+2143925	ID:51	New data: {addr: 10, data: 13}
+2143925	ID:52	New data: {addr: 10, data: 13}
+2143925	ID:81	New data: {addr: 10, data: 13}
+2143925	ID:84	New data: {addr: 10, data: 13}
+2143925	ID:92	New data: {addr: 10, data: 13}
+2143925	ID:100	New data: {addr: 10, data: 13}
+2143925	ID:109	New data: {addr: 10, data: 13}
+2143925	ID:113	New data: {addr: 10, data: 13}
+2143925	ID:132	New data: {addr: 10, data: 13}
+2143925	ID:133	New data: {addr: 10, data: 13}
+2143925	ID:137	New data: {addr: 10, data: 13}
+2143925	ID:142	New data: {addr: 10, data: 13}
+2143925	ID:164	New data: {addr: 10, data: 13}
+2143925	ID:171	New data: {addr: 10, data: 13}
+2143925	ID:181	New data: {addr: 10, data: 13}
+2145337	ID:187	Sensor reading: 1
+2146771	ID:191	Sensor reading: 82
+2158688	ID:27	Sensor reading: 11
+2165673	ID:139	Sensor reading: 48
+2169154	ID:178	Sensor reading: 8
+2176778	ID:121	Sensor reading: 65
+2177061	ID:192	Sensor reading: 5
+2180344	ID:102	Sensor reading: 38
