@@ -60,7 +60,8 @@ BOOL is_opcode_packet(const char *);
 BOOL is_data_packet(const char *);
 
 int log_and_save(const char *);
-void read_temperature(gumbo_addr_t);
+void add_entry(gumbo_addr_t, gumbo_data_t);
+void read_temperature_old(gumbo_addr_t);
 
 void send_query_message(gumbo_addr_t);
 void send_confirm_message(gumbo_addr_t);

@@ -204,7 +204,7 @@ void add_entry(gumbo_addr_t addr, gumbo_data_t data)
  */
 
 
-void read_temperature(gumbo_addr_t this_addr) {
+void read_temperature_old(gumbo_addr_t this_addr) {
   gumbo_data_t new_temp = (gumbo_data_t) random_rand() % 100;
   add_entry(this_addr, new_temp);
 }

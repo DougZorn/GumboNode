@@ -10,7 +10,7 @@
 #define ON    1
 
 /* slave states */
-#define WAITING_FOR_BEGIN    1
+#define WAITING_FOR_BEGIN       1
 #define WAITING_FOR_CONFIRM     2
 #define WAITING_FOR_QUERY       3
 #define WAITING_FOR_DATA        4
@@ -18,7 +18,8 @@
 
 PROCESS(gumbo_master, "Top-level process for a Gumbo node.");
 PROCESS(gumbo_slave, "Sending and receiving management process.");
-AUTOSTART_PROCESSES(&gumbo_master);
+PROCESS(gumbo_data, "Reads data from a generic sensor and updates the database.");
+AUTOSTART_PROCESSES(&gumbo_master, &gumbo_data);
 
 struct slave_packet_info {
   gumbo_opcode_t opcode;
@@ -27,10 +28,12 @@ struct slave_packet_info {
 
 extern const struct radio_driver cooja_radio_driver;
 static gumbo_addr_t node_address;
+static gumbo_data_t g_sensor_data = 0;
 
 void receive_handler(const char *, int);
 void send_query_handler(void *);
 void dump_opcode_info(struct slave_packet_info *);
+void read_temperature(void);
 
 PROCESS_THREAD(gumbo_master, ev, data)
 {
@@ -95,7 +98,7 @@ PROCESS_THREAD(gumbo_slave, ev, data)
   static struct ctimer send_timer;
   clock_time_t interval = (random_rand() % 5 + 1) * CLOCK_SECOND;
   
-  read_temperature(node_address);
+  read_temperature();
   
   if (random_rand() % 5 == 0)
     ctimer_set(&send_timer, interval, send_query_handler, &state);
@@ -162,6 +165,19 @@ PROCESS_THREAD(gumbo_slave, ev, data)
   PROCESS_END();
 }
 
+PROCESS_THREAD(gumbo_data, ev, data)
+{
+  PROCESS_BEGIN();
+
+  while (1) {
+    PROCESS_YIELD();
+    if (ev == serial_line_event_message)
+      g_sensor_data = atoi((const char *) data);
+  }
+
+  PROCESS_END();
+}
+
 void receive_handler(const char *msg, int len) {
   static struct slave_packet_info info;
 
@@ -213,6 +229,14 @@ void dump_opcode_info(struct slave_packet_info *info) {
     break;
   default:
     printf("Unrecognized packet received (addr: %d).\n", info->addr);
+  }
+}
+
+void read_temperature(void)
+{
+  if (g_sensor_data != 0) {
+    add_entry(node_address, g_sensor_data);
+    g_sensor_data = 0;
   }
 }
 
