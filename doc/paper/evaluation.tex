@@ -12,14 +12,14 @@
   \hline
   \textbf{Mode} & \textbf{Typical Consumption} & \textbf{Max Consumption} \\
   \hline
-  Active      & 5 mA & 8 mA \\
-  Idle        & 1.2 mA & 2 mA \\
+  Active      & 0.8 mA & 1.0 mA \\
+  Idle        & 0.5 mA & 0.8 mA \\
   Power-Down  & 2 $\mu$A & 2 $\mu$A \\
   \hline
   
   \end{tabular}
   \end{center}
-  \caption{Power Consumption of ATTiny85 Modes at 8 MHz at 3V.
+  \caption{Power Consumption of ATTiny85 Modes at 1 MHz at 3V.
   \label{table:attiny85_power}  
   }
 \end{table*}
@@ -61,9 +61,9 @@
   \textbf{Equipment} & \textbf{Cost at 1} & \textbf{Cost at 10} & \textbf{Cost at 100} \\
   \hline
   ATTiny85-20PU     & \$1.29 & \$1.08 & \$0.74 \\
-  CC2500            & \$1.29 & \$1.08 & \$0.74 \\
-  Battery (CR2450)  & \$1.29 & \$1.08 & \$0.74 \\
-  Total             & \$1.29 & \$1.08 & \$0.74 \\
+  CC2500            & \$3.36 & \$2.70 & \$2.22 \\
+  Battery (CR2450)  & \$1.00 & \$0.71 & \$0.27 \\
+  Total             & \$5.65 & \$4.49 & \$3.23 \\
   \hline
   
   \end{tabular}  
@@ -84,11 +84,11 @@
   \hline
   \textbf{Mode} & \textbf{Calculated} & \textbf{Measured} \\
   \hline
-  Power-Down        & 2.4 $\mu$A & \\
-  Idle              & & \\
-  Temp Read         & & \\
-  TX Read           & & \\
-  RX Read           & & \\
+  Power-Down        & 2.4 $\mu$A & 2.5 mA\\
+  Idle              & 2.5 mA & 2.5 mA\\
+  Temp Read         & 2.5 mA & 2.5 mA \\
+  TX Read           & 22.5 mA & 16.0 mA\\
+  RX Read           & 18.0 mA &  16.0 mA\\
   \hline
   
   \end{tabular}  
@@ -98,7 +98,7 @@
   }
 \end{table*}
 
-In this section we describe our investigation into sensor node communication. We built the nodes in software 
+In this section we describe our investigation into sensor node communication. We simulated the networking behavior in software using Contiki OS's Cooja simulator while hardware shipped. As everything but the MCU came from China, shipping times varied considerably. Finally, we attempt to build a gateway node that would interface between Cooja nodes and the real nodes.
 
 \subsection{Software Simulation}
 
@@ -112,9 +112,17 @@ As the primary purpose of this project is to produce inexpensive sensor networks
 
 Table 3 shows the overall parts cost. CC2500 and ATTiny costs were taken from Mouser.com. CR2450 cost information came from Amazon for cost at 1, and AliExpress for cost at 10 and 1000. Costs not included are PCB fabrication, as the system has not left the breadboard phase at the time of this writing. Also not included are shipping costs as the lightweight nature of the components (The heaviest component being the battery at 6.8 grams) meant that shipping was not a significant cost at any magnitude. The breadboard prototypes cost a total of \$7.59 per unit.
 
-\subsubsection{Power Consumption}
+\subsubsection{Network Performance} 
+Hardware performance was investigated on three 
 
-We ran int
+We elected to have each node calculate an average temperature using the mean of the data from received nodes. Nodes send averaged temperature out as the second sensor reading in network packets. However this scheme only works well if all nodes see very similar temperatures. Nodes need a method to determine how significant to treat data during averaging.
+
+We used the Link Quality Indicator readout provided by the CC2500 as a way to localize temperature readings. During averaging, the system calculates a number based on the LQI and the number of hops taken. The node's sensor reading is divided by that value before being summed into the average. An LQI of 0 was found to be 7-12 feet away and was given a factor of 3. A node within 1 foot of the sensor had a minimum LQI of 30 and was assigned a factor of 1. The factor decreases by 1 for every 15 point increase in LQI, and increases in the same manner.
+
+\subsubsection{Power Consumption}
+Battery life was estimated using the following equation
+\[T_{Life}=\frac{C_{battery} * 3600}{T_{sleep}*A_{sleep} + A_{wake}*T_{wake}}\] Where T is time measured in seconds, C is measured in milliamp hours, and A is measured in amperes.
+Our measured power consumption lined up almost exactly with the calculated values except during power-down. However, this is the most critical area as 
 
 \subsection{Intercommunication}
 
@@ -134,4 +142,4 @@ We ran int
   }
 \end{figure}
 
-While 20 nodes are fine for hardware simulation, we wanted to investigate a more realistic number of sensor nodes. However, it is not possible to install ContikiOS onto the microcontroller due to memory limitations. To enable communication in between the hardware and the software simulation we added an ATMega128RFA1. This microcontroller has a built-in Zigbee-compatible transceiver and is capable of running ContikiOS natively.
+While 20 nodes are fine for hardware simulation, we wanted to investigate a more realistic number of sensor nodes. However, it is not possible to install ContikiOS onto our MCU due to memory limitations. We attempted to enable intercommunication by acquiring an ATMega128RFA1. This microcontroller is directly supported by Contiki. Though it has a Zigbee-compatible transceiver on board, we would still need to provide it with a CC2500 transceiver as the Zigbee-compatible onboard transceiver is incompatible with ours. This plan ran into an early critical problem: the ATMega does not have on-board support for USB. This makes getting output from them extremely difficult. A solution could not be found in time, so this part did not function.
