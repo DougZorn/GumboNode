@@ -17,7 +17,7 @@
 #define CC2500_TXFIFO  0x3F
 #define CC2500_RXFIFO  0x3F
 #define GUMBO_ID 2
-#define GUMBO_SIZE 25
+#define GUMBO_SIZE 50
 
 #define TX_TIMEOUT 50 // in milliseconds
 
@@ -38,7 +38,7 @@ typedef struct {
 
 GumboNode gumboData[GUMBO_SIZE];
 InternalTemperatureSensor temperature(1.0, TEMPERATURE_ADJUSTMENT);
-long wakeLength = 1500;
+long wakeLength = 1000;
 long syncDataLossInterval = 5*wakeLength; // 5 * WatchDog Sleep Timer
 long staleDataTime = 20*wakeLength;
 long lastSync = 0;   
@@ -300,12 +300,15 @@ byte qualityFactor(byte gumboListLocation) {
 }
 
 void gumboSleep() {
+  set_sleep_mode(SLEEP_MODE_PWR_DOWN);
+  SendStrobe(CC2500_IDLE);
   SendStrobe(CC2500_SPWD);
   sleep_enable();
   sei();                         //ensure interrupts enabled so we can wake up again
   sleep_cpu();                   //go to sleep
   sleep_disable();
   sei();                         //enable interrupts again (but INT0 is disabled from above)
+  SendStrobe(CC2500_IDLE);
 }
 
 // Here be dragons...
