@@ -126,7 +126,7 @@ Battery life was estimated using the following equation
 \[T_{Life}=\frac{C_{battery} * 3600}{T_{sleep}*A_{sleep} + A_{wake}*T_{wake}}\] Where T is time measured in seconds, C is measured in milliamp hours, and A is measured in amperes.
 Our measured power consumption lined up almost exactly with the calculated values except during power-down which was an order of magnitude higher than expected at 2.5 mA. This was due to difficulties putting the transceiver into power-down mode. We measured the MCU current at 200 $\mu$A during sleep, leaving the analog to digital converters and the brown out detector active. Removing the transceiver and turning off those components resulted in consumption as low as 2 $\mu$A, but we elected to leave them on as it introduced complexity during startup and the transceiver's inability to sleep meant that further power optimization on the MCU would not significantly impact battery life.
 
-The system spends 1 second in sleep followed by 1 second in wake for a 50\% duty cycle. We tested the system with two coin batteries: our proposed CR2450 battery, and a CR2032 battery. The CR2450 had an estimated 60 hours of battery life, while the CR2032 had an estimated 22 hours of battery life. 
+The system spends 1 second in sleep followed by 1 second in wake for a 50\% duty cycle. We tested the system with three nodes: one with our proposed CR2450 battery, one with a CR2032 battery, and an Arduino Uno attached to a PC to provide serial output. The CR2450 had an estimated 60 hours of battery life, while the CR2032 had an estimated 22 hours of battery life. Our first CR2032 died after 9 hours of operation, but the battery's origin was dubious so another CR2032 was purchased.
 
 \subsection{Intercommunication}
 
