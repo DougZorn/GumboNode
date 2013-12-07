@@ -10,7 +10,7 @@
   \begin{tabular}{| c | c | c |}
 
   \hline
-  \textbf{Mode} & \textbf{Typical Consumption} & \textbf{Max Consumption} \\
+  \textbf{Mode} & \textbf{Minimum Consumption} & \textbf{Max Consumption} \\
   \hline
   Active      & 0.8 mA & 1.0 mA \\
   Idle        & 0.5 mA & 0.8 mA \\
@@ -98,6 +98,27 @@
   }
 \end{table*}
 
+%
+% network test
+%
+\begin{table*}
+  
+  \begin{tabular}{| c | c | c | c | c | c |}
+
+  \hline
+  \textbf{Network Test} & \textbf{Syncs/Total} & \textbf{Data Used/Total} & \textbf{Nodes Seen/Total} & \textbf{Nodes in List}\\
+  \hline
+  Small        & 950/7200 (13.2\%) & 337/1073 (31.4\%) & 4/4 (100\%) & 21\\
+  Dense       & 509/30600 (1.6\%) & 671/1848 (36.3\%) & 17/17 (100\%) & 85\\
+  Sparse      & 365/? & 526/745 (70.6\%) & 14/17 (82.4\%) & 64 \\
+  \hline
+  
+  \end{tabular}  
+  \caption{Network Test Results.
+  \label{table:network_tests}
+  }
+\end{table*}
+
 In this section we describe our investigation into sensor node communication. We simulated the networking behavior in software using Contiki OS's Cooja simulator while hardware shipped. As everything but the MCU came from China, shipping times varied considerably. Finally, we attempt to build a gateway node that would interface between Cooja nodes and the real nodes.
 
 \subsection{Software Simulation}
@@ -113,13 +134,15 @@ As the primary purpose of this project is to produce inexpensive sensor networks
 Table 3 shows the overall parts cost. CC2500 and ATTiny costs were taken from Mouser.com. CR2450 cost information came from Amazon for cost at 1, and AliExpress for cost at 10 and 1000. Costs not included are PCB fabrication, as the system has not left the breadboard phase at the time of this writing. Also not included are shipping costs as the lightweight nature of the components (The heaviest component being the battery at 6.8 grams) meant that shipping was not a significant cost at any magnitude. The breadboard prototypes cost a total of \$7.59 per unit.
 
 \subsubsection{Network Performance} 
+Three network tests were run: a small network test, a dense network test, and a sparse network test. The small network test had all nodes within 5 feet of each other, and all nodes could communicate with each other directly (no-hop). The dense network test had 17 nodes in the same configuration. The sparse network test had 17 nodes spread out in a 40'x50' area.
+
 We elected to have each node calculate an average temperature using the mean of the data from received nodes. Nodes send averaged temperature out as the second sensor reading in network packets. However this scheme only works well if all nodes see very similar temperatures. Nodes need a method to determine how significant to treat data during averaging.
 
-We used the Link Quality Indicator readout provided by the CC2500 combined with the hop count to develop a quality factor. During averaging, the system calculates the quaility factor based on the LQI and the number of hops taken, then the node's sensor reading is divided by that factor before being summed into the average. An LQI of 0 was found to be 7-12 feet away and was given a factor of 3. A node within 1 foot of the sensor had a minimum LQI of 30 and was assigned a factor of 1. The factor decreases by 1 for every 15 point increase in LQI, and increases in the same manner.
+We used the Link Quality Indicator readout provided by the CC2500 combined with the hop count to develop a quality factor. During averaging, the system calculates the quaility factor based on the LQI and the number of hops taken, then the node's sensor reading is divided by that factor before being summed into the average. An LQI of 0 was found to be 7-12 feet away and was given a factor of 3. A node within 1 foot of the sensor had a minimum LQI of 30 and was assigned a factor of 1. The factor decreases by 1 for every 15 point increase in LQI, and increases in the same manner. In the given testing environment (a residential house), nodes had difficulty communicating after 15 feet.
 
-We set the out of sync time at 5 wake cycles, or 5000ms. Nodes occasionally went out of sync in spread out networks where only nodes could only see 1 or 2 other nodes, and rarely went out of sync in denser networks. The system received data much less frequently - data was actually received once every 2 or 3 cycles. It is surprisingly difficult to line up transmitting and receiving periods without a master node and only 1 radio per node. Ad-hoc syncing 
+We set the out of sync time at 5 wake cycles, or 5000ms. Nodes occasionally went out of sync in spread out networks where only nodes could only see 1 or 2 other nodes, and rarely went out of sync in denser networks. The system received data much less frequently - data was actually received once every 2 or 3 cycles. It is surprisingly difficult to line up transmitting and receiving periods without a master node and only 1 radio per node.
 
-Bad data and fake nodes occurred  frequently. We added in a 16-bit preamble check and a 2-byte checksum check, but still had issues. Over a 24 hour network test with 3 real nodes, the network reported in 8 nodes. Fortunately, the quality factor mitigated majority of the fake nodes as their LQI and hopcount numbers were randomized and nonzero. The smallest quality factor from a fake node was 3 when part of a sync packet was accepted as a data packet (0 LQI, 0 Hops).
+Bad data and fake nodes occurred frequently. We added in a 16-bit preamble check and a 2-byte checksum check, but still had issues. Over a 24 hour network test with 4 real nodes, the network reported in 21 nodes. Fortunately, the quality factor mitigated majority of the fake nodes as their LQI and hopcount numbers were randomized and nonzero.
 
 \subsubsection{Power Consumption}
 Battery life was estimated using the following equation
