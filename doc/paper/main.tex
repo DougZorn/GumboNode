@@ -1,24 +1,67 @@
-\documentclass[12pt,twocolumn]{article}
-\usepackage{graphicx}
-\usepackage{multicol}
+%
+%  $Description: Author guidelines and sample document in LaTeX 2e$ 
+%
 
+\documentclass[10pt,twocolumn]{article} 
+\usepackage{times,mathptmx,fullpage}
+% Allows you to put literal text into your document without having
+% LaTeX try to interpret it.
+\usepackage{verbatim}
+% Sorts citations numerically and "combines" adjacent ones
+\usepackage{cite}
+% Allows you to individually label subfigures in a multi-part figure
+\usepackage{subfigure}
+% Allows the definition of macros that are smart about adding space
+% after text in a macro
+\usepackage{xspace}
+
+\usepackage{graphicx}
+
+% Redefine the percentage of the page that can be used for floats (figures,
+% tables, etc.)
+\renewcommand\floatpagefraction{.9}
+\renewcommand\dblfloatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\dbltopfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{10}
+\setcounter{topnumber}{10}
+\setcounter{dbltopnumber}{10}
+\setcounter{bottomnumber}{10}
+
+% Set values for float separation from text
+\setlength{\floatsep}{1.5ex plus1.0ex minus 0.2ex}
+\setlength{\dblfloatsep}{1.5ex plus1.0ex minus 0.2ex}
+\setlength{\textfloatsep}{1.5ex plus1.0ex minus 0.2ex}
+\setlength{\dbltextfloatsep}{1.5ex plus1.0ex minus 0.2ex}
+\setlength{\abovecaptionskip}{0.5ex}
+\setlength{\belowcaptionskip}{0.5ex}
+
+% Don't allow widows or clubs - single lines at the start/end of a column
+\widowpenalty=10000
+\clubpenalty=10000
+
+\newcommand{\latex}{\LaTeX\xspace}
+\pagestyle{plain}
+
+%------------------------------------------------------------------------- 
 \begin{document}
 
-\begin{multicols}{2}
 \title{Developing Disposable Wireless Sensor Networks}
+
 \author{
-    Zak Rubin  \\
-    Computer Engineering \\
-    UC Santa Cruz \\
-    zrubin@soe.ucsc.edu \\
-  \and
-    H. Blake Skinner \\
-    Computer Engineering \\
-    UC Santa Cruz \\
-    hskinner@soe.ucsc.edu
+Zak Rubin \\
+\textit{Univ. of California, Santa Cruz} \\
+\textit{zrubin@soe.ucsc.edu}
+\and
+H. Blake Skinner \\
+\textit{Univ. of California, Santa Cruz} \\
+\textit{hskinner@soe.ucsc.edu}
 }
+
 \maketitle
-\end{multicols}
+\thispagestyle{empty}
 
 \begin{abstract}
 Ad-hoc wireless sensor networks are predicted to increase in use significantly as advances in their core
@@ -32,30 +75,7 @@ preserving the data's locality.  We will explore the problem of exchanging throu
 savings and will demonstrate what is possible in terms of through-put and power use with hardware
 currently available on the market.  With this we hope to demonstrate the cost trade-offs associated
 with wireless ad-hoc networks today how throughput can be sacrificed for power savings.
-
-%Wireless sensor networks are predicted to increase in use significantly as advances in their core
-%hardware components continue.  There are already many distributed, wireless sensor networks in use for
-%a variety of applications, including wildlife conservation, security, and general purpose data-transfer
-%networks.  Despite advances in the private sector and the research community in these areas, the
-%primary limiting factor for such networks remain: cost and power consumption.
-%
-%In this paper, we would like to explore the general problem of transferring data around a network
-%while preserving both the information and its locality.  Cost remains an issue in such network, as
-%even a small cost is multiplied among many nodes.  Though memory has gotten increasingly cheap, there
-%remain cut-offs between different models of chips, and even a few KBs of memory can make a significant
-%difference in the project's budget.  We propose a several bare-bones protocols for synchronizing data,
-%which can achieve reasonable through-put rates using a minimum of power and instruction memory.  We
-%will demonstrate the through-put rates achievable with our system and relate them to cost, based on
-%hardware currently available.
-%
-%In this paper we would like to explore low-power wireless sensor networks.  Sensor networks are predicted
-%to increase in use significantly as advances in their core hardware components continue.  
-%
-%We have developed an extremely low-cost wireless sensor node, and have maximized its life by implementing a variety of power-conservation techniques. We introduce a localization system using received signal strength indicators provided when the wireless transceiver receives a packet to account for variations in measurements due to distance. We first demonstrate our system in  ContikiOS. Next we construct twenty of these nodes using off-the-shelf hardware on an extremely limited budget.  Finally, we also construct a gateway to enable communication between simulated nodes and hardware. 
-
-{\bf Keywords:} sensor networks, low power
 \end{abstract}
-
 
 \input{introduction}
 \input{related_work}
@@ -66,7 +86,7 @@ with wireless ad-hoc networks today how throughput can be sacrificed for power s
 \input{future_work}
 \input{acknowledgements}
 
-\bibliographystyle{plain}
+\bibliographystyle{latex8}
 \bibliography{gumbo_bib}
 
 \end{document}
