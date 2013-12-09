@@ -8,7 +8,7 @@ We selected the ATTiny85 as the microcontroller for the chip. The ATTiny85 is a 
 
 The Texas Instruments CC2500 was selected as the wireless chip. The CC2500 is a low-level 2.4GHz wireless transceiver. Communication occurs over a 4-wire serial perhiperal interface (SPI) [7]. The ATTiny85 we selected lacks an onboard SPI interface, but has a universal serial interface (USI) that is capable of interfacing with the transceiver. The CC2500 also has a temperature sensor on-board, which served as our sensor. 
 
-%A flowchart of the node’s behavior is provided in Figure 1. After power-on, the system immediately goes into receive mode. If it does not hear a sync packet after a long enough period, the mote sends its own sync and 
+%A flowchart of the node’s behavior is provided in Figure 1. After power-on, the system immediately goes into receive mode. If it does not hear a sync packet after a long enough period, the mote sends its own sync and begins the normal loop of sending, receiving, and sleeping. When it wakes it will immediately send a sync and then listen for one. If the system does not see a wakeup sync after too many wakeups, it goes back to always-on receive mode.
 
 \section{Proposed Protocols}
 
