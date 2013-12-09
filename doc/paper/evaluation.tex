@@ -121,9 +121,6 @@
 
 In this section we describe our investigation into sensor node communication. We simulated the networking behavior in software using Contiki OS's Cooja simulator while hardware shipped. As everything but the MCU came from China, shipping times varied considerably. Finally, we attempt to build a gateway node that would interface between Cooja nodes and the real nodes.
 
-\subsection{Software Simulation}
-
-Software simulation of the nodes was performed using Contiki OS. 
 
 \subsection{Hardware}
 
@@ -171,3 +168,41 @@ The first CR2450 died after 32 hours of operation, slightly over half of our exp
 \end{figure}
 
 While 20 nodes are fine for hardware simulation, we wanted to investigate a more realistic number of sensor nodes. However, it is not possible to install ContikiOS onto our MCU due to memory limitations. We attempted to enable intercommunication by acquiring an ATMega128RFA1. This microcontroller is directly supported by Contiki. Though it has a Zigbee-compatible transceiver on board, we would still need to provide it with a CC2500 transceiver as the Zigbee-compatible onboard transceiver is incompatible with ours. This plan ran into an early critical problem: the ATMega does not have on-board support for USB. This makes getting output from them extremely difficult. A solution could not be found in time, so this part remains unfinished.
+
+\subsection{Throughput}
+
+%
+% bill of materials
+%
+\begin{table*}%[h!]
+  \begin{center}
+  
+  \begin{tabular}{| c | c | c | c |}
+
+  \hline
+  \textbf{Number of Nodes} & \textbf{Success rate} & \textbf{Latency (s)} \\
+  \hline
+
+  20               & 26.5\% & 160 \\
+  200              & 4.5\% & 114 \\
+
+  \hline
+  
+  \end{tabular}  
+  \end{center}
+  \caption{Bill of Materials and Per-Part Cost on Different Scales of Production (as of November 2013).
+  \label{table:bill}
+  }
+\end{table*}
+
+The throughput was observed by simulating in Contiki to observe the throughput possible given a duty cycle.  The heart-beat
+protocol produced consistent throughput during our energy simulations, although there were still instances of corrupted packets
+propagating despite the use of checksums.  Our initial tests attempted to simulate these protocols with 200 randomly placed nodes using the
+Cooja~\cite{cooja} network simulator using the standard radio broadcast model, for 30 minutes.  The nodes received simulated
+temperature data every 8 minutes from their sensor and attempt to update the network about it, while keeping track other nodes'
+data as well.  The heartbeat protocol was unable
+to establish a global pattern.  The random sleep cycle model was able to connect and send data, but the majority of the data
+did not reach the entire network.  Of the data that remained persistent on the network, it was only found on 22\% of the nodes,
+on average.  For the successfully transferred data, the average throughput was observed to be 144 ms, however.  On a smaller
+network with 10 randomly placed nodes the results improve a little, and could probably be improved further by manually placing
+nodes and managing the network set-up.
