@@ -1,0 +1,10095 @@
+Initializing Wireless..
+6
+1
+1
+Average Temperature: 20995
+GumboNode Uno 0.9
+Still waiting for sync!
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found no data. adding at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 63 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 63 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 64 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 64 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 41 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 41 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 42 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 42 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 43 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 43 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 54 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 54 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 54 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 54 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 54 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 54 0
+Point 2: 0 0 0 0 255
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found no data. adding at 2
+Point 2: 2 226 226 54 1
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 55 1
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 55 0
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 54 1
+Data updated!
+Packet Received!
+No Good!12550
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 54 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 54 1
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 54 1
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 54 0
+Point 2: 2 226 226 54 1
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 55 1
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 51 1
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 51 1
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 76 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 77 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 51 0
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 74 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 51 0
+Point 2: 2 226 226 74 0
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 76 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 226 226 51 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 226 226 51 0
+Point 2: 2 226 226 76 0
+Point 3: 0 0 0 0 255
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!220
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found no data. adding at 3
+Point 3: 9 241 241 8 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 80 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 82 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 49 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 0 0 0 0 255
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 80 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Found no data. adding at 4
+Point 4: 100 2 5 1 226
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!31680
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!31710
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 80 0
+Point 3: 9 241 241 68 0
+Point 4: 100 2 5 1 226
+Point 5: 0 0 0 0 255
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+Found no data. adding at 5
+Point 5: 8 170 170 78 2
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 4
+Point 4: 100 9 2 1 226
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 76 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!2850
+Data discarded
+Packet Received!
+Packet Received!
+Found data at 5
+Point 5: 8 170 170 78 2
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 76 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 78 2
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 5
+Point 5: 8 170 170 78 2
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 5
+Point 5: 8 170 170 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 78 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 80 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 78 0
+Data updated!
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 79 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 78 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!31700
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 78 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 80 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 80 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 78 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 79 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 79 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 78 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 0 0 0 0 255
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!390
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found no data. adding at 6
+Point 6: 170 170 170 50 145
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!1850
+Data discarded
+Packet Received!
+No Good!2850
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 0 255
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Found no data. adding at 7
+Point 7: 0 0 0 50 1
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 1
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 2 1 226
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 1
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 4
+Point 4: 100 9 8 1 170
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 67 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!5850
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 67 0
+Point 4: 100 9 8 1 170
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 1
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!280
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 1
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Found no data. adding at 7
+Point 7: 0 0 0 50 16
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 16
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 100 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 170 170 68 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 16
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Still waiting for sync!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 5
+Point 5: 8 160 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 16
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 70 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 70 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 16
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 70 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 16
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!510
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 70 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 50 16
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found no data. adding at 7
+Point 7: 0 170 170 49 180
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 67 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 53 0
+Data updated!
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!150
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 53 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 67 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!150
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 67 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 67 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 67 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 170 170 49 180
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Packet Received!
+Found no P?Óü7
+Point 7: 0 0 0 49 145
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1850
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 67 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 67 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!280
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 49 145
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Found no P?Óü7
+Point 7: 0 0 0 48 48
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 50 145
+Point 7: 0 0 0 48 48
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 6
+Point 6: 170 170 170 49 145
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 0 0 0 48 48
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 0 0 0 48 48
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!250
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 0 0 0 48 48
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1850
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 0 0 0 48 48
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!4240170
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 70 0
+Data updated!
+Packet Received!
+Found no P?Óü7
+Point 7: 21 85 85 50 90
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 78 0
+Point 3: 9 241 241 70 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!290
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 224 49 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 70 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 0 255
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!280
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 70 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found no P?Óü8
+Point 8: 0 0 0 52 171
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 49 145
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!31700
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 6
+Point 6: 170 170 170 52 57
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!2850
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!3850
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!21190
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 0 0 0 52 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found no P?Óü8
+Point 8: 10 170 170 49 171
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!290
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 0 0 255
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!51730
+Data discarded
+Packet Received!
+Found no P?Óü9
+Point 9: 0 0 21 50 114
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!31700
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 21 50 114
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!280
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 21 50 114
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 21 50 114
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 0 0 21 50 114
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+Found no P?Óü9
+Point 9: 3 15 8 68 10
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 15 8 68 10
+Point 10: 0 0 0 0 255
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!4241170
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found no P?Óü10
+Point 10: 31 1 31 68 32
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 15 8 68 10
+Point 10: 31 1 31 68 32
+Point 11: 0 0 0 0 255
+Point 12: 0 0 0 0 255
+Point 13: 0 0 0 0 255
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found no P?Óü11
+Point 11: 240 61 48 68 1
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found no P?Óü12
+Point 12: 124 0 184 50 126
+Data updated!
+Packet Received!
+Found no P?Óü13
+Point 13: 51 126 0 50 2
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 12
+Point 12: 124 0 184 50 126
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+Found data at 13
+Point 13: 51 126 0 52 2
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 15 8 68 10
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 126
+Point 13: 51 126 0 52 2
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!51700
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 15 8 68 10
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 126
+Point 13: 51 126 0 52 2
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 12
+Point 12: 124 0 184 50 126
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!12170126
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!1332
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 15 8 68 10
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 126
+Point 13: 51 126 0 52 2
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 9
+Point 9: 3 173 4 68 1
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!1332
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!51000
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 126
+Point 13: 51 126 0 52 2
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1332
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 126
+Point 13: 51 126 0 52 2
+Point 14: 0 0 0 0 255
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found no P?Óü14
+Point 14: 255 0 0 69 1
+Data updated!
+Packet Received!
+Found data at 10
+Point 10: 31 1 31 68 32
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!1332
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 126
+Point 13: 51 126 0 52 2
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 0 255
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 13
+Point 13: 51 126 0 8 2
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!1332
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 13
+Point 13: 51 126 0 50 0
+Data updated!
+Packet Received!
+Found no P?Óü15
+Point 15: 0 0 0 50 32
+Data updated!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+Found data at 12
+Point 12: 124 0 184 53 126
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 53 126
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 50 32
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!11700
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!150
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 53 126
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 50 32
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 53 126
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 50 32
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!13850
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 12
+Point 12: 124 0 184 50 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 50 32
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 50 32
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Still waiting for sync!
+Packet Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 0 0 0 50 32
+Point 16: 0 0 0 0 255
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found no P?Óü15
+Point 15: 128 36 72 68 68
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found no P?Óü16
+Point 16: 0 170 170 50 171
+Data updated!
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 224 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 0 170 170 50 171
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found no P?Óü16
+Point 16: 17 215 96 68 59
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!12850
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 2
+Point 2: 2 226 226 49 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!52410
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!21700
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!5850
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 51 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 0 0 0 0 255
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found no P?Óü17
+Point 17: 112 241 164 68 52
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 0 0 0 0 255
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+Found no P?Óü18
+Point 18: 42 170 170 49 180
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!51700
+Data discarded
+Packet Received!
+No Good!121700
+Data discarded
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 0 0 0 0 255
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Found no P?Óü19
+Point 19: 119 5 0 0 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 8 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 8 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 8 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 8 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 160 0 50 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 0 0 0 0 255
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+Found no P?Óü20
+Point 20: 50 170 170 52 171
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 5
+Point 5: 8 241 240 49 0
+Data updated!
+Packet Received!
+No Good!12850
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 69 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 51 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!1330
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 69 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 70 0
+Data updated!
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!1330
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+Found data at 3
+Point 3: 9 241 241 68 0
+Data updated!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!12210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!510
+Data discarded
+Packet Received!
+No Good!3850
+Data discarded
+Packet Received!
+No Good!110
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 53 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 53 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!12220
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 49 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!12220
+Data discarded
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 50 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 50 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 52 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+No Good!1320
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 52 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!310
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 49 0
+Data updated!
+Still waiting for sync!
+Packet Received!
+Sync Received!
+Packet Received!
+Sync Received!
+Packet Received!
+No Good!12220
+Data discarded
+Packet Received!
+No Good!520
+Data discarded
+Packet Received!
+Found data at 1
+Point 1: 5 128 0 53 0
+Data updated!
+Packet Received!
+No Good!210
+Data discarded
+Packet Received!
+Sync Received!
+Data
+Point 0: 25 23 3 0 0
+Point 1: 5 128 0 53 0
+Point 2: 2 226 226 49 0
+Point 3: 9 241 241 68 0
+Point 4: 100 9 8 1 170
+Point 5: 8 241 240 49 0
+Point 6: 170 170 170 52 57
+Point 7: 21 85 85 50 90
+Point 8: 10 170 170 49 171
+Point 9: 3 173 4 68 1
+Point 10: 31 1 31 68 32
+Point 11: 240 61 48 68 1
+Point 12: 124 0 184 50 0
+Point 13: 51 126 0 50 0
+Point 14: 255 0 0 69 1
+Point 15: 128 36 72 68 68
+Point 16: 17 215 96 68 59
+Point 17: 112 241 164 68 52
+Point 18: 42 170 170 49 180
+Point 19: 119 5 0 0 0
+Point 20: 50 170 170 52 171
+Point 21: 0 0 0 0 255
+Point 22: 0 0 0 0 255
+Point 23: 0 0 0 0 255
+Point 24: 0 0 0 0 255
+Packet Received!
+Sync Received!
+
+Results:
+950/7200 = 13.2% of Syncs Received
+
+Time to receive data from all real nodes: 10s
+
+Total number of nodes: 21
+Total number of valid nodes: 4
+False nodes with 0 hopcount: 3
+
+Average Temperature: 145
+
+Data Updated: 337 packets
+Data Discarded: 736 packets
+Total Data: 1073 packets

@@ -29,13 +29,13 @@
 #define CC2500_RXFIFO  0x3F
 
 #define GUMBO_ID 25
-#define GUMBO_SIZE 25
+#define GUMBO_SIZE 100
 #define TX_TIMEOUT 10 // in milliseconds
 
 typedef struct {
   byte id;
-  byte sensorReading;
-  byte sensorReading2;
+  int8_t sensorReading;
+  int8_t sensorReading2;
   int8_t rssi;
   byte hops;
   boolean staleData;
@@ -44,17 +44,18 @@ typedef struct {
 
 GumboNode gumboData[GUMBO_SIZE];
 long sleepTime = 1000;
-long wakeLength = 1500;
+long wakeLength = 1000;
 long staleDataTime = 20*wakeLength;
 long lastSync = 0;
 long syncDataLossInterval = 3*wakeLength;
 long overWriteDataInterval = 5*wakeLength;
 long previousWakeMillis = 0; 
+long previousPrintMillis = 0; 
 long previousTXTimeoutMillis = 0;        // will store last time data wa
 byte cyclesSinceLastData, GDO0_State, sendSync, gumboListIndex;
 
 void setup(){
-  Serial.begin(9600);
+  Serial.begin(115200);
   
   // Setup 
   pinMode(SS,OUTPUT);
@@ -84,13 +85,17 @@ void loop(){
   if(currentMillis - lastSync > syncDataLossInterval) {
       // SYNC LOST
       lastSync = 0;
-      waitForSync();
+      //waitForSync();
   }
   if(currentMillis - previousWakeMillis > wakeLength) {
     previousWakeMillis = currentMillis;
     gumboSleep();
   }
-  10%2;
+  if(currentMillis - previousPrintMillis > staleDataTime) {
+    previousPrintMillis = currentMillis;
+    printAllData();
+    averageTemperature();
+  }
 }
 
 void listenForPacket() {

@@ -2,7 +2,6 @@
  */
 #include <avr/sleep.h>
 #include <avr/wdt.h>
-#include <avr/interrupt.h>
 #include "cc2500_REG.h"
 #include "cc2500_VAL.h"
 #include "SPI85.h"
@@ -16,7 +15,7 @@
 #define CC2500_SPWD    0x39
 #define CC2500_TXFIFO  0x3F
 #define CC2500_RXFIFO  0x3F
-#define GUMBO_ID 18
+#define GUMBO_ID 2
 #define GUMBO_SIZE 25
 
 #define TX_TIMEOUT 50 // in milliseconds
@@ -38,7 +37,7 @@ typedef struct {
 
 GumboNode gumboData[GUMBO_SIZE];
 InternalTemperatureSensor temperature(1.0, TEMPERATURE_ADJUSTMENT);
-long wakeLength = 1000;
+long wakeLength = 1500;
 long syncDataLossInterval = 5*wakeLength; // 5 * WatchDog Sleep Timer
 long staleDataTime = 20*wakeLength;
 long lastSync = 0;   
@@ -49,57 +48,13 @@ boolean sendSync;
 boolean f_wdt = true;
 
 void setup(){
-  // Setup 
-  pinMode(SS,OUTPUT);
-  SPI85.begin();
-  SPI85.setDataMode(SPI_MODE0);
-  SPI85.setClockDivider(SPI_2XCLOCK_MASK);
-  digitalWrite(SS,HIGH);
-  sendSync = false;
-  gumboDataIndex = 1;
-  setup_watchdog(WDTO_1S); // approximately 1 seconds sleep
-  init_CC2500();
-  initGumboList(); 
-  temperature.init();
-  averageTemperature();
-  waitForSync();
+  setup_watchdog(WDTO_2S); // approximately 1 seconds sleep
+  //SendStrobe(CC2500_IDLE);
 }
 
 void loop(){
-  if(f_wdt) {
-    sendSync = true;
-    f_wdt = false;
-  }
-  if(sendSync) {
-     gumboSendSync();
-     sendSync = false;
-     // Immediately listen and then send out own data
-     listenForPacket();
-     gumboSendData(0);
-  }
-  // Get the time now that sync has been sent.
-  unsigned long currentMillis = millis();
-  
-  // Send out other GumboNodes data
-  if(gumboData[gumboDataIndex].id > 0) {
-    gumboSendData(gumboDataIndex);
-    gumboDataIndex++;
-  } else {
-    gumboDataIndex = 1;
-  }
-  
-  listenForPacket();
-  if(currentMillis - lastSync > syncDataLossInterval) {
-      // SYNC LOST
-      lastSync = 0;
-      waitForSync();
-  }
-
-  if(currentMillis - previousWakeMillis > wakeLength) {
-    previousWakeMillis = currentMillis;
-    gumboSleep();
-  }
-  10%2;
+  delay(3000);
+  gumboSleep();
 }
 
 void listenForPacket() {
@@ -266,7 +221,7 @@ void initGumboList() {
 }
 
 int getTemp() {
-  return temperature.in_c() - 200;
+  return temperature.in_c();
 }
 
 void averageTemperature() {
@@ -301,11 +256,9 @@ byte qualityFactor(byte gumboListLocation) {
 
 void gumboSleep() {
   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
-  SendStrobe(CC2500_IDLE);
-  SendStrobe(CC2500_SPWD);
   sleep_enable();
   sei();                         //ensure interrupts enabled so we can wake up again
-  sleep_cpu();                   //go to sleep
+  sleep_mode();                   //go to sleep
   sleep_disable();
   sei();                         //enable interrupts again (but INT0 is disabled from above)
 }
@@ -360,6 +313,15 @@ char ReadReg(char addr){
 char SendStrobe(char strobe){
   digitalWrite(SS,LOW);
   char result =  SPI85.transfer(strobe);
+  digitalWrite(SS,HIGH);
+  delay(10);
+  return result;
+}
+
+char SendSleep(){
+  digitalWrite(SS,LOW);
+  char result =  SPI85.transfer(0x39);
+  delay(10);
   digitalWrite(SS,HIGH);
   delay(10);
   return result;
